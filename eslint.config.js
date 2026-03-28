@@ -1,4 +1,6 @@
 import js from '@eslint/js'
+import importPlugin from 'eslint-plugin-import'
+import jsxA11y from 'eslint-plugin-jsx-a11y'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
@@ -22,8 +24,18 @@ export default defineConfig([
         sourceType: 'module',
       },
     },
+    plugins: {
+      import: importPlugin,
+      'jsx-a11y': jsxA11y,
+    },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'import/first': 'error',
+      'import/no-duplicates': 'error',
+      'import/newline-after-import': ['error', { count: 1 }],
+      'jsx-a11y/alt-text': 'error',
+      'jsx-a11y/anchor-is-valid': 'error',
+      'jsx-a11y/aria-role': 'error',
     },
   },
 ])
