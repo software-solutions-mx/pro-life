@@ -4,8 +4,13 @@ on:
   pull_request:
   push:
     branches:
+      - staging
       - main
       - master
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-storybook:

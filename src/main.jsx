@@ -9,12 +9,17 @@ import ErrorState from './components/states/ErrorState'
 import LoadingState from './components/states/LoadingState'
 import i18n from './i18n/config'
 import { queryClient } from './lib/query/queryClient'
-import { Sentry, initErrorMonitoring } from './monitoring/sentry'
+import {
+  installGlobalErrorHandlers,
+  Sentry,
+  initErrorMonitoring,
+} from './monitoring/sentry'
 import './assets/scss/theme.scss'
 
 restoreConsent()
 initAnalyticsDebugger()
 initErrorMonitoring()
+installGlobalErrorHandlers()
 reportWebVitals()
 
 createRoot(document.getElementById('root')).render(

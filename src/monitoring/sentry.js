@@ -49,4 +49,37 @@ export function captureException(error, context = {}) {
   })
 }
 
+export function installGlobalErrorHandlers() {
+  if (typeof window === 'undefined') {
+    return
+  }
+
+  if (window.__PRO_LIFE_GLOBAL_ERROR_HANDLERS_INSTALLED__) {
+    return
+  }
+  window.__PRO_LIFE_GLOBAL_ERROR_HANDLERS_INSTALLED__ = true
+
+  window.addEventListener('error', (event) => {
+    const error = event.error instanceof Error ? event.error : new Error(event.message)
+
+    captureException(error, {
+      tags: { scope: 'window.error' },
+      extra: {
+        filename: event.filename,
+        lineno: event.lineno,
+        colno: event.colno,
+      },
+    })
+  })
+
+  window.addEventListener('unhandledrejection', (event) => {
+    const reason =
+      event.reason instanceof Error ? event.reason : new Error(String(event.reason))
+
+    captureException(reason, {
+      tags: { scope: 'window.unhandledrejection' },
+    })
+  })
+}
+
 export { Sentry }

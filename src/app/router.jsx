@@ -1,27 +1,35 @@
+import { lazy, Suspense } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import RouteErrorBoundary from './errors/RouteErrorBoundary'
 import RootLayout from './layouts/RootLayout'
-import HomePage from './pages/HomePage'
-import NotFoundPage from './pages/NotFoundPage'
-import ServerErrorPage from './pages/ServerErrorPage'
-import StateShowcasePage from './pages/StateShowcasePage'
+import LoadingState from '../components/states/LoadingState'
+
+function withRouteSuspense(importer) {
+  const LazyRouteComponent = lazy(importer)
+
+  return (
+    <Suspense fallback={<LoadingState />}>
+      <LazyRouteComponent />
+    </Suspense>
+  )
+}
 
 const sharedChildren = [
   {
     index: true,
-    element: <HomePage />,
+    element: withRouteSuspense(() => import('./pages/HomePage')),
   },
   {
     path: 'ux-states',
-    element: <StateShowcasePage />,
+    element: withRouteSuspense(() => import('./pages/StateShowcasePage')),
   },
   {
     path: '500',
-    element: <ServerErrorPage />,
+    element: withRouteSuspense(() => import('./pages/ServerErrorPage')),
   },
   {
     path: '*',
-    element: <NotFoundPage />,
+    element: withRouteSuspense(() => import('./pages/NotFoundPage')),
   },
 ]
 

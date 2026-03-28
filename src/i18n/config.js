@@ -3,6 +3,7 @@ import HttpBackend from 'i18next-http-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
 import { IS_DEV, TRANSLATION_URL } from '../config/env'
+import { getLocaleMeta } from './locales'
 import { NAMESPACES, SUPPORTED_LOCALES } from './types'
 
 i18n
@@ -53,7 +54,7 @@ i18n
   })
 
 i18n.on('languageChanged', (lng) => {
-  document.documentElement.lang = lng
+  document.documentElement.lang = getLocaleMeta(lng).htmlLang
 })
 
 export default i18n

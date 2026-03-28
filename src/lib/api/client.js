@@ -104,6 +104,10 @@ async function request(path, options = {}) {
   const data = await parseResponse(response)
 
   if (!response.ok) {
+    if (response.status === 419 && typeof window !== 'undefined') {
+      window.location.reload()
+    }
+
     const validatedErrorData = validateContract(errorSchema, data, {
       url,
       direction: 'error-response',
