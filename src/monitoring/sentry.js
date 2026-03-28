@@ -1,6 +1,7 @@
 import * as Sentry from '@sentry/react'
 import {
   APP_ENV,
+  APP_VERSION,
   IS_DEV,
   IS_PROD,
   SENTRY_DSN,
@@ -20,8 +21,17 @@ export function initErrorMonitoring() {
   Sentry.init({
     dsn: SENTRY_DSN,
     environment: SENTRY_ENVIRONMENT ?? APP_ENV,
-    release: SENTRY_RELEASE,
+    release: SENTRY_RELEASE || APP_VERSION,
     tracesSampleRate: SENTRY_TRACES_SAMPLE_RATE,
+    beforeSend(event) {
+      if (event.request?.headers) {
+        delete event.request.headers.Authorization
+        delete event.request.headers['X-Client-Secret']
+        delete event.request.headers['X-CSRF-Token']
+      }
+
+      return event
+    },
   })
 }
 

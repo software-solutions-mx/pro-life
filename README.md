@@ -22,6 +22,7 @@ Production-ready React + Vite baseline with:
 - Sentry release automation workflow
 - Semantic release automation (versioning + changelog)
 - Security baseline (CSP headers + dependency audit workflow)
+- Secret scanning workflow (TruffleHog)
 - Performance budgets for built assets
 - International SEO with locale-aware canonical/hreflang
 - Runtime UX states (loading, empty, error, 404, 500)
@@ -80,4 +81,4 @@ Reference placeholders:
   - version tags
   - `CHANGELOG.md` updates
   - GitHub Release notes
-- See `DEPLOYMENT_RELEASE_PLAYBOOK.md` for setup checklist.
+- See `documents/DEPLOYMENT_RELEASE_PLAYBOOK.md` for setup checklist.

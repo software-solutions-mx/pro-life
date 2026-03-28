@@ -31,6 +31,43 @@ describe('apiClient', () => {
     })
   })
 
+  it('sends credentials and default security headers', async () => {
+    global.fetch.mockResolvedValue(
+      new Response(JSON.stringify({ status: 'ok' }), {
+        status: 200,
+        headers: { 'content-type': 'application/json' },
+      }),
+    )
+
+    await apiClient.get('/health')
+
+    const [requestUrl, requestOptions] = global.fetch.mock.calls[0]
+    expect(typeof requestUrl).toBe('string')
+    expect(requestOptions.credentials).toBe('include')
+    expect(requestOptions.headers['X-Requested-With']).toBe('XMLHttpRequest')
+  })
+
+  it('attaches CSRF token on mutating requests when available', async () => {
+    global.fetch.mockResolvedValue(
+      new Response(JSON.stringify({ status: 'ok' }), {
+        status: 200,
+        headers: { 'content-type': 'application/json' },
+      }),
+    )
+
+    const csrfMeta = document.createElement('meta')
+    csrfMeta.setAttribute('name', 'csrf-token')
+    csrfMeta.setAttribute('content', 'csrf-token-value')
+    document.head.appendChild(csrfMeta)
+
+    await apiClient.post('/users', { email: 'person@example.com' })
+
+    const [, requestOptions] = global.fetch.mock.calls[0]
+    expect(requestOptions.headers['X-CSRF-Token']).toBe('csrf-token-value')
+
+    csrfMeta.remove()
+  })
+
   it('throws ApiContractError when response payload does not satisfy schema', async () => {
     global.fetch.mockResolvedValue(
       new Response(JSON.stringify({ status: 'unexpected' }), {

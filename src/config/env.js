@@ -2,6 +2,7 @@ const DEFAULT_SITE_URL = 'https://softwaresolutions.com.mx'
 const DEFAULT_TRANSLATION_URL = '/locales/{{lng}}/{{ns}}.json'
 const DEFAULT_API_BASE_URL = '/api'
 const DEFAULT_SENTRY_TRACE_SAMPLE_RATE = 0.1
+const DEFAULT_APP_VERSION = 'local'
 
 function parseBoolean(value, fallback = false) {
   if (typeof value !== 'string') return fallback
@@ -46,6 +47,7 @@ export const ENV_MODE = rawEnv.MODE ?? 'development'
 export const APP_ENV = rawEnv.VITE_APP_ENV ?? ENV_MODE
 export const IS_DEV = Boolean(rawEnv.DEV)
 export const IS_PROD = Boolean(rawEnv.PROD)
+export const APP_VERSION = rawEnv.VITE_APP_VERSION ?? DEFAULT_APP_VERSION
 
 export const SITE_URL = normalizeUrl(
   rawEnv.VITE_SITE_URL,

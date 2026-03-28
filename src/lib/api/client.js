@@ -76,16 +76,29 @@ async function request(path, options = {}) {
     !(validatedBody instanceof FormData)
   const requestHeaders = {
     Accept: 'application/json',
+    'X-Requested-With': 'XMLHttpRequest',
     ...headers,
     ...(isJsonBody ? { 'Content-Type': 'application/json' } : {}),
   }
   const requestBody = isJsonBody ? JSON.stringify(validatedBody) : validatedBody
+  const isMutatingMethod = ['POST', 'PUT', 'PATCH', 'DELETE'].includes(method)
+
+  if (isMutatingMethod && typeof document !== 'undefined') {
+    const csrfToken = document
+      .querySelector('meta[name="csrf-token"]')
+      ?.getAttribute('content')
+
+    if (csrfToken && !requestHeaders['X-CSRF-Token']) {
+      requestHeaders['X-CSRF-Token'] = csrfToken
+    }
+  }
 
   const response = await fetch(url, {
     method,
     headers: requestHeaders,
     body: requestBody,
     signal,
+    credentials: 'include',
   })
 
   const data = await parseResponse(response)
