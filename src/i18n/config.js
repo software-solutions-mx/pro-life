@@ -2,10 +2,8 @@ import i18n from 'i18next'
 import HttpBackend from 'i18next-http-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
+import { IS_DEV, TRANSLATION_URL } from '../config/env'
 import { NAMESPACES, SUPPORTED_LOCALES } from './types'
-
-const TRANSLATION_URL =
-  import.meta.env.VITE_TRANSLATION_URL ?? '/locales/{{lng}}/{{ns}}.json'
 
 i18n
   .use(LanguageDetector)
@@ -47,7 +45,7 @@ i18n
       escapeValue: false,
     },
 
-    saveMissing: import.meta.env.DEV,
+    saveMissing: IS_DEV,
     missingKeyHandler: (lngs, ns, key) => {
       const localeList = Array.isArray(lngs) ? lngs.join(', ') : String(lngs)
       console.warn(`[i18n] Missing key: ${ns}:${key} (${localeList})`)

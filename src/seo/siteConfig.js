@@ -1,5 +1,7 @@
+import { SITE_URL as ENV_SITE_URL } from '../config/env'
+
 export const SITE_NAME = 'Software Solutions'
-export const SITE_URL = import.meta.env.VITE_SITE_URL ?? 'https://softwaresolutions.com.mx'
+export const SITE_URL = ENV_SITE_URL
 export const SITE_LOCALE = 'es_MX'
 
 export const SEO_DEFAULTS = {

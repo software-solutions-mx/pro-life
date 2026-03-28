@@ -1,16 +1,43 @@
-# React + Vite
+# Pro-Life Frontend Base
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Production-ready React + Vite baseline with:
 
-Currently, two official plugins are available:
+- Bootstrap theme pipeline (SCSS)
+- i18n (react-i18next)
+- SEO base setup
+- Analytics scaffolding (GTM/GA4)
+- Routing shell + route error boundary
+- TanStack Query client + API client template
+- Testing (Vitest + RTL)
+- Linting (ESLint + Stylelint)
+- TypeScript typecheck baseline for incremental migration
+- CI pipeline (GitHub Actions)
+- Sentry monitoring scaffold
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Scripts
 
-## React Compiler
+- `npm run dev`
+- `npm run build`
+- `npm run format`
+- `npm run format:check`
+- `npm run lint`
+- `npm run typecheck`
+- `npm run test`
+- `npm run ci:check`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Git Quality Gates
 
-## Expanding the ESLint configuration
+- `husky` runs local git hooks after install.
+- `pre-commit`: runs `lint-staged` only for staged files.
+- `commit-msg`: validates conventional commit format via `commitlint`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Environment Setup
+
+1. Copy `.env.example` into `.env.local`.
+2. Fill real values for analytics and monitoring variables.
+3. Keep `.env.local` uncommitted.
+
+Reference placeholders:
+
+- `.analytics.sample`
+- `.monitoring.sample`

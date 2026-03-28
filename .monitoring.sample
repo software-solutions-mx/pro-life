@@ -1,0 +1,7 @@
+# Error Monitoring / Sentry placeholders
+# Copy to .env.local and set real values in each environment.
+
+VITE_SENTRY_DSN=https://public_key@o0.ingest.sentry.io/0
+VITE_SENTRY_ENVIRONMENT=development
+VITE_SENTRY_RELEASE=pro-life@0.0.0
+VITE_SENTRY_TRACES_SAMPLE_RATE=0.1

@@ -1,4 +1,5 @@
 import { ANALYTICS_ENV, IS_ANALYTICS_ENABLED } from './config'
+import { IS_DEV } from '../config/env'
 import { pushToDataLayer } from './gtag'
 import { sanitizePayload } from './sanitize'
 
@@ -6,7 +7,7 @@ export function trackEvent(payload) {
   const safePayload = sanitizePayload(payload)
 
   if (!IS_ANALYTICS_ENABLED) {
-    if (import.meta.env.DEV) {
+    if (IS_DEV) {
       console.debug('[Analytics disabled]', safePayload)
     }
     return

@@ -24,9 +24,7 @@ describe('App', () => {
       </HelmetProvider>,
     )
 
-    expect(
-      screen.getByRole('main', { name: /contenido principal/i }),
-    ).toBeInTheDocument()
+    expect(screen.getByRole('main', { name: /contenido principal/i })).toBeInTheDocument()
   })
 
   it('tracks the initial page view once', () => {

@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async'
+import { GSC_VERIFICATION_CODE } from '../../config/env'
 import { SEO_DEFAULTS, SITE_LOCALE, SITE_NAME, toAbsoluteUrl } from '../../seo/siteConfig'
 
 function SEOHead({
@@ -14,7 +15,7 @@ function SEOHead({
   const canonicalUrl = toAbsoluteUrl(canonical ?? path)
   const resolvedSchemas = Array.isArray(schema) ? schema : [schema]
   const robotsContent = noindex ? 'noindex,nofollow' : 'index,follow'
-  const googleSiteVerification = import.meta.env.VITE_GSC_VERIFICATION_CODE
+  const googleSiteVerification = GSC_VERIFICATION_CODE
 
   return (
     <Helmet prioritizeSeoTags>
@@ -39,10 +40,7 @@ function SEOHead({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
       {googleSiteVerification ? (
-        <meta
-          name="google-site-verification"
-          content={googleSiteVerification}
-        />
+        <meta name="google-site-verification" content={googleSiteVerification} />
       ) : null}
 
       {resolvedSchemas.filter(Boolean).map((item, index) => (

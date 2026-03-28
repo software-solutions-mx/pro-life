@@ -7,10 +7,12 @@ import App from './App.jsx'
 import { initAnalyticsDebugger, reportWebVitals, restoreConsent } from './analytics'
 import i18n from './i18n/config'
 import { queryClient } from './lib/query/queryClient'
+import { Sentry, initErrorMonitoring } from './monitoring/sentry'
 import './assets/scss/theme.scss'
 
 restoreConsent()
 initAnalyticsDebugger()
+initErrorMonitoring()
 reportWebVitals()
 
 createRoot(document.getElementById('root')).render(
@@ -19,7 +21,9 @@ createRoot(document.getElementById('root')).render(
       <I18nextProvider i18n={i18n} defaultNS="common">
         <QueryClientProvider client={queryClient}>
           <Suspense fallback={<div>Loading...</div>}>
-            <App />
+            <Sentry.ErrorBoundary fallback={<main aria-label="Application error" />}>
+              <App />
+            </Sentry.ErrorBoundary>
           </Suspense>
         </QueryClientProvider>
       </I18nextProvider>
