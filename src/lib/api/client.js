@@ -10,6 +10,36 @@ export class ApiError extends Error {
   }
 }
 
+export class ApiContractError extends Error {
+  constructor(message, { url, direction, issues, payload }) {
+    super(message)
+    this.name = 'ApiContractError'
+    this.url = url
+    this.direction = direction
+    this.issues = issues
+    this.payload = payload
+  }
+}
+
+function validateContract(schema, payload, { url, direction }) {
+  if (!schema) {
+    return payload
+  }
+
+  const result = schema.safeParse(payload)
+
+  if (result.success) {
+    return result.data
+  }
+
+  throw new ApiContractError(`API ${direction} validation failed for ${url}`, {
+    url,
+    direction,
+    issues: result.error.issues,
+    payload,
+  })
+}
+
 async function parseResponse(response) {
   const contentType = response.headers.get('content-type') ?? ''
 
@@ -25,16 +55,31 @@ async function parseResponse(response) {
 }
 
 async function request(path, options = {}) {
-  const { method = 'GET', body, headers, signal } = options
-  const isJsonBody = body !== undefined && body !== null && !(body instanceof FormData)
+  const {
+    method = 'GET',
+    body,
+    headers,
+    signal,
+    requestSchema,
+    responseSchema,
+    errorSchema,
+  } = options
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`
+  const url = `${API_BASE_URL}${normalizedPath}`
+  const validatedBody = validateContract(requestSchema, body, {
+    url,
+    direction: 'request',
+  })
+  const isJsonBody =
+    validatedBody !== undefined &&
+    validatedBody !== null &&
+    !(validatedBody instanceof FormData)
   const requestHeaders = {
     Accept: 'application/json',
     ...headers,
     ...(isJsonBody ? { 'Content-Type': 'application/json' } : {}),
   }
-  const requestBody = isJsonBody ? JSON.stringify(body) : body
-  const normalizedPath = path.startsWith('/') ? path : `/${path}`
-  const url = `${API_BASE_URL}${normalizedPath}`
+  const requestBody = isJsonBody ? JSON.stringify(validatedBody) : validatedBody
 
   const response = await fetch(url, {
     method,
@@ -46,14 +91,22 @@ async function request(path, options = {}) {
   const data = await parseResponse(response)
 
   if (!response.ok) {
+    const validatedErrorData = validateContract(errorSchema, data, {
+      url,
+      direction: 'error-response',
+    })
+
     throw new ApiError(`API request failed with status ${response.status}`, {
       status: response.status,
       url,
-      data,
+      data: validatedErrorData,
     })
   }
 
-  return data
+  return validateContract(responseSchema, data, {
+    url,
+    direction: 'response',
+  })
 }
 
 export const apiClient = {
