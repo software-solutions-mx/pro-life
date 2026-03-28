@@ -24,7 +24,22 @@ describe('App', () => {
       </HelmetProvider>,
     )
 
-    expect(screen.getByRole('main', { name: /contenido principal/i })).toBeInTheDocument()
+    const mainLandmark = screen.getByRole('main', { name: /contenido principal/i })
+    expect(mainLandmark).toBeInTheDocument()
+    expect(mainLandmark).toHaveAttribute('id', 'main-content')
+    expect(mainLandmark).toHaveAttribute('tabindex', '-1')
+  })
+
+  it('renders a skip link pointing to the main content region', () => {
+    render(
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>,
+    )
+
+    expect(
+      screen.getByRole('link', { name: /saltar al contenido principal/i }),
+    ).toHaveAttribute('href', '#main-content')
   })
 
   it('tracks the initial page view once', () => {

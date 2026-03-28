@@ -5,6 +5,8 @@ import { HelmetProvider } from 'react-helmet-async'
 import { I18nextProvider } from 'react-i18next'
 import App from './App.jsx'
 import { initAnalyticsDebugger, reportWebVitals, restoreConsent } from './analytics'
+import ErrorState from './components/states/ErrorState'
+import LoadingState from './components/states/LoadingState'
 import i18n from './i18n/config'
 import { queryClient } from './lib/query/queryClient'
 import { Sentry, initErrorMonitoring } from './monitoring/sentry'
@@ -20,8 +22,12 @@ createRoot(document.getElementById('root')).render(
     <HelmetProvider>
       <I18nextProvider i18n={i18n} defaultNS="common">
         <QueryClientProvider client={queryClient}>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Sentry.ErrorBoundary fallback={<main aria-label="Application error" />}>
+          <Suspense fallback={<LoadingState />}>
+            <Sentry.ErrorBoundary
+              fallback={
+                <ErrorState message="Ocurrio un error inesperado en la aplicacion." />
+              }
+            >
               <App />
             </Sentry.ErrorBoundary>
           </Suspense>

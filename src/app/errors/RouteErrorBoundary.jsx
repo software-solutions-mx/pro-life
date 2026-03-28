@@ -1,4 +1,5 @@
-import { isRouteErrorResponse, useRouteError } from 'react-router-dom'
+import { isRouteErrorResponse, useNavigate, useRouteError } from 'react-router-dom'
+import { ErrorState, NotFoundState, ServerErrorState } from '../../components/states'
 
 function getErrorDetails(error) {
   if (isRouteErrorResponse(error)) {
@@ -26,13 +27,26 @@ function getErrorDetails(error) {
 
 function RouteErrorBoundary() {
   const error = useRouteError()
-  const { title, message } = getErrorDetails(error)
+  const navigate = useNavigate()
+
+  if (isRouteErrorResponse(error)) {
+    if (error.status === 404) {
+      return <NotFoundState />
+    }
+
+    if (error.status >= 500) {
+      return <ServerErrorState actionLabel="Reintentar" onAction={() => navigate(0)} />
+    }
+  }
+
+  const { message } = getErrorDetails(error)
 
   return (
-    <main aria-label="Error page">
-      <h1>{title}</h1>
-      <p>{message}</p>
-    </main>
+    <ErrorState
+      message={message}
+      actionLabel="Volver al inicio"
+      onAction={() => navigate('/')}
+    />
   )
 }
 

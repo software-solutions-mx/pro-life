@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { HelmetProvider } from 'react-helmet-async'
 import { axe } from 'vitest-axe'
 import { describe, expect, it } from 'vitest'
@@ -16,5 +16,17 @@ describe('App accessibility', () => {
     expect(results.violations, JSON.stringify(results.violations, null, 2)).toHaveLength(
       0,
     )
+  })
+
+  it('renders baseline accessibility landmarks', () => {
+    render(
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>,
+    )
+
+    expect(screen.getByRole('banner')).toBeInTheDocument()
+    expect(screen.getByRole('main', { name: /contenido principal/i })).toBeInTheDocument()
+    expect(screen.getByRole('contentinfo')).toBeInTheDocument()
   })
 })
