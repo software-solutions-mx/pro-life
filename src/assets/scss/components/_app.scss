@@ -1121,6 +1121,10 @@
   align-items: center;
 }
 
+.resources-hero-inner > * {
+  min-width: 0;
+}
+
 .resources-hero-content {
   display: grid;
   gap: var(--space-3);
@@ -1134,13 +1138,17 @@
   backdrop-filter: blur(12px);
 }
 
+.resources-hero-content h1,
 .resources-hero-content p {
+  max-width: 100%;
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .resources-country-panel {
   display: grid;
   gap: 0.6rem;
+  min-width: 0;
   padding: 0.9rem;
   background: linear-gradient(160deg, rgb(255 255 255 / 84%), rgb(239 247 252 / 72%));
   border: 1px solid rgb(117 146 168 / 22%);
@@ -1153,6 +1161,7 @@
 .resources-country-label {
   font-weight: 600;
   color: var(--color-text-dark);
+  overflow-wrap: anywhere;
 }
 
 .resources-country-control {
@@ -1175,6 +1184,8 @@
 }
 
 .resources-country-select {
+  width: 100%;
+  min-width: 0;
   min-height: 2.5rem;
   padding: 0.35rem 0.75rem;
   color: var(--color-text-dark);
@@ -1187,12 +1198,21 @@
   margin: 0;
   font-size: var(--text-sm);
   color: var(--color-text-mid);
+  overflow-wrap: anywhere;
 }
 
 .resources-hero-actions {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-2);
+}
+
+.resources-hero-actions .org-button {
+  width: 100%;
+  line-height: 1.2;
+  text-align: center;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }
 
 .resources-hero-visual {
