@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/software-solutions-mx/pro-life/compare/v1.0.0...v1.1.0) (2026-03-29)
+
+### Features
+
+- improve i18n fallback locale and SEO path handling ([36bd742](https://github.com/software-solutions-mx/pro-life/commit/36bd7427c39c8515d47ec71d58de9bead348c40e))
+
 # 1.0.0 (2026-03-29)
 
 ### Features
