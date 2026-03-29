@@ -182,6 +182,10 @@
     "options": {
       "title": "Comprende Tus Opciones | Voices Bringing Hope to Life",
       "description": "Explora tus opciones con orientacion compasiva, categorias claras y recursos practicos para tu siguiente paso."
+    },
+    "resources": {
+      "title": "Recursos Locales por Pais | Voices Bringing Hope to Life",
+      "description": "Selecciona tu pais y revisa recursos practicos de apoyo con telefono, web y centros de ayuda."
     }
   },
   "actions": {
@@ -331,6 +335,39 @@
       "body": "Puedes dar un paso en calma hoy. Hay ayuda disponible y no tienes que pasar por esto sola.",
       "primaryCta": "Ir a apoyo inmediato",
       "secondaryCta": "Leer preguntas frecuentes"
+    }
+  },
+  "resourcesPage": {
+    "hero": {
+      "eyebrow": "Recursos practicos",
+      "title": "Encuentra recursos de apoyo por pais",
+      "description": "Elige tu pais para ver contactos confiables de apoyo y recursos practicos para tu siguiente paso.",
+      "primaryCta": "Ir a apoyo de crisis",
+      "secondaryCta": "Contactar al equipo"
+    },
+    "selector": {
+      "label": "Seleccionar pais",
+      "helper": "La lista se ajusta por defecto a tu region probable segun el idioma del navegador."
+    },
+    "gallery": {
+      "title": "Recursos en {{country}}",
+      "description": "Cada fila incluye un recurso con detalles, tipo y accion rapida para acceder."
+    },
+    "types": {
+      "phone": "Apoyo telefonico",
+      "url": "Sitio web",
+      "address": "Centro de ayuda"
+    },
+    "actions": {
+      "callNow": "Llamar ahora",
+      "visitWebsite": "Visitar sitio",
+      "openMap": "Abrir mapa"
+    },
+    "empty": "Aun no hay recursos para este pais.",
+    "closing": {
+      "title": "Necesitas ayuda inmediata?",
+      "body": "Si tu situacion es urgente, ve directo a recursos de emergencia y lineas de ayuda.",
+      "cta": "Abrir apoyo inmediato"
     }
   }
 }

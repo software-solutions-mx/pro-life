@@ -182,6 +182,10 @@
     "options": {
       "title": "Understanding Your Options | Voices Bringing Hope to Life",
       "description": "Explore your options with compassionate guidance, clear distinctions, and practical support links for your next step."
+    },
+    "resources": {
+      "title": "Local Resources by Country | Voices Bringing Hope to Life",
+      "description": "Select your country and browse practical support resources including phone, web, and local help centers."
     }
   },
   "actions": {
@@ -331,6 +335,39 @@
       "body": "You can take one calm step today. Help is available, and you do not have to navigate this alone.",
       "primaryCta": "Go to immediate support",
       "secondaryCta": "Read common questions"
+    }
+  },
+  "resourcesPage": {
+    "hero": {
+      "eyebrow": "Practical resources",
+      "title": "Find support resources by country",
+      "description": "Choose your country to view trusted support contacts and practical next-step resources.",
+      "primaryCta": "Go to crisis support",
+      "secondaryCta": "Contact our team"
+    },
+    "selector": {
+      "label": "Select country",
+      "helper": "The list defaults to your likely region based on browser locale settings."
+    },
+    "gallery": {
+      "title": "Resources in {{country}}",
+      "description": "Each row includes a support resource with details, type, and quick access action."
+    },
+    "types": {
+      "phone": "Phone support",
+      "url": "Website",
+      "address": "Help center"
+    },
+    "actions": {
+      "callNow": "Call now",
+      "visitWebsite": "Visit website",
+      "openMap": "Open map"
+    },
+    "empty": "No resources are available for this country yet.",
+    "closing": {
+      "title": "Need immediate help right now?",
+      "body": "If your situation feels urgent, go directly to emergency and hotline resources.",
+      "cta": "Open immediate support"
     }
   }
 }
