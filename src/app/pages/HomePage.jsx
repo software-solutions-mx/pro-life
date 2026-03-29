@@ -4,6 +4,8 @@ import SEOHead from '../../components/SEO/SEOHead'
 import heroBannerPrimary from '../../assets/images/main-logos/banner4.png'
 import heroBannerSecondary from '../../assets/images/main-logos/banner3.png'
 import heroSupportImage from '../../assets/images/support-images/support1.png'
+import faqSupportImage from '../../assets/images/support-images/support90.png'
+import finalCtaSupportImage from '../../assets/images/support-images/support94.png'
 import { normalizeLocale } from '../../i18n/locales'
 import i18n from '../../i18n/config'
 import { toLocalizedPath } from '../../seo/siteConfig'
@@ -167,22 +169,31 @@ function HomePage() {
           className="org-section org-section-warm"
           aria-labelledby="faq-preview-title"
         >
-          <div className="org-container org-content-wrap">
-            <h2 id="faq-preview-title" className="org-section-heading">
-              {t('home.faq.title')}
-            </h2>
-            <p className="org-section-intro">{t('home.faq.description')}</p>
-            <ul className="org-faq-list">
-              <li className="org-faq-item">{t('home.faq.items.q1')}</li>
-              <li className="org-faq-item">{t('home.faq.items.q2')}</li>
-              <li className="org-faq-item">{t('home.faq.items.q3')}</li>
-            </ul>
-            <Link
-              className="org-button org-button-primary"
-              to={toLocalizedPath('/faq', locale)}
-            >
-              {t('home.faq.cta')}
-            </Link>
+          <div className="org-container">
+            <div className="org-faq-feature">
+              <div className="org-faq-content">
+                <h2 id="faq-preview-title" className="org-section-heading">
+                  {t('home.faq.title')}
+                </h2>
+                <p className="org-section-intro">{t('home.faq.description')}</p>
+                <ul className="org-faq-list">
+                  <li className="org-faq-item">{t('home.faq.items.q1')}</li>
+                  <li className="org-faq-item">{t('home.faq.items.q2')}</li>
+                  <li className="org-faq-item">{t('home.faq.items.q3')}</li>
+                </ul>
+                <Link
+                  className="org-button org-button-primary"
+                  to={toLocalizedPath('/faq', locale)}
+                >
+                  {t('home.faq.cta')}
+                </Link>
+              </div>
+              <div className="org-faq-visual" aria-hidden="true">
+                <div className="org-faq-emblem-shell">
+                  <img src={faqSupportImage} alt="" loading="lazy" decoding="async" />
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -190,17 +201,30 @@ function HomePage() {
           className="org-section org-section-alt"
           aria-labelledby="final-cta-title"
         >
-          <div className="org-container org-content-wrap">
-            <h2 id="final-cta-title" className="org-section-heading">
-              {t('home.finalCta.title')}
-            </h2>
-            <p>{t('home.finalCta.body')}</p>
-            <Link
-              className="org-button org-button-accent"
-              to={toLocalizedPath('/resources/hotlines', locale)}
-            >
-              {t('home.finalCta.cta')}
-            </Link>
+          <div className="org-container">
+            <div className="org-final-cta-panel">
+              <div className="org-final-cta-copy">
+                <h2 id="final-cta-title" className="org-section-heading">
+                  {t('home.finalCta.title')}
+                </h2>
+                <p>{t('home.finalCta.body')}</p>
+                <Link
+                  className="org-button org-button-accent"
+                  to={toLocalizedPath('/resources/hotlines', locale)}
+                >
+                  {t('home.finalCta.cta')}
+                </Link>
+              </div>
+              <div className="org-final-cta-visual" aria-hidden="true">
+                <img
+                  className="org-final-cta-emblem"
+                  src={finalCtaSupportImage}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </article>
