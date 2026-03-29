@@ -824,13 +824,16 @@
   justify-content: center;
   width: 2.4rem;
   height: 2.4rem;
+  overflow: hidden;
   background: rgb(255 255 255 / 90%);
   border-radius: 50%;
 }
 
 .org-footer-brand-mark img {
-  width: 80%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .org-footer-brand-copy {

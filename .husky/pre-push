@@ -1,1 +1,10 @@
+upstream="$(git rev-parse --abbrev-ref --symbolic-full-name @{u} 2>/dev/null || true)"
+
+if [ -n "$upstream" ]; then
+  npx --no -- commitlint --from "$upstream" --to HEAD
+else
+  root_commit="$(git rev-list --max-parents=0 HEAD | tail -n 1)"
+  npx --no -- commitlint --from "$root_commit" --to HEAD
+fi
+
 npm run ci:check
