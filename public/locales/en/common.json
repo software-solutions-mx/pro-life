@@ -1,17 +1,125 @@
 {
   "brand": {
-    "name": "Software Solutions"
+    "name": "Voices Bringing Hope to Life",
+    "mark": "VB",
+    "shortName": "Voices Bringing Hope",
+    "tagline": "Because every life deserves a voice"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "options": "Options",
+    "resources": "Resources",
+    "stories": "Stories",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "getHelpNow": "Get Help Now",
+    "callNow": "Call {{phone}}",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
   },
   "home": {
-    "title": "Welcome",
-    "message": "This is a basic i18n test page."
+    "hero": {
+      "eyebrow": "Compassionate support",
+      "title": "You are not alone. Hope and help are here.",
+      "description": "We provide calm, honest guidance and practical support for women facing unexpected pregnancies.",
+      "primaryCta": "I need help now",
+      "secondaryCta": "Learn about your options",
+      "trustLine": "Informational support only. In immediate danger, call 911."
+    },
+    "mission": {
+      "title": "A safe place for truth, dignity, and support",
+      "body": "Our mission is to support women with compassion first, then provide clear information, reliable resources, and a life-affirming path forward."
+    },
+    "paths": {
+      "title": "Explore your paths without pressure",
+      "description": "Every story is different. Start with the path that matches your situation.",
+      "parenting": {
+        "title": "Parenting",
+        "body": "Understand daily realities, available programs, and support networks for raising a child.",
+        "cta": "Explore parenting support"
+      },
+      "adoption": {
+        "title": "Adoption",
+        "body": "Learn about adoption options and licensed professional resources in clear, respectful language.",
+        "cta": "Learn about adoption"
+      },
+      "options": {
+        "title": "Understanding your options",
+        "body": "Review educational content that separates biological facts, ethical perspectives, and faith beliefs.",
+        "cta": "Read all options"
+      }
+    },
+    "resources": {
+      "title": "Start with practical support",
+      "description": "Find trustworthy services that can help right now.",
+      "localHelp": {
+        "title": "Find local help",
+        "body": "Locate nearby pregnancy centers, community support, and practical assistance.",
+        "cta": "Find help near me"
+      },
+      "hotlines": {
+        "title": "Crisis and hotline support",
+        "body": "Reach trusted hotline partners for urgent emotional, safety, and pregnancy support.",
+        "cta": "View hotlines"
+      },
+      "support": {
+        "title": "Emotional support",
+        "body": "Access mental health and healing-focused resources for difficult moments.",
+        "cta": "Explore emotional support"
+      }
+    },
+    "faq": {
+      "title": "Common questions",
+      "description": "Quick answers for moments when you need clarity fast.",
+      "items": {
+        "q1": "Are you a medical provider?",
+        "q2": "Is my information private?",
+        "q3": "Where can I get immediate support?"
+      },
+      "cta": "Read all frequently asked questions"
+    },
+    "finalCta": {
+      "title": "We are here whenever you are ready",
+      "body": "You deserve support, clear information, and a safe next step.",
+      "cta": "Go to immediate support"
+    }
+  },
+  "footer": {
+    "missionTitle": "Our mission",
+    "missionText": "We are a non-commercial informational organization dedicated to compassionate support, truth, and hope for every life.",
+    "quickLinksTitle": "Quick links",
+    "legalTitle": "Legal links",
+    "helpTitle": "Get help now",
+    "helpText": "If you are in immediate danger, call 911. For crisis support, call 988.",
+    "disclaimer": "This website provides informational and support content only. It does not provide medical, legal, mental health, or emergency services.",
+    "copyright": "Copyright {{year}} Voices Bringing Hope to Life"
+  },
+  "legal": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "disclaimer": "General Disclaimer",
+    "medical": "Medical Disclaimer",
+    "crisis": "Crisis Disclaimer",
+    "cookies": "Cookie Policy"
+  },
+  "states": {
+    "empty": {
+      "title": "No content yet",
+      "message": "There is no available content for this section right now."
+    }
   },
   "a11y": {
     "skipToMainContent": "Skip to main content",
     "siteHeader": "Site header",
     "siteFooter": "Site footer",
     "mainContent": "Main content",
-    "routeUpdated": "Page updated"
+    "routeUpdated": "Page updated",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation",
+    "quickLinks": "Footer quick links",
+    "legalLinks": "Footer legal links",
+    "brandHome": "{{brand}} home"
   },
   "help": {
     "immediate": "Immediate help"
@@ -47,13 +155,25 @@
     }
   },
   "seo": {
+    "defaults": {
+      "title": "Compassionate Support and Resources for Every Life",
+      "description": "Compassionate, practical guidance and support resources for women facing unexpected pregnancies."
+    },
+    "home": {
+      "title": "Compassionate Support and Resources for Every Life",
+      "description": "Compassionate, practical guidance and support resources for women facing unexpected pregnancies."
+    },
     "notFound": {
-      "title": "Page not found | Software Solutions",
+      "title": "Page not found | Voices Bringing Hope to Life",
       "description": "The requested route does not exist."
     },
     "serverError": {
-      "title": "Server error | Software Solutions",
+      "title": "Server error | Voices Bringing Hope to Life",
       "description": "We are working to restore service."
+    },
+    "stateShowcase": {
+      "title": "UI states | Voices Bringing Hope to Life",
+      "description": "Internal preview for reusable state layouts."
     }
   },
   "actions": {

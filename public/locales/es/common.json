@@ -1,17 +1,125 @@
 {
   "brand": {
-    "name": "Software Solutions"
+    "name": "Voices Bringing Hope to Life",
+    "mark": "VB",
+    "shortName": "Voces de Esperanza",
+    "tagline": "Porque cada vida merece una voz"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "options": "Opciones",
+    "resources": "Recursos",
+    "stories": "Historias",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "getHelpNow": "Ayuda ahora",
+    "callNow": "Llama {{phone}}",
+    "openMenu": "Abrir menu de navegacion",
+    "closeMenu": "Cerrar menu de navegacion"
   },
   "home": {
-    "title": "Bienvenido",
-    "message": "Esta es una pagina basica de prueba para i18n."
+    "hero": {
+      "eyebrow": "Apoyo compasivo",
+      "title": "No estas sola. Hay esperanza y ayuda para ti.",
+      "description": "Ofrecemos orientacion clara, trato humano y apoyo practico para mujeres ante un embarazo inesperado.",
+      "primaryCta": "Necesito ayuda ahora",
+      "secondaryCta": "Conocer mis opciones",
+      "trustLine": "Contenido solo informativo. Si hay peligro inmediato, llama al 911."
+    },
+    "mission": {
+      "title": "Un espacio seguro con verdad, dignidad y apoyo",
+      "body": "Nuestra mision es acompanar con empatia primero, y despues ofrecer informacion clara, recursos confiables y una ruta de esperanza."
+    },
+    "paths": {
+      "title": "Explora tus caminos sin presion",
+      "description": "Cada historia es diferente. Empieza por el camino que mejor se ajuste a tu situacion.",
+      "parenting": {
+        "title": "Maternidad",
+        "body": "Conoce retos reales, programas de apoyo y redes para criar a tu bebe.",
+        "cta": "Ver apoyo para maternidad"
+      },
+      "adoption": {
+        "title": "Adopcion",
+        "body": "Entiende las opciones de adopcion y recursos profesionales con lenguaje claro y respetuoso.",
+        "cta": "Conocer adopcion"
+      },
+      "options": {
+        "title": "Entender tus opciones",
+        "body": "Revisa contenido educativo que separa hechos biologicos, perspectivas eticas y creencias de fe.",
+        "cta": "Ver todas las opciones"
+      }
+    },
+    "resources": {
+      "title": "Empieza con apoyo practico",
+      "description": "Encuentra servicios confiables que pueden ayudarte ahora.",
+      "localHelp": {
+        "title": "Encuentra ayuda local",
+        "body": "Ubica centros cercanos, acompanamiento comunitario y asistencia practica.",
+        "cta": "Buscar ayuda cerca de mi"
+      },
+      "hotlines": {
+        "title": "Crisis y lineas de ayuda",
+        "body": "Contacta lineas confiables para apoyo urgente emocional, de seguridad y embarazo.",
+        "cta": "Ver lineas de ayuda"
+      },
+      "support": {
+        "title": "Apoyo emocional",
+        "body": "Accede a recursos de salud mental y acompanamiento para momentos dificiles.",
+        "cta": "Explorar apoyo emocional"
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rapidas cuando necesitas claridad.",
+      "items": {
+        "q1": "Son un proveedor medico?",
+        "q2": "Mi informacion es privada?",
+        "q3": "Donde obtengo apoyo inmediato?"
+      },
+      "cta": "Ver todas las preguntas frecuentes"
+    },
+    "finalCta": {
+      "title": "Estamos aqui cuando tu decidas",
+      "body": "Mereces apoyo, informacion clara y un siguiente paso seguro.",
+      "cta": "Ir a apoyo inmediato"
+    }
+  },
+  "footer": {
+    "missionTitle": "Nuestra mision",
+    "missionText": "Somos una organizacion informativa no comercial dedicada al apoyo compasivo, la verdad y la esperanza para cada vida.",
+    "quickLinksTitle": "Accesos rapidos",
+    "legalTitle": "Enlaces legales",
+    "helpTitle": "Ayuda inmediata",
+    "helpText": "Si estas en peligro inmediato llama al 911. Para crisis emocional llama al 988.",
+    "disclaimer": "Este sitio ofrece contenido informativo y de apoyo. No brinda servicios medicos, legales, de salud mental ni de emergencia.",
+    "copyright": "Copyright {{year}} Voices Bringing Hope to Life"
+  },
+  "legal": {
+    "privacy": "Aviso de privacidad",
+    "terms": "Terminos de uso",
+    "disclaimer": "Descargo general",
+    "medical": "Descargo medico",
+    "crisis": "Descargo de crisis",
+    "cookies": "Politica de cookies"
+  },
+  "states": {
+    "empty": {
+      "title": "Sin contenido por ahora",
+      "message": "Todavia no hay datos disponibles para mostrar en esta seccion."
+    }
   },
   "a11y": {
     "skipToMainContent": "Saltar al contenido principal",
     "siteHeader": "Encabezado del sitio",
     "siteFooter": "Pie del sitio",
     "mainContent": "Contenido principal",
-    "routeUpdated": "Pagina actualizada"
+    "routeUpdated": "Pagina actualizada",
+    "mainNavigation": "Navegacion principal",
+    "mobileNavigation": "Navegacion movil",
+    "quickLinks": "Accesos rapidos del pie",
+    "legalLinks": "Enlaces legales del pie",
+    "brandHome": "Inicio de {{brand}}"
   },
   "help": {
     "immediate": "Ayuda inmediata"
@@ -47,13 +155,25 @@
     }
   },
   "seo": {
+    "defaults": {
+      "title": "Voces de Esperanza y Apoyo para Cada Vida",
+      "description": "Orientacion compasiva, apoyo practico y recursos confiables para mujeres ante un embarazo inesperado."
+    },
+    "home": {
+      "title": "Voces de Esperanza y Apoyo para Cada Vida",
+      "description": "Orientacion compasiva, apoyo practico y recursos confiables para mujeres ante un embarazo inesperado."
+    },
     "notFound": {
-      "title": "Pagina no encontrada | Software Solutions",
+      "title": "Pagina no encontrada | Voices Bringing Hope to Life",
       "description": "La ruta solicitada no existe."
     },
     "serverError": {
-      "title": "Error del servidor | Software Solutions",
+      "title": "Error del servidor | Voices Bringing Hope to Life",
       "description": "Estamos trabajando para restablecer el servicio."
+    },
+    "stateShowcase": {
+      "title": "Estados UI | Voices Bringing Hope to Life",
+      "description": "Vista interna para layouts de estados reutilizables."
     }
   },
   "actions": {

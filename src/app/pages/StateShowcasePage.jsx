@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { useLocation } from 'react-router-dom'
 import SEOHead from '../../components/SEO/SEOHead'
 import {
@@ -9,13 +10,14 @@ import {
 } from '../../components/states'
 
 function StateShowcasePage() {
+  const { t } = useTranslation()
   const location = useLocation()
 
   return (
     <>
       <SEOHead
-        title="UX States | Software Solutions"
-        description="Vista interna de estados de interfaz."
+        title={t('seo.stateShowcase.title')}
+        description={t('seo.stateShowcase.description')}
         path={location.pathname}
         noindex
       />

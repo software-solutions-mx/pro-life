@@ -1,17 +1,125 @@
 {
   "brand": {
-    "name": "Software Solutions"
+    "name": "Voices Bringing Hope to Life",
+    "mark": "VB",
+    "shortName": "Voices of Hope",
+    "tagline": "Parce que chaque vie merite une voix"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "A propos",
+    "options": "Options",
+    "resources": "Ressources",
+    "stories": "Histoires",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "getHelpNow": "Aide immediate",
+    "callNow": "Appeler {{phone}}",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation"
   },
   "home": {
-    "title": "Bienvenue",
-    "message": "Ceci est une page de test i18n de base."
+    "hero": {
+      "eyebrow": "Soutien compatissant",
+      "title": "Vous n'etes pas seule. L'espoir et l'aide sont ici.",
+      "description": "Nous offrons une orientation claire et un soutien pratique pour les femmes face a une grossesse inattendue.",
+      "primaryCta": "J'ai besoin d'aide maintenant",
+      "secondaryCta": "Comprendre mes options",
+      "trustLine": "Contenu informatif uniquement. En danger immediat, appelez le 911."
+    },
+    "mission": {
+      "title": "Un espace sur avec verite, dignite et soutien",
+      "body": "Notre mission est d'accueillir avec empathie, puis de proposer des informations claires et des ressources fiables."
+    },
+    "paths": {
+      "title": "Explorez vos chemins sans pression",
+      "description": "Chaque histoire est differente. Commencez par le chemin qui vous correspond.",
+      "parenting": {
+        "title": "Parentalite",
+        "body": "Decouvrez les realites, les programmes et les reseaux de soutien pour elever un enfant.",
+        "cta": "Voir le soutien parental"
+      },
+      "adoption": {
+        "title": "Adoption",
+        "body": "Comprenez les options d'adoption et les ressources professionnelles dans un langage respectueux.",
+        "cta": "Comprendre l'adoption"
+      },
+      "options": {
+        "title": "Comprendre vos options",
+        "body": "Consultez un contenu qui distingue faits biologiques, perspectives ethiques et convictions de foi.",
+        "cta": "Voir toutes les options"
+      }
+    },
+    "resources": {
+      "title": "Commencez par un soutien pratique",
+      "description": "Trouvez des services fiables qui peuvent aider maintenant.",
+      "localHelp": {
+        "title": "Trouver de l'aide locale",
+        "body": "Localisez des centres de soutien, des ressources communautaires et une aide concrete.",
+        "cta": "Trouver une aide proche"
+      },
+      "hotlines": {
+        "title": "Crise et lignes d'aide",
+        "body": "Contactez des lignes partenaires pour un soutien urgent emotionnel et de securite.",
+        "cta": "Voir les lignes d'aide"
+      },
+      "support": {
+        "title": "Soutien emotionnel",
+        "body": "Accedez a des ressources de sante mentale et de guerison pour les moments difficiles.",
+        "cta": "Explorer le soutien emotionnel"
+      }
+    },
+    "faq": {
+      "title": "Questions frequentes",
+      "description": "Des reponses rapides lorsque vous avez besoin de clarte.",
+      "items": {
+        "q1": "Etes-vous un service medical?",
+        "q2": "Mes informations restent-elles privees?",
+        "q3": "Ou obtenir une aide immediate?"
+      },
+      "cta": "Voir toutes les questions frequentes"
+    },
+    "finalCta": {
+      "title": "Nous sommes ici quand vous serez prete",
+      "body": "Vous meritez du soutien, une information claire et une prochaine etape sure.",
+      "cta": "Aller au soutien immediat"
+    }
+  },
+  "footer": {
+    "missionTitle": "Notre mission",
+    "missionText": "Nous sommes une organisation informative non commerciale dediee a la compassion, la verite et l'espoir pour chaque vie.",
+    "quickLinksTitle": "Liens rapides",
+    "legalTitle": "Liens legaux",
+    "helpTitle": "Aide immediate",
+    "helpText": "Si vous etes en danger immediat, appelez le 911. Pour une crise emotionnelle, appelez le 988.",
+    "disclaimer": "Ce site fournit uniquement du contenu informatif et de soutien. Aucun service medical, legal, psychologique ou d'urgence.",
+    "copyright": "Copyright {{year}} Voices Bringing Hope to Life"
+  },
+  "legal": {
+    "privacy": "Politique de confidentialite",
+    "terms": "Conditions d'utilisation",
+    "disclaimer": "Avertissement general",
+    "medical": "Avertissement medical",
+    "crisis": "Avertissement de crise",
+    "cookies": "Politique de cookies"
+  },
+  "states": {
+    "empty": {
+      "title": "Aucun contenu pour le moment",
+      "message": "Aucune donnee disponible pour cette section actuellement."
+    }
   },
   "a11y": {
     "skipToMainContent": "Aller au contenu principal",
     "siteHeader": "En-tete du site",
     "siteFooter": "Pied de page du site",
     "mainContent": "Contenu principal",
-    "routeUpdated": "Page mise a jour"
+    "routeUpdated": "Page mise a jour",
+    "mainNavigation": "Navigation principale",
+    "mobileNavigation": "Navigation mobile",
+    "quickLinks": "Liens rapides du pied de page",
+    "legalLinks": "Liens legaux du pied de page",
+    "brandHome": "Accueil de {{brand}}"
   },
   "help": {
     "immediate": "Aide immediate"
@@ -47,13 +155,25 @@
     }
   },
   "seo": {
+    "defaults": {
+      "title": "Soutien Compatissant et Ressources Fiables",
+      "description": "Orientation bienveillante, soutien pratique et ressources fiables pour les grossesses inattendues."
+    },
+    "home": {
+      "title": "Soutien Compatissant et Ressources Fiables",
+      "description": "Orientation bienveillante, soutien pratique et ressources fiables pour les grossesses inattendues."
+    },
     "notFound": {
-      "title": "Page introuvable | Software Solutions",
+      "title": "Page introuvable | Voices Bringing Hope to Life",
       "description": "La route demandee n'existe pas."
     },
     "serverError": {
-      "title": "Erreur serveur | Software Solutions",
+      "title": "Erreur serveur | Voices Bringing Hope to Life",
       "description": "Nous travaillons a retablir le service."
+    },
+    "stateShowcase": {
+      "title": "Etats UI | Voices Bringing Hope to Life",
+      "description": "Apercu interne des layouts de statut reutilisables."
     }
   },
   "actions": {

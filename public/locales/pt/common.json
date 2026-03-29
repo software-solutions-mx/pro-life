@@ -1,17 +1,125 @@
 {
   "brand": {
-    "name": "Software Solutions"
+    "name": "Voices Bringing Hope to Life",
+    "mark": "VB",
+    "shortName": "Vozes de Esperanca",
+    "tagline": "Porque toda vida merece uma voz"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre",
+    "options": "Opcoes",
+    "resources": "Recursos",
+    "stories": "Historias",
+    "faq": "FAQ",
+    "contact": "Contato",
+    "getHelpNow": "Ajuda agora",
+    "callNow": "Ligar {{phone}}",
+    "openMenu": "Abrir menu de navegacao",
+    "closeMenu": "Fechar menu de navegacao"
   },
   "home": {
-    "title": "Bem-vindo",
-    "message": "Esta e uma pagina basica de teste para i18n."
+    "hero": {
+      "eyebrow": "Apoio compassivo",
+      "title": "Voce nao esta sozinha. Existe esperanca e ajuda aqui.",
+      "description": "Oferecemos orientacao clara e apoio pratico para mulheres diante de uma gravidez inesperada.",
+      "primaryCta": "Preciso de ajuda agora",
+      "secondaryCta": "Conhecer minhas opcoes",
+      "trustLine": "Conteudo apenas informativo. Em perigo imediato, ligue para 911."
+    },
+    "mission": {
+      "title": "Um espaco seguro com verdade, dignidade e apoio",
+      "body": "Nossa missao e acolher com empatia e oferecer informacao clara, recursos confiaveis e um caminho de esperanca."
+    },
+    "paths": {
+      "title": "Explore seus caminhos sem pressao",
+      "description": "Cada historia e diferente. Comece pelo caminho que melhor combina com sua situacao.",
+      "parenting": {
+        "title": "Maternidade",
+        "body": "Entenda desafios reais, programas de apoio e redes para criar seu filho.",
+        "cta": "Ver apoio para maternidade"
+      },
+      "adoption": {
+        "title": "Adocao",
+        "body": "Conheca opcoes de adocao e recursos profissionais com linguagem clara e respeitosa.",
+        "cta": "Conhecer adocao"
+      },
+      "options": {
+        "title": "Entender suas opcoes",
+        "body": "Veja conteudo que separa fatos biologicos, perspectivas eticas e crencas de fe.",
+        "cta": "Ver todas as opcoes"
+      }
+    },
+    "resources": {
+      "title": "Comece pelo apoio pratico",
+      "description": "Encontre servicos confiaveis que podem ajudar agora.",
+      "localHelp": {
+        "title": "Encontrar ajuda local",
+        "body": "Localize centros de apoio, recursos comunitarios e assistencia pratica.",
+        "cta": "Buscar ajuda perto de mim"
+      },
+      "hotlines": {
+        "title": "Crise e linhas de apoio",
+        "body": "Fale com parceiros confiaveis para apoio urgente emocional e de seguranca.",
+        "cta": "Ver linhas de apoio"
+      },
+      "support": {
+        "title": "Apoio emocional",
+        "body": "Acesse recursos de saude mental e acolhimento para momentos dificeis.",
+        "cta": "Explorar apoio emocional"
+      }
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Respostas rapidas quando voce precisa de clareza.",
+      "items": {
+        "q1": "Voces sao um servico medico?",
+        "q2": "Minhas informacoes ficam privadas?",
+        "q3": "Onde consigo ajuda imediata?"
+      },
+      "cta": "Ver todas as perguntas frequentes"
+    },
+    "finalCta": {
+      "title": "Estamos aqui quando voce estiver pronta",
+      "body": "Voce merece apoio, informacao clara e um proximo passo seguro.",
+      "cta": "Ir para apoio imediato"
+    }
+  },
+  "footer": {
+    "missionTitle": "Nossa missao",
+    "missionText": "Somos uma organizacao informativa nao comercial dedicada ao apoio compassivo, verdade e esperanca para cada vida.",
+    "quickLinksTitle": "Links rapidos",
+    "legalTitle": "Links legais",
+    "helpTitle": "Ajuda imediata",
+    "helpText": "Se voce estiver em perigo imediato, ligue para 911. Para crise emocional, ligue para 988.",
+    "disclaimer": "Este site oferece apenas conteudo informativo e de apoio. Nao fornece servicos medicos, legais, de saude mental ou emergencia.",
+    "copyright": "Copyright {{year}} Voices Bringing Hope to Life"
+  },
+  "legal": {
+    "privacy": "Politica de privacidade",
+    "terms": "Termos de uso",
+    "disclaimer": "Aviso geral",
+    "medical": "Aviso medico",
+    "crisis": "Aviso de crise",
+    "cookies": "Politica de cookies"
+  },
+  "states": {
+    "empty": {
+      "title": "Sem conteudo por enquanto",
+      "message": "Ainda nao ha dados disponiveis para mostrar nesta secao."
+    }
   },
   "a11y": {
     "skipToMainContent": "Ir para o conteudo principal",
     "siteHeader": "Cabecalho do site",
     "siteFooter": "Rodape do site",
     "mainContent": "Conteudo principal",
-    "routeUpdated": "Pagina atualizada"
+    "routeUpdated": "Pagina atualizada",
+    "mainNavigation": "Navegacao principal",
+    "mobileNavigation": "Navegacao mobile",
+    "quickLinks": "Links rapidos do rodape",
+    "legalLinks": "Links legais do rodape",
+    "brandHome": "Inicio de {{brand}}"
   },
   "help": {
     "immediate": "Ajuda imediata"
@@ -47,13 +155,25 @@
     }
   },
   "seo": {
+    "defaults": {
+      "title": "Apoio Compassivo e Recursos Confiaveis",
+      "description": "Orientacao acolhedora, apoio pratico e recursos confiaveis para mulheres em gravidez inesperada."
+    },
+    "home": {
+      "title": "Apoio Compassivo e Recursos Confiaveis",
+      "description": "Orientacao acolhedora, apoio pratico e recursos confiaveis para mulheres em gravidez inesperada."
+    },
     "notFound": {
-      "title": "Pagina nao encontrada | Software Solutions",
+      "title": "Pagina nao encontrada | Voices Bringing Hope to Life",
       "description": "A rota solicitada nao existe."
     },
     "serverError": {
-      "title": "Erro do servidor | Software Solutions",
+      "title": "Erro do servidor | Voices Bringing Hope to Life",
       "description": "Estamos trabalhando para restaurar o servico."
+    },
+    "stateShowcase": {
+      "title": "Estados UI | Voices Bringing Hope to Life",
+      "description": "Visualizacao interna para layouts de estados reutilizaveis."
     }
   },
   "actions": {
