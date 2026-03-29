@@ -1,5 +1,5 @@
 {
-  "name": "pro-life",
+  "name": "react-base-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -28,6 +28,7 @@
     "perf:budget": "node ./scripts/check-performance-budget.mjs",
     "preview": "vite preview",
     "seo:validate": "./scripts/validate-seo.sh",
+    "prerelease_check": "node ./scripts/prerelease_check.mjs",
     "release": "semantic-release",
     "release:dry-run": "semantic-release --dry-run",
     "prepare": "husky"
