@@ -174,10 +174,163 @@
     "stateShowcase": {
       "title": "Etats UI | Voices Bringing Hope to Life",
       "description": "Apercu interne des layouts de statut reutilisables."
+    },
+    "about": {
+      "title": "A Propos De Notre Mission | Voices Bringing Hope to Life",
+      "description": "Decouvrez notre mission, notre vision, nos valeurs et notre approche fondee sur la confiance."
+    },
+    "options": {
+      "title": "Comprendre Vos Options | Voices Bringing Hope to Life",
+      "description": "Explorez vos options avec une orientation compatissante, des categories claires et des ressources pratiques."
     }
   },
   "actions": {
     "switchToSpanish": "Passer en espagnol",
     "switchToEnglish": "Passer en anglais"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Notre vocation",
+      "title": "Compassion d abord. Clarte toujours.",
+      "description": "Voices Bringing Hope to Life accompagne les femmes dans les moments fragiles avec verite, douceur et soutien concret.",
+      "primaryCta": "Parler avec une conseillere",
+      "secondaryCta": "Contacter notre equipe"
+    },
+    "mission": {
+      "title": "Notre mission",
+      "body": "Offrir un accompagnement compatissant et pro-vie pour aider chaque femme a avancer avec dignite et information claire."
+    },
+    "vision": {
+      "title": "Notre vision",
+      "body": "Construire des communautes ou aucune femme ne se sent abandonnee en crise et ou chaque famille trouve une aide fiable."
+    },
+    "values": {
+      "title": "Des valeurs qui guident chaque echange",
+      "description": "Ces principes orientent notre facon d ecouter, de parler et de servir chaque personne.",
+      "items": {
+        "dignity": {
+          "title": "Dignite",
+          "body": "Chaque femme et chaque enfant possede une valeur inestimable."
+        },
+        "clarity": {
+          "title": "Clarte",
+          "body": "Nous donnons une information honnete, sans pression ni manipulation."
+        },
+        "compassion": {
+          "title": "Compassion",
+          "body": "Nous repondons avec empathie, patience et aide pratique."
+        },
+        "confidentiality": {
+          "title": "Confidentialite",
+          "body": "Nous protegeons les histoires sensibles avec respect et discretion."
+        }
+      }
+    },
+    "story": {
+      "title": "Pourquoi ce travail existe",
+      "bodyOne": "Face a une grossesse inattendue, beaucoup de femmes se sentent seules ou pressees. Nous proposons un espace plus calme et plus sur.",
+      "bodyTwo": "Notre equipe relie les femmes a des ressources utiles, une information fiable et un soutien humain pour avancer avec courage.",
+      "cta": "Explorer l aide locale"
+    },
+    "trust": {
+      "title": "Comment nous construisons la confiance",
+      "description": "La confiance se construit par la constance, la transparence et le soin dans chaque interaction.",
+      "items": {
+        "confidentialCare": {
+          "title": "Soutien confidentiel",
+          "body": "Chaque conversation est traitee avec discretion et respect des limites personnelles."
+        },
+        "practicalResources": {
+          "title": "Ressources pratiques",
+          "body": "Nous orientons vers lignes d aide, services locaux et soutien concret."
+        },
+        "transparentInformation": {
+          "title": "Information transparente",
+          "body": "Nous separons clairement faits, valeurs et croyances pour des choix eclaires."
+        }
+      }
+    },
+    "closing": {
+      "title": "Vous meritez une prochaine etape sereine",
+      "body": "Ou que vous en soyez, nous sommes la pour vous soutenir avec compassion et clarte.",
+      "cta": "Aller au soutien immediat"
+    }
+  },
+  "optionsPage": {
+    "hero": {
+      "eyebrow": "Comprendre vos options",
+      "title": "Vous meritez une information claire et un soutien compatissant.",
+      "description": "Cette page vous aide a examiner chaque parcours avec dignite, honnetete et douceur, sans pression.",
+      "primaryCta": "Parler avec une conseillere",
+      "secondaryCta": "Contacter notre equipe"
+    },
+    "orientation": {
+      "title": "Vous n etes pas seule dans ce moment",
+      "bodyOne": "La peur, l incertitude et la surcharge emotionnelle sont frequentes face a une grossesse inattendue.",
+      "bodyTwo": "Notre role est d offrir une orientation calme, des ressources concretes et une information fiable."
+    },
+    "pathways": {
+      "title": "Explorer chaque voie avec respect",
+      "description": "Chaque situation est unique. Examinez chaque voie avec clarte puis choisissez la prochaine etape.",
+      "items": {
+        "continuingPregnancy": {
+          "title": "Poursuivre la grossesse",
+          "body": "Decouvrez les soutiens, les etapes de preparation et les ressources utiles pendant la grossesse.",
+          "cta": "Decouvrir ce parcours",
+          "path": "/options/continuing-your-pregnancy"
+        },
+        "parenting": {
+          "title": "Parentalite",
+          "body": "Explorez des aides pratiques pour logement, finances, garde d enfant et soutien familial.",
+          "cta": "Explorer le soutien parental",
+          "path": "/options/parenting"
+        },
+        "adoption": {
+          "title": "Adoption",
+          "body": "Comprenez les options d adoption ouverte, fermee et semi-ouverte avec un cadre respectueux.",
+          "cta": "Comprendre les options d adoption",
+          "path": "/options/adoption"
+        },
+        "understandingAbortion": {
+          "title": "Comprendre l avortement",
+          "body": "Consultez contexte medical, ressentis emotionnels et perspectives ethiques avec prudence.",
+          "cta": "Voir l apercu educatif",
+          "path": "/options/understanding-abortion"
+        }
+      }
+    },
+    "framework": {
+      "title": "Comment nous presentons l information",
+      "description": "Pour proteger la confiance et reduire la confusion, nous separons clairement ces categories.",
+      "items": {
+        "biologicalFacts": {
+          "title": "Faits biologiques",
+          "body": "Les descriptions scientifiques et medicales sont presentees comme contexte factuel."
+        },
+        "ethicalPerspective": {
+          "title": "Perspective ethique",
+          "body": "Les arguments moraux sont identifies comme raisonnement ethique, pas comme conclusion medicale."
+        },
+        "faithBeliefs": {
+          "title": "Croyances de foi",
+          "body": "Les points de vue spirituels sont etiquetes comme perspectives fondees sur la foi."
+        }
+      }
+    },
+    "commitments": {
+      "title": "Nos engagements de securite et de respect",
+      "description": "Nous voulons etre un espace sur, non coercitif et transparent pour les femmes en decision difficile.",
+      "items": {
+        "nonJudgment": "Vous serez accueillie avec compassion, dignite et respect, jamais avec honte.",
+        "confidentiality": "Les histoires sensibles sont traitees avec confidentialite et discretion.",
+        "medicalNotice": "Ce contenu est educatif et ne remplace pas le suivi d un professionnel de sante habilite."
+      }
+    },
+    "closing": {
+      "title": "Si vous avez besoin d aide immediate, nous sommes la",
+      "body": "Vous pouvez avancer avec calme aujourd hui. Une aide existe et vous n etes pas seule.",
+      "primaryCta": "Acceder au soutien immediat",
+      "secondaryCta": "Lire les questions frequentes"
+    }
   }
 }

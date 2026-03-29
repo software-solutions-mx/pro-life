@@ -174,10 +174,163 @@
     "stateShowcase": {
       "title": "UI states | Voices Bringing Hope to Life",
       "description": "Internal preview for reusable state layouts."
+    },
+    "about": {
+      "title": "About Our Mission | Voices Bringing Hope to Life",
+      "description": "Learn about our mission, vision, values, and trust-centered approach to supporting women with compassion and clarity."
+    },
+    "options": {
+      "title": "Understanding Your Options | Voices Bringing Hope to Life",
+      "description": "Explore your options with compassionate guidance, clear distinctions, and practical support links for your next step."
     }
   },
   "actions": {
     "switchToSpanish": "Switch to Spanish",
     "switchToEnglish": "Switch to English"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Our calling",
+      "title": "Compassion first. Clarity always.",
+      "description": "Voices Bringing Hope to Life exists to walk with women in vulnerable moments with truth, tenderness, and practical next steps.",
+      "primaryCta": "Talk with a support guide",
+      "secondaryCta": "Contact our team"
+    },
+    "mission": {
+      "title": "Our mission",
+      "body": "We provide compassionate, life-affirming guidance that protects dignity and helps women make informed decisions with confidence."
+    },
+    "vision": {
+      "title": "Our vision",
+      "body": "We envision communities where no woman feels abandoned in crisis and every family can access trustworthy care, resources, and hope."
+    },
+    "values": {
+      "title": "The values that shape every conversation",
+      "description": "These principles guide how we listen, communicate, and serve every person who reaches out.",
+      "items": {
+        "dignity": {
+          "title": "Dignity",
+          "body": "Every woman and every child carries immeasurable worth."
+        },
+        "clarity": {
+          "title": "Clarity",
+          "body": "We provide honest information without pressure or manipulation."
+        },
+        "compassion": {
+          "title": "Compassion",
+          "body": "We respond with empathy, patience, and practical care."
+        },
+        "confidentiality": {
+          "title": "Confidentiality",
+          "body": "We treat sensitive stories with respect and privacy."
+        }
+      }
+    },
+    "story": {
+      "title": "Why this work exists",
+      "bodyOne": "Many women facing unexpected pregnancy feel isolated, rushed, or unheard. We were created to offer a calmer and safer alternative.",
+      "bodyTwo": "Our team connects women to practical help, reliable education, and caring support so each next step can be taken with courage.",
+      "cta": "Explore local support"
+    },
+    "trust": {
+      "title": "How we build trust",
+      "description": "Trust is earned through consistency, transparency, and care in every interaction.",
+      "items": {
+        "confidentialCare": {
+          "title": "Confidential support",
+          "body": "Conversations are handled with discretion and respect for personal boundaries."
+        },
+        "practicalResources": {
+          "title": "Practical resources",
+          "body": "We connect women with hotlines, local services, and real-world assistance."
+        },
+        "transparentInformation": {
+          "title": "Transparent information",
+          "body": "We distinguish facts, values, and beliefs clearly so decisions can stay informed."
+        }
+      }
+    },
+    "closing": {
+      "title": "You deserve a calm and caring next step",
+      "body": "Wherever you are in your journey, we are ready to support you with compassion and clear guidance.",
+      "cta": "Get immediate support"
+    }
+  },
+  "optionsPage": {
+    "hero": {
+      "eyebrow": "Understanding your options",
+      "title": "You deserve clear information and compassionate support.",
+      "description": "This page is designed to help you process each path with dignity, honesty, and care, without pressure.",
+      "primaryCta": "Talk with a support guide",
+      "secondaryCta": "Contact our team"
+    },
+    "orientation": {
+      "title": "You are not alone in this moment",
+      "bodyOne": "Fear, uncertainty, and emotional overload are common in unexpected pregnancy. You are not weak for feeling overwhelmed.",
+      "bodyTwo": "Our role is to offer calm orientation, practical resources, and trustworthy information so you can make informed decisions."
+    },
+    "pathways": {
+      "title": "Explore each path with respect",
+      "description": "Every situation is unique. Review each path with clarity, then choose the next step that fits your reality.",
+      "items": {
+        "continuingPregnancy": {
+          "title": "Continuing your pregnancy",
+          "body": "Learn what support systems, planning steps, and care resources can help during pregnancy.",
+          "cta": "Learn about this path",
+          "path": "/options/continuing-your-pregnancy"
+        },
+        "parenting": {
+          "title": "Parenting",
+          "body": "Explore practical help for housing, finances, childcare, and family support for parenting decisions.",
+          "cta": "Explore parenting support",
+          "path": "/options/parenting"
+        },
+        "adoption": {
+          "title": "Adoption",
+          "body": "Understand open, closed, and semi-open adoption pathways and how licensed agencies support them.",
+          "cta": "Understand adoption options",
+          "path": "/options/adoption"
+        },
+        "understandingAbortion": {
+          "title": "Understanding abortion",
+          "body": "Review medical context, emotional reports, and ethical perspectives with careful and respectful framing.",
+          "cta": "Review educational overview",
+          "path": "/options/understanding-abortion"
+        }
+      }
+    },
+    "framework": {
+      "title": "How we present information",
+      "description": "To protect trust and reduce confusion, we separate these categories clearly throughout our educational content.",
+      "items": {
+        "biologicalFacts": {
+          "title": "Biological facts",
+          "body": "Scientific and medical descriptions are presented as factual context from credible sources."
+        },
+        "ethicalPerspective": {
+          "title": "Ethical perspective",
+          "body": "Moral arguments are identified as ethical reasoning, not as medical conclusions."
+        },
+        "faithBeliefs": {
+          "title": "Faith-based beliefs",
+          "body": "Spiritual viewpoints are labeled as belief-based perspectives rooted in faith traditions."
+        }
+      }
+    },
+    "commitments": {
+      "title": "Our safety and respect commitments",
+      "description": "We aim to be a safe, non-coercive, and transparent place for women processing difficult decisions.",
+      "items": {
+        "nonJudgment": "You will be treated with compassion, dignity, and respect, never shame.",
+        "confidentiality": "Sensitive stories are handled with privacy and discretion.",
+        "medicalNotice": "This content is educational only and does not replace care from a licensed healthcare professional."
+      }
+    },
+    "closing": {
+      "title": "If you need immediate support, we are ready",
+      "body": "You can take one calm step today. Help is available, and you do not have to navigate this alone.",
+      "primaryCta": "Go to immediate support",
+      "secondaryCta": "Read common questions"
+    }
   }
 }

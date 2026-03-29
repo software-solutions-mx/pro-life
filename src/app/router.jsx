@@ -20,6 +20,14 @@ const sharedChildren = [
     element: withRouteSuspense(() => import('./pages/HomePage')),
   },
   {
+    path: 'about',
+    element: withRouteSuspense(() => import('./pages/AboutPage')),
+  },
+  {
+    path: 'options',
+    element: withRouteSuspense(() => import('./pages/OptionsPage')),
+  },
+  {
     path: 'ux-states',
     element: withRouteSuspense(() => import('./pages/StateShowcasePage')),
   },

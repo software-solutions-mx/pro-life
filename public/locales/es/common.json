@@ -174,10 +174,163 @@
     "stateShowcase": {
       "title": "Estados UI | Voices Bringing Hope to Life",
       "description": "Vista interna para layouts de estados reutilizables."
+    },
+    "about": {
+      "title": "Sobre Nuestra Mision | Voices Bringing Hope to Life",
+      "description": "Conoce nuestra mision, vision, valores y forma de acompanar con compasion y claridad."
+    },
+    "options": {
+      "title": "Comprende Tus Opciones | Voices Bringing Hope to Life",
+      "description": "Explora tus opciones con orientacion compasiva, categorias claras y recursos practicos para tu siguiente paso."
     }
   },
   "actions": {
     "switchToSpanish": "Cambiar a espanol",
     "switchToEnglish": "Cambiar a ingles"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Nuestra vocacion",
+      "title": "Compasion primero. Claridad siempre.",
+      "description": "Voices Bringing Hope to Life acompana a mujeres en momentos vulnerables con verdad, trato humano y pasos practicos.",
+      "primaryCta": "Hablar con una guia de apoyo",
+      "secondaryCta": "Contactar al equipo"
+    },
+    "mission": {
+      "title": "Nuestra mision",
+      "body": "Ofrecemos orientacion compasiva y a favor de la vida para que cada mujer pueda decidir con informacion clara y dignidad."
+    },
+    "vision": {
+      "title": "Nuestra vision",
+      "body": "Soñamos con comunidades donde ninguna mujer se sienta sola en crisis y cada familia tenga acceso a apoyo confiable."
+    },
+    "values": {
+      "title": "Valores que guian cada conversacion",
+      "description": "Estos principios orientan nuestra forma de escuchar, comunicar y servir a cada persona.",
+      "items": {
+        "dignity": {
+          "title": "Dignidad",
+          "body": "Cada mujer y cada bebe tienen un valor inmenso."
+        },
+        "clarity": {
+          "title": "Claridad",
+          "body": "Compartimos informacion honesta, sin presion ni manipulacion."
+        },
+        "compassion": {
+          "title": "Compasion",
+          "body": "Respondemos con empatia, paciencia y apoyo practico."
+        },
+        "confidentiality": {
+          "title": "Confidencialidad",
+          "body": "Tratamos cada historia con respeto y privacidad."
+        }
+      }
+    },
+    "story": {
+      "title": "Por que existe este trabajo",
+      "bodyOne": "Muchas mujeres ante un embarazo inesperado se sienten solas o presionadas. Nacimos para ofrecer una alternativa mas segura y serena.",
+      "bodyTwo": "Conectamos a cada mujer con ayuda practica, informacion confiable y acompanamiento para avanzar con esperanza.",
+      "cta": "Explorar apoyo local"
+    },
+    "trust": {
+      "title": "Como construimos confianza",
+      "description": "La confianza se gana con constancia, transparencia y cuidado en cada contacto.",
+      "items": {
+        "confidentialCare": {
+          "title": "Apoyo confidencial",
+          "body": "Cada conversacion se maneja con discrecion y respeto por tus limites."
+        },
+        "practicalResources": {
+          "title": "Recursos practicos",
+          "body": "Conectamos con lineas de ayuda, servicios locales y asistencia real."
+        },
+        "transparentInformation": {
+          "title": "Informacion transparente",
+          "body": "Separamos hechos, valores y creencias para decisiones bien informadas."
+        }
+      }
+    },
+    "closing": {
+      "title": "Mereces un siguiente paso seguro y en calma",
+      "body": "Donde sea que estes hoy, estamos listas para ayudarte con empatia y claridad.",
+      "cta": "Ir a apoyo inmediato"
+    }
+  },
+  "optionsPage": {
+    "hero": {
+      "eyebrow": "Comprende tus opciones",
+      "title": "Mereces informacion clara y acompanamiento compasivo.",
+      "description": "Esta pagina te ayuda a revisar cada camino con dignidad, honestidad y cuidado, sin presion.",
+      "primaryCta": "Hablar con una guia de apoyo",
+      "secondaryCta": "Contactar al equipo"
+    },
+    "orientation": {
+      "title": "No estas sola en este momento",
+      "bodyOne": "El miedo, la incertidumbre y la carga emocional son comunes ante un embarazo inesperado. No estas fallando por sentirte abrumada.",
+      "bodyTwo": "Nuestro rol es ofrecer orientacion en calma, recursos practicos e informacion confiable para que tomes decisiones informadas."
+    },
+    "pathways": {
+      "title": "Explora cada camino con respeto",
+      "description": "Cada situacion es unica. Revisa cada opcion con claridad y luego decide el siguiente paso que mejor se adapte a tu realidad.",
+      "items": {
+        "continuingPregnancy": {
+          "title": "Continuar con el embarazo",
+          "body": "Conoce apoyos, pasos de planeacion y recursos de cuidado utiles durante el embarazo.",
+          "cta": "Conocer este camino",
+          "path": "/options/continuing-your-pregnancy"
+        },
+        "parenting": {
+          "title": "Maternidad y crianza",
+          "body": "Explora ayuda practica para vivienda, finanzas, cuidado infantil y redes de apoyo.",
+          "cta": "Explorar apoyo para crianza",
+          "path": "/options/parenting"
+        },
+        "adoption": {
+          "title": "Adopcion",
+          "body": "Entiende opciones de adopcion abierta, cerrada y semiabierta con enfoque respetuoso.",
+          "cta": "Entender opciones de adopcion",
+          "path": "/options/adoption"
+        },
+        "understandingAbortion": {
+          "title": "Comprender el aborto",
+          "body": "Revisa contexto medico, reportes emocionales y perspectivas eticas con cuidado y respeto.",
+          "cta": "Revisar panorama educativo",
+          "path": "/options/understanding-abortion"
+        }
+      }
+    },
+    "framework": {
+      "title": "Como presentamos la informacion",
+      "description": "Para proteger la confianza y evitar confusion, separamos estas categorias de forma explicita.",
+      "items": {
+        "biologicalFacts": {
+          "title": "Hechos biologicos",
+          "body": "La informacion cientifica y medica se presenta como contexto factual de fuentes confiables."
+        },
+        "ethicalPerspective": {
+          "title": "Perspectiva etica",
+          "body": "Los argumentos morales se identifican como razonamiento etico, no como conclusion medica."
+        },
+        "faithBeliefs": {
+          "title": "Creencias de fe",
+          "body": "Las posturas espirituales se etiquetan como perspectivas de fe dentro de tradiciones religiosas."
+        }
+      }
+    },
+    "commitments": {
+      "title": "Compromisos de seguridad y respeto",
+      "description": "Queremos ser un espacio seguro, no coercitivo y transparente para mujeres en decisiones dificiles.",
+      "items": {
+        "nonJudgment": "Seras tratada con compasion, dignidad y respeto, nunca con verguenza.",
+        "confidentiality": "Las historias sensibles se manejan con privacidad y discrecion.",
+        "medicalNotice": "Este contenido es educativo y no reemplaza la atencion de un profesional de salud con licencia."
+      }
+    },
+    "closing": {
+      "title": "Si necesitas apoyo inmediato, estamos listas",
+      "body": "Puedes dar un paso en calma hoy. Hay ayuda disponible y no tienes que pasar por esto sola.",
+      "primaryCta": "Ir a apoyo inmediato",
+      "secondaryCta": "Leer preguntas frecuentes"
+    }
   }
 }
