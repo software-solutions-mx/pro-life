@@ -1,4 +1,4 @@
-# Pro-Life Frontend Base
+# React Base App
 
 Production-ready React + Vite baseline with:
 
