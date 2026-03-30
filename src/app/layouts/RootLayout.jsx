@@ -4,10 +4,12 @@ import { Navigate, Outlet, useLocation, useParams } from 'react-router-dom'
 import { trackPageView } from '../../analytics'
 import SEOHead from '../../components/SEO/SEOHead'
 import { HELP_PHONE_LABEL, HELP_PHONE_URI } from '../../config/env'
-import { organizationSchema, websiteSchema } from '../../data/schemas'
+import { createOrganizationSchema, createWebsiteSchema } from '../../data/schemas'
 import i18n from '../../i18n/config'
 import { DEFAULT_LOCALE, isSupportedLocale, normalizeLocale } from '../../i18n/locales'
 import { normalizePath, stripLocaleFromPath } from '../../seo/siteConfig'
+import SiteFooter from './components/SiteFooter'
+import SiteHeader from './components/SiteHeader'
 
 function RootLayout() {
   const { t } = useTranslation()
@@ -70,32 +72,34 @@ function RootLayout() {
 
   const routePath = stripLocaleFromPath(location.pathname)
   const canonicalPath = normalizePath(location.pathname)
+  const organizationName = t('brand.name')
+  const structuredSchemas = [
+    createOrganizationSchema(organizationName),
+    createWebsiteSchema(organizationName),
+  ]
 
   return (
-    <>
+    <div className="org-shell">
       <SEOHead
         locale={normalizedLocale}
         path={canonicalPath}
         alternatePath={routePath}
-        schema={[organizationSchema, websiteSchema]}
+        schema={structuredSchemas}
       />
       <a className="skip-link" href="#main-content">
         {t('a11y.skipToMainContent')}
       </a>
-      <header aria-label={t('a11y.siteHeader')}>
-        <span className="sr-only">{t('a11y.siteHeader')}</span>
-      </header>
+      <SiteHeader locale={normalizedLocale} />
       <main
         ref={mainContentRef}
         id="main-content"
         tabIndex={-1}
         aria-label={t('a11y.mainContent')}
+        className="org-main"
       >
         <Outlet />
       </main>
-      <footer aria-label={t('a11y.siteFooter')}>
-        <span className="sr-only">{t('a11y.siteFooter')}</span>
-      </footer>
+      <SiteFooter locale={normalizedLocale} />
       {HELP_PHONE_URI ? (
         <a className="mobile-help-bar" href={HELP_PHONE_URI}>
           <span className="mobile-help-bar-label">{t('help.immediate')}</span>
@@ -105,7 +109,7 @@ function RootLayout() {
       <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">
         {routeAnnouncement}
       </p>
-    </>
+    </div>
   )
 }
 

@@ -1,0 +1,130 @@
+{
+  "countries": [
+    {
+      "code": "US",
+      "name": "United States"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico"
+    },
+    {
+      "code": "FR",
+      "name": "France"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil"
+    }
+  ],
+  "resources": [
+    {
+      "id": "us-1",
+      "countryCode": "US",
+      "title": "Maternal Mental Health Hotline",
+      "description": "24/7 support for emotional health concerns during pregnancy and postpartum periods.",
+      "resourceType": "phone",
+      "resourceValue": "+1 833 943 5746",
+      "imageKey": "beams"
+    },
+    {
+      "id": "us-2",
+      "countryCode": "US",
+      "title": "Option Line National Guidance",
+      "description": "Confidential pregnancy support and local referral guidance for next-step planning.",
+      "resourceType": "url",
+      "resourceValue": "https://optionline.org",
+      "imageKey": "lake"
+    },
+    {
+      "id": "us-3",
+      "countryCode": "US",
+      "title": "Starlight Community Help Center",
+      "description": "In-person support center offering parenting classes, baby supplies, and advocacy referrals.",
+      "resourceType": "address",
+      "resourceValue": "314 Hope Avenue, Phoenix, AZ 85004",
+      "imageKey": "babyFace"
+    },
+    {
+      "id": "mx-1",
+      "countryCode": "MX",
+      "title": "Linea de la Vida",
+      "description": "National support line for emotional crises and urgent mental health orientation.",
+      "resourceType": "phone",
+      "resourceValue": "800 911 2000",
+      "imageKey": "clouds"
+    },
+    {
+      "id": "mx-2",
+      "countryCode": "MX",
+      "title": "VIFAC Guidance Network",
+      "description": "Pregnancy support accompaniment and practical aid connections in multiple cities.",
+      "resourceType": "url",
+      "resourceValue": "https://vifac.org",
+      "imageKey": "babyFeet"
+    },
+    {
+      "id": "mx-3",
+      "countryCode": "MX",
+      "title": "Centro Esperanza para la Mujer",
+      "description": "Community center with counseling, legal orientation referrals, and emergency support links.",
+      "resourceType": "address",
+      "resourceValue": "Calle Primavera 118, Guadalajara, Jalisco 44100",
+      "imageKey": "beams"
+    },
+    {
+      "id": "fr-1",
+      "countryCode": "FR",
+      "title": "Soutien Maternite 24h",
+      "description": "Telephone support for women navigating pregnancy stress, fear, or urgent uncertainty.",
+      "resourceType": "phone",
+      "resourceValue": "0 800 71 40 40",
+      "imageKey": "lake"
+    },
+    {
+      "id": "fr-2",
+      "countryCode": "FR",
+      "title": "Maman Blues",
+      "description": "Information and emotional support resources for pregnancy and postpartum challenges.",
+      "resourceType": "url",
+      "resourceValue": "https://www.maman-blues.fr",
+      "imageKey": "clouds"
+    },
+    {
+      "id": "fr-3",
+      "countryCode": "FR",
+      "title": "Maison Sainte Claire",
+      "description": "Local accompaniment center offering dignity-focused listening and practical referrals.",
+      "resourceType": "address",
+      "resourceValue": "22 Rue des Sources, Lyon 69002",
+      "imageKey": "babyFace"
+    },
+    {
+      "id": "br-1",
+      "countryCode": "BR",
+      "title": "Centro de Valorizacao da Vida",
+      "description": "Free emotional crisis support line available 24 hours for immediate conversation.",
+      "resourceType": "phone",
+      "resourceValue": "188",
+      "imageKey": "babyFeet"
+    },
+    {
+      "id": "br-2",
+      "countryCode": "BR",
+      "title": "Rede Pro Mulher Brasil",
+      "description": "Educational and practical support resources for pregnancy planning and safety pathways.",
+      "resourceType": "url",
+      "resourceValue": "https://promulherbrasil.org",
+      "imageKey": "beams"
+    },
+    {
+      "id": "br-3",
+      "countryCode": "BR",
+      "title": "Casa da Gestante Esperanca",
+      "description": "Regional support center connecting women with housing, legal aid referrals, and food support.",
+      "resourceType": "address",
+      "resourceValue": "Rua das Flores 240, Sao Paulo 01310-100",
+      "imageKey": "lake"
+    }
+  ]
+}

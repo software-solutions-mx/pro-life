@@ -1,12 +1,8 @@
 import { useEffect, useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { GSC_VERIFICATION_CODE } from '../../config/env'
-import { DEFAULT_LOCALE, getLocaleMeta } from '../../i18n/locales'
-import {
-  getAlternateLocaleUrls,
-  getSeoDefaults,
-  SITE_NAME,
-  toAbsoluteUrl,
-} from '../../seo/siteConfig'
+import { DEFAULT_LOCALE, getLocaleMeta, normalizeLocale } from '../../i18n/locales'
+import { getAlternateLocaleUrls, toAbsoluteUrl } from '../../seo/siteConfig'
 
 const SEO_KEY_ATTRIBUTE = 'data-seo-key'
 
@@ -87,11 +83,31 @@ function SEOHead({
   noindex = false,
   schema = [],
 }) {
+  const resolvedLocale = normalizeLocale(locale)
+  const { i18n } = useTranslation('common', { lng: resolvedLocale, useSuspense: false })
+  const hasResourceBundle = typeof i18n?.hasResourceBundle === 'function'
+  const hasResolvedLocaleCommon = hasResourceBundle
+    ? i18n.hasResourceBundle(resolvedLocale, 'common')
+    : true
+  const hasDefaultLocaleCommon = hasResourceBundle
+    ? i18n.hasResourceBundle(DEFAULT_LOCALE, 'common')
+    : true
+  const translationLocale = hasResolvedLocaleCommon
+    ? resolvedLocale
+    : hasDefaultLocaleCommon
+      ? DEFAULT_LOCALE
+      : null
+  const localeTranslator =
+    translationLocale && typeof i18n.getFixedT === 'function'
+      ? i18n.getFixedT(translationLocale, 'common')
+      : (_key, options) => options?.defaultValue ?? ''
   const localeMeta = getLocaleMeta(locale)
-  const localeDefaults = getSeoDefaults(locale)
-  const resolvedTitle = title ?? localeDefaults.title
-  const resolvedDescription = description ?? localeDefaults.description
-  const resolvedOgImage = ogImage ?? localeDefaults.ogImage
+  const siteName = localeTranslator('brand.name', { defaultValue: '' })
+  const resolvedTitle =
+    title ?? localeTranslator('seo.defaults.title', { defaultValue: siteName })
+  const resolvedDescription =
+    description ?? localeTranslator('seo.defaults.description', { defaultValue: '' })
+  const resolvedOgImage = ogImage ?? toAbsoluteUrl('/og/og-default.svg')
   const canonicalUrl = toAbsoluteUrl(canonical ?? path)
   const resolvedSchemas = useMemo(
     () => (Array.isArray(schema) ? schema : [schema]),
@@ -116,7 +132,7 @@ function SEOHead({
     })
 
     setMetaByProperty('og:type', ogType)
-    setMetaByProperty('og:site_name', SITE_NAME)
+    setMetaByProperty('og:site_name', siteName)
     setMetaByProperty('og:locale', localeMeta.ogLocale)
     setMetaByProperty('og:title', resolvedTitle)
     setMetaByProperty('og:description', resolvedDescription)
@@ -132,7 +148,7 @@ function SEOHead({
         setMetaByProperty('og:locale:alternate', link.ogLocale, link.locale)
       })
 
-    setMetaByName('twitter:card', localeDefaults.twitterCard)
+    setMetaByName('twitter:card', 'summary_large_image')
     setMetaByName('twitter:title', resolvedTitle)
     setMetaByName('twitter:description', resolvedDescription)
     setMetaByName('twitter:image', resolvedOgImage)
@@ -156,7 +172,6 @@ function SEOHead({
     canonicalUrl,
     googleSiteVerification,
     locale,
-    localeDefaults.twitterCard,
     localeMeta.htmlLang,
     localeMeta.ogLocale,
     noindex,
@@ -166,6 +181,7 @@ function SEOHead({
     resolvedSchemas,
     resolvedTitle,
     robotsContent,
+    siteName,
   ])
 
   return null

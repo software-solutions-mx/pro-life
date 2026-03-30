@@ -56,6 +56,9 @@ These rules are mandatory for all AI/code agents working in this repository:
 - Never ship user-facing hardcoded text in JSX/TS/JS components.
 - Always add user-facing copy to i18n JSON resources and render it with `t('...')`.
 - This includes: UI labels, empty states, loading states, error messages, retry/back actions, aria labels, and SEO titles/descriptions.
+- This also includes: constants used in metadata (`SITE_NAME`, schema names), default browser tab titles, Open Graph/Twitter text, structured-data text fields, and any string shown in header/footer/navigation.
+- Do not keep fallback marketing copy in `index.html` or in config constants. Fallback strings must come from i18n keys.
+- If a literal string can be read by a user, crawler, screen reader, social crawler, or browser UI, it must be i18n-managed.
 - The active language must default to the browser language (`navigator`) whenever available.
 - If browser language cannot be detected or is unsupported, fallback locale must be Spanish (`es`).
 - Do not rely on cookies/localStorage/query params for default locale selection.
@@ -763,6 +766,9 @@ A single `en.json` file loads everything upfront, kills performance, and couples
 
 **Hardcoding locale in Intl formatters.**
 Never write `new Intl.NumberFormat('en-US')`. Always pass the active locale from `useLocale()`. Hardcoded locales break for non-English users and are invisible during testing.
+
+**Hardcoding SEO/site identity constants.**
+Never hardcode site names, metadata defaults, schema names, or browser title fallbacks in JS/TS/HTML config files. Store these values in i18n resources and resolve them via locale-aware translation lookups.
 
 **Mismatching cookie names between React and Rails.**
 The `lookupCookie` in i18next detection must match the Rails cookie name exactly. A mismatch causes locale detection to fall back to `navigator` on every page load, ignoring any locale the user set via the Rails session.

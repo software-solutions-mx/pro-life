@@ -42,8 +42,11 @@ i18n
     },
 
     detection: {
-      order: ['navigator', 'htmlTag'],
-      caches: [],
+      order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
+      lookupQuerystring: 'lng',
+      lookupCookie: 'locale',
+      lookupLocalStorage: 'i18n_lang',
+      caches: ['localStorage', 'cookie'],
     },
 
     react: {

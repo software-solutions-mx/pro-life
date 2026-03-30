@@ -1,4 +1,5 @@
-import { API_BASE_URL } from '../../config/env'
+import { API_BASE_URL, API_CLIENT_ID, API_CLIENT_SECRET } from '../../config/env'
+import { DEFAULT_LOCALE, isSupportedLocale, normalizeLocale } from '../../i18n/locales'
 
 export class ApiError extends Error {
   constructor(message, { status, url, data }) {
@@ -54,6 +55,16 @@ async function parseResponse(response) {
   return null
 }
 
+function getRequestLocale() {
+  if (typeof document === 'undefined') {
+    return DEFAULT_LOCALE
+  }
+
+  const htmlLang = document.documentElement.lang?.trim()
+  const normalizedLocale = normalizeLocale(htmlLang)
+  return isSupportedLocale(normalizedLocale) ? normalizedLocale : DEFAULT_LOCALE
+}
+
 async function request(path, options = {}) {
   const {
     method = 'GET',
@@ -74,9 +85,14 @@ async function request(path, options = {}) {
     validatedBody !== undefined &&
     validatedBody !== null &&
     !(validatedBody instanceof FormData)
+  const requestLocale = getRequestLocale()
   const requestHeaders = {
     Accept: 'application/json',
+    'Accept-Language': requestLocale,
+    'X-Locale': requestLocale,
     'X-Requested-With': 'XMLHttpRequest',
+    'X-Client-Id': API_CLIENT_ID,
+    'X-Client-Secret': API_CLIENT_SECRET,
     ...headers,
     ...(isJsonBody ? { 'Content-Type': 'application/json' } : {}),
   }

@@ -1,17 +1,129 @@
 {
   "brand": {
-    "name": "Software Solutions"
+    "name": "Voices Bringing Hope to Life",
+    "mark": "VB",
+    "shortName": "Voices of Hope",
+    "tagline": "Parce que chaque vie merite une voix"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "A propos",
+    "options": "Options",
+    "resources": "Ressources",
+    "stories": "Histoires",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "getHelpNow": "Aide immediate",
+    "callNow": "Appeler {{phone}}",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "countryLabel": "Pays",
+    "languageLabel": "Langue",
+    "countryTooltip": "Les ressources et les informations changent selon le pays selectionne.",
+    "languageTooltip": "Choisissez votre langue sans modifier le pays."
   },
   "home": {
-    "title": "Bienvenue",
-    "message": "Ceci est une page de test i18n de base."
+    "hero": {
+      "eyebrow": "Soutien compatissant",
+      "title": "Vous n'etes pas seule. L'espoir et l'aide sont ici.",
+      "description": "Nous offrons une orientation claire et un soutien pratique pour les femmes face a une grossesse inattendue.",
+      "primaryCta": "J'ai besoin d'aide maintenant",
+      "secondaryCta": "Comprendre mes options",
+      "trustLine": "Contenu informatif uniquement. En danger immediat, appelez le 911."
+    },
+    "mission": {
+      "title": "Un espace sur avec verite, dignite et soutien",
+      "body": "Notre mission est d'accueillir avec empathie, puis de proposer des informations claires et des ressources fiables."
+    },
+    "paths": {
+      "title": "Explorez vos chemins sans pression",
+      "description": "Chaque histoire est differente. Commencez par le chemin qui vous correspond.",
+      "parenting": {
+        "title": "Parentalite",
+        "body": "Decouvrez les realites, les programmes et les reseaux de soutien pour elever un enfant.",
+        "cta": "Voir le soutien parental"
+      },
+      "adoption": {
+        "title": "Adoption",
+        "body": "Comprenez les options d'adoption et les ressources professionnelles dans un langage respectueux.",
+        "cta": "Comprendre l'adoption"
+      },
+      "options": {
+        "title": "Comprendre vos options",
+        "body": "Consultez un contenu qui distingue faits biologiques, perspectives ethiques et convictions de foi.",
+        "cta": "Voir toutes les options"
+      }
+    },
+    "resources": {
+      "title": "Commencez par un soutien pratique",
+      "description": "Trouvez des services fiables qui peuvent aider maintenant.",
+      "localHelp": {
+        "title": "Trouver de l'aide locale",
+        "body": "Localisez des centres de soutien, des ressources communautaires et une aide concrete.",
+        "cta": "Trouver une aide proche"
+      },
+      "hotlines": {
+        "title": "Crise et lignes d'aide",
+        "body": "Contactez des lignes partenaires pour un soutien urgent emotionnel et de securite.",
+        "cta": "Voir les lignes d'aide"
+      },
+      "support": {
+        "title": "Soutien emotionnel",
+        "body": "Accedez a des ressources de sante mentale et de guerison pour les moments difficiles.",
+        "cta": "Explorer le soutien emotionnel"
+      }
+    },
+    "faq": {
+      "title": "Questions frequentes",
+      "description": "Des reponses rapides lorsque vous avez besoin de clarte.",
+      "items": {
+        "q1": "Etes-vous un service medical?",
+        "q2": "Mes informations restent-elles privees?",
+        "q3": "Ou obtenir une aide immediate?"
+      },
+      "cta": "Voir toutes les questions frequentes"
+    },
+    "finalCta": {
+      "title": "Nous sommes ici quand vous serez prete",
+      "body": "Vous meritez du soutien, une information claire et une prochaine etape sure.",
+      "cta": "Aller au soutien immediat"
+    }
+  },
+  "footer": {
+    "missionTitle": "Notre mission",
+    "missionText": "Nous sommes une organisation informative non commerciale dediee a la compassion, la verite et l'espoir pour chaque vie.",
+    "quickLinksTitle": "Liens rapides",
+    "legalTitle": "Liens legaux",
+    "helpTitle": "Aide immediate",
+    "helpText": "Si vous etes en danger immediat, appelez le 911. Pour une crise emotionnelle, appelez le 988.",
+    "disclaimer": "Ce site fournit uniquement du contenu informatif et de soutien. Aucun service medical, legal, psychologique ou d'urgence.",
+    "copyright": "Copyright {{year}} Voices Bringing Hope to Life"
+  },
+  "legal": {
+    "privacy": "Politique de confidentialite",
+    "terms": "Conditions d'utilisation",
+    "disclaimer": "Avertissement general",
+    "medical": "Avertissement medical",
+    "crisis": "Avertissement de crise",
+    "cookies": "Politique de cookies"
+  },
+  "states": {
+    "empty": {
+      "title": "Aucun contenu pour le moment",
+      "message": "Aucune donnee disponible pour cette section actuellement."
+    }
   },
   "a11y": {
     "skipToMainContent": "Aller au contenu principal",
     "siteHeader": "En-tete du site",
     "siteFooter": "Pied de page du site",
     "mainContent": "Contenu principal",
-    "routeUpdated": "Page mise a jour"
+    "routeUpdated": "Page mise a jour",
+    "mainNavigation": "Navigation principale",
+    "mobileNavigation": "Navigation mobile",
+    "quickLinks": "Liens rapides du pied de page",
+    "legalLinks": "Liens legaux du pied de page",
+    "brandHome": "Accueil de {{brand}}"
   },
   "help": {
     "immediate": "Aide immediate"
@@ -47,17 +159,705 @@
     }
   },
   "seo": {
+    "defaults": {
+      "title": "Soutien Compatissant et Ressources Fiables",
+      "description": "Orientation bienveillante, soutien pratique et ressources fiables pour les grossesses inattendues."
+    },
+    "home": {
+      "title": "Soutien Compatissant et Ressources Fiables",
+      "description": "Orientation bienveillante, soutien pratique et ressources fiables pour les grossesses inattendues."
+    },
     "notFound": {
-      "title": "Page introuvable | Software Solutions",
+      "title": "Page introuvable | Voices Bringing Hope to Life",
       "description": "La route demandee n'existe pas."
     },
     "serverError": {
-      "title": "Erreur serveur | Software Solutions",
+      "title": "Erreur serveur | Voices Bringing Hope to Life",
       "description": "Nous travaillons a retablir le service."
+    },
+    "stateShowcase": {
+      "title": "Etats UI | Voices Bringing Hope to Life",
+      "description": "Apercu interne des layouts de statut reutilisables."
+    },
+    "about": {
+      "title": "A Propos De Notre Mission | Voices Bringing Hope to Life",
+      "description": "Decouvrez notre mission, notre vision, nos valeurs et notre approche fondee sur la confiance."
+    },
+    "options": {
+      "title": "Comprendre Vos Options | Voices Bringing Hope to Life",
+      "description": "Explorez vos options avec une orientation compatissante, des categories claires et des ressources pratiques."
+    },
+    "resources": {
+      "title": "Ressources Locales par Pays | Voices Bringing Hope to Life",
+      "description": "Selectionnez votre pays et consultez des ressources pratiques avec telephone, web et centres locaux."
+    },
+    "stories": {
+      "title": "Histoires d Espoir par Pays | Voices Bringing Hope to Life",
+      "description": "Selectionnez un pays et consultez des histoires en galerie avec titre et auteure."
+    },
+    "faq": {
+      "title": "Questions Frequentes | Voices Bringing Hope to Life",
+      "description": "Recherchez et filtrez les questions pour trouver rapidement une orientation pratique et un prochain pas sur."
+    },
+    "contact": {
+      "title": "Contact et Soutien | Voices Bringing Hope to Life",
+      "description": "Envoyez un message pour obtenir une orientation bienveillante, des ressources pratiques et un prochain pas sur."
+    },
+    "storyDetail": {
+      "title": "{{title}} | {{brand}}",
+      "description": "Lisez l histoire complete \"{{title}}\" de {{author}} en {{country}}."
+    },
+    "legalPages": {
+      "privacy": {
+        "title": "Politique de confidentialite | Voices Bringing Hope to Life",
+        "description": "Comprenez comment les informations personnelles sont collectees, utilisees et protegees."
+      },
+      "terms": {
+        "title": "Conditions d'utilisation | Voices Bringing Hope to Life",
+        "description": "Consultez les regles qui encadrent l usage du site et de son contenu."
+      },
+      "disclaimer": {
+        "title": "Avertissement general | Voices Bringing Hope to Life",
+        "description": "Decouvrez la portee informative et les limites du contenu publie."
+      },
+      "medical": {
+        "title": "Avertissement medical | Voices Bringing Hope to Life",
+        "description": "Consultez les limites medicales du contenu de soutien du site."
+      },
+      "crisis": {
+        "title": "Avertissement de crise | Voices Bringing Hope to Life",
+        "description": "Consultez les consignes d urgence et d escalade en situation critique."
+      },
+      "cookies": {
+        "title": "Politique de cookies | Voices Bringing Hope to Life",
+        "description": "Decouvrez comment les cookies sont utilises sur ce site."
+      }
+    },
+    "resourceTopics": {
+      "hotlines": {
+        "title": "Aide immediate et hotlines | Voices Bringing Hope to Life",
+        "description": "Ressources d urgence et hotlines selon le pays selectionne."
+      },
+      "findLocalHelp": {
+        "title": "Trouver une aide locale | Voices Bringing Hope to Life",
+        "description": "Centres locaux et adresses de soutien pratique par pays."
+      },
+      "emotionalSupport": {
+        "title": "Ressources de soutien emotionnel | Voices Bringing Hope to Life",
+        "description": "Organisations de soutien emotionnel et ressources de confiance par pays."
+      }
     }
   },
   "actions": {
     "switchToSpanish": "Passer en espagnol",
     "switchToEnglish": "Passer en anglais"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Notre vocation",
+      "title": "Compassion d abord. Clarte toujours.",
+      "description": "Voices Bringing Hope to Life accompagne les femmes dans les moments fragiles avec verite, douceur et soutien concret.",
+      "primaryCta": "Parler avec une conseillere",
+      "secondaryCta": "Contacter notre equipe"
+    },
+    "mission": {
+      "title": "Notre mission",
+      "body": "Offrir un accompagnement compatissant et pro-vie pour aider chaque femme a avancer avec dignite et information claire."
+    },
+    "vision": {
+      "title": "Notre vision",
+      "body": "Construire des communautes ou aucune femme ne se sent abandonnee en crise et ou chaque famille trouve une aide fiable."
+    },
+    "values": {
+      "title": "Des valeurs qui guident chaque echange",
+      "description": "Ces principes orientent notre facon d ecouter, de parler et de servir chaque personne.",
+      "items": {
+        "dignity": {
+          "title": "Dignite",
+          "body": "Chaque femme et chaque enfant possede une valeur inestimable."
+        },
+        "clarity": {
+          "title": "Clarte",
+          "body": "Nous donnons une information honnete, sans pression ni manipulation."
+        },
+        "compassion": {
+          "title": "Compassion",
+          "body": "Nous repondons avec empathie, patience et aide pratique."
+        },
+        "confidentiality": {
+          "title": "Confidentialite",
+          "body": "Nous protegeons les histoires sensibles avec respect et discretion."
+        }
+      }
+    },
+    "story": {
+      "title": "Pourquoi ce travail existe",
+      "bodyOne": "Face a une grossesse inattendue, beaucoup de femmes se sentent seules ou pressees. Nous proposons un espace plus calme et plus sur.",
+      "bodyTwo": "Notre equipe relie les femmes a des ressources utiles, une information fiable et un soutien humain pour avancer avec courage.",
+      "cta": "Explorer l aide locale"
+    },
+    "trust": {
+      "title": "Comment nous construisons la confiance",
+      "description": "La confiance se construit par la constance, la transparence et le soin dans chaque interaction.",
+      "items": {
+        "confidentialCare": {
+          "title": "Soutien confidentiel",
+          "body": "Chaque conversation est traitee avec discretion et respect des limites personnelles."
+        },
+        "practicalResources": {
+          "title": "Ressources pratiques",
+          "body": "Nous orientons vers lignes d aide, services locaux et soutien concret."
+        },
+        "transparentInformation": {
+          "title": "Information transparente",
+          "body": "Nous separons clairement faits, valeurs et croyances pour des choix eclaires."
+        }
+      }
+    },
+    "closing": {
+      "title": "Vous meritez une prochaine etape sereine",
+      "body": "Ou que vous en soyez, nous sommes la pour vous soutenir avec compassion et clarte.",
+      "cta": "Aller au soutien immediat"
+    }
+  },
+  "optionsPage": {
+    "hero": {
+      "eyebrow": "Comprendre vos options",
+      "title": "Vous meritez une information claire et un soutien compatissant.",
+      "description": "Cette page vous aide a examiner chaque parcours avec dignite, honnetete et douceur, sans pression.",
+      "primaryCta": "Parler avec une conseillere",
+      "secondaryCta": "Contacter notre equipe"
+    },
+    "orientation": {
+      "title": "Vous n etes pas seule dans ce moment",
+      "bodyOne": "La peur, l incertitude et la surcharge emotionnelle sont frequentes face a une grossesse inattendue.",
+      "bodyTwo": "Notre role est d offrir une orientation calme, des ressources concretes et une information fiable."
+    },
+    "pathways": {
+      "title": "Explorer chaque voie avec respect",
+      "description": "Chaque situation est unique. Examinez chaque voie avec clarte pour {{country}}, puis choisissez la prochaine etape.",
+      "items": {
+        "continuingPregnancy": {
+          "title": "Poursuivre la grossesse",
+          "body": "Decouvrez les soutiens, les etapes de preparation et les ressources utiles pendant la grossesse.",
+          "cta": "Decouvrir ce parcours",
+          "path": "/options/continuing-your-pregnancy"
+        },
+        "parenting": {
+          "title": "Parentalite",
+          "body": "Explorez des aides pratiques pour logement, finances, garde d enfant et soutien familial.",
+          "cta": "Explorer le soutien parental",
+          "path": "/options/parenting"
+        },
+        "adoption": {
+          "title": "Adoption",
+          "body": "Comprenez les options d adoption ouverte, fermee et semi-ouverte avec un cadre respectueux.",
+          "cta": "Comprendre les options d adoption",
+          "path": "/options/adoption"
+        },
+        "understandingAbortion": {
+          "title": "Comprendre l avortement",
+          "body": "Consultez contexte medical, ressentis emotionnels et perspectives ethiques avec prudence.",
+          "cta": "Voir l apercu educatif",
+          "path": "/options/understanding-abortion"
+        }
+      }
+    },
+    "framework": {
+      "title": "Comment nous presentons l information",
+      "description": "Pour proteger la confiance et reduire la confusion, nous separons clairement ces categories.",
+      "items": {
+        "biologicalFacts": {
+          "title": "Faits biologiques",
+          "body": "Les descriptions scientifiques et medicales sont presentees comme contexte factuel."
+        },
+        "ethicalPerspective": {
+          "title": "Perspective ethique",
+          "body": "Les arguments moraux sont identifies comme raisonnement ethique, pas comme conclusion medicale."
+        },
+        "faithBeliefs": {
+          "title": "Croyances de foi",
+          "body": "Les points de vue spirituels sont etiquetes comme perspectives fondees sur la foi."
+        }
+      }
+    },
+    "commitments": {
+      "title": "Nos engagements de securite et de respect",
+      "description": "Nous voulons etre un espace sur, non coercitif et transparent pour les femmes en decision difficile.",
+      "items": {
+        "nonJudgment": "Vous serez accueillie avec compassion, dignite et respect, jamais avec honte.",
+        "confidentiality": "Les histoires sensibles sont traitees avec confidentialite et discretion.",
+        "medicalNotice": "Ce contenu est educatif et ne remplace pas le suivi d un professionnel de sante habilite."
+      }
+    },
+    "closing": {
+      "title": "Si vous avez besoin d aide immediate, nous sommes la",
+      "body": "Vous pouvez avancer avec calme aujourd hui. Une aide existe et vous n etes pas seule.",
+      "primaryCta": "Acceder au soutien immediat",
+      "secondaryCta": "Lire les questions frequentes"
+    },
+    "countrySummary": "Informations affichees pour {{country}}",
+    "countryLoadingLegend": "Chargement des informations d options pour {{country}}."
+  },
+  "resourcesPage": {
+    "hero": {
+      "eyebrow": "Ressources pratiques",
+      "title": "Trouvez des ressources de soutien par pays",
+      "description": "Choisissez votre pays pour voir des contacts de soutien fiables et des ressources concretes.",
+      "primaryCta": "Acceder au soutien de crise",
+      "secondaryCta": "Contacter notre equipe"
+    },
+    "selector": {
+      "label": "Selectionner le pays",
+      "helper": "La liste utilise votre region probable a partir des parametres de langue du navigateur."
+    },
+    "gallery": {
+      "title": "Ressources en {{country}}",
+      "description": "Chaque ligne contient une ressource avec details, type et action rapide."
+    },
+    "types": {
+      "phone": "Soutien telephonique",
+      "url": "Site web",
+      "address": "Centre de soutien"
+    },
+    "actions": {
+      "callNow": "Appeler maintenant",
+      "visitWebsite": "Visiter le site",
+      "openMap": "Ouvrir la carte"
+    },
+    "empty": "Aucune ressource disponible pour ce pays pour le moment.",
+    "closing": {
+      "title": "Besoin d aide immediate?",
+      "body": "Si la situation est urgente, accedez directement aux ressources d urgence et hotlines.",
+      "cta": "Ouvrir le soutien immediat"
+    },
+    "countrySummary": "Ressources affichees pour {{country}}",
+    "countryLoadingLegend": "Chargement des ressources pour {{country}}."
+  },
+  "storiesPage": {
+    "hero": {
+      "eyebrow": "Histoires d espoir",
+      "title": "Lisez des histoires de femmes et de familles",
+      "description": "Choisissez un pays pour parcourir des histoires de courage, de soutien et de reconstruction.",
+      "primaryCta": "Obtenir un soutien immediat",
+      "secondaryCta": "Partager mon histoire"
+    },
+    "selector": {
+      "label": "Selectionner le pays",
+      "helper": "Les histoires sont filtrees par pays avec une region par defaut probable."
+    },
+    "gallery": {
+      "title": "Histoires en {{country}}",
+      "description": "Vue galerie avec image, titre de l histoire et nom de l auteure.",
+      "readStoryCta": "Lire l histoire complete"
+    },
+    "empty": "Aucune histoire disponible pour ce pays pour le moment.",
+    "countrySummary": "Histoires affichees pour {{country}}",
+    "submit": {
+      "title": "Partagez votre histoire de facon sure et guidee",
+      "description": "Votre histoire peut encourager une autre femme. Chaque envoi est revise avant publication.",
+      "countryNote": "Contexte de soumission: {{country}}",
+      "status": {
+        "success": "Merci d avoir partage votre histoire. Notre equipe editoriale la reverra avec soin avant publication.",
+        "error": "Nous ne pouvons pas envoyer votre histoire pour le moment. Veuillez reessayer bientot."
+      },
+      "form": {
+        "fields": {
+          "title": {
+            "label": "Titre de l histoire"
+          },
+          "authorName": {
+            "label": "Votre nom ou pseudonyme"
+          },
+          "email": {
+            "label": "E-mail de suivi (optionnel)"
+          },
+          "publicationPreference": {
+            "label": "Comment afficher votre nom ?"
+          },
+          "storyBody": {
+            "label": "Votre histoire"
+          },
+          "allowFollowUp": {
+            "label": "J autorise l equipe a me contacter pour des clarifications si necessaire."
+          },
+          "consentAccepted": {
+            "label": "Je confirme que cette histoire est la mienne, soumise volontairement, et peut etre publiee integralement ou editee selon les regles du site."
+          }
+        },
+        "publicationOptions": {
+          "anonymous": "Publier anonymement",
+          "firstName": "Utiliser le prenom",
+          "initials": "Utiliser seulement les initiales"
+        },
+        "characterCount": "{{count}} caracteres",
+        "errors": {
+          "title": "Veuillez saisir un titre d au moins 6 caracteres.",
+          "authorName": "Veuillez saisir un nom ou pseudonyme (au moins 2 caracteres).",
+          "email": "Veuillez saisir une adresse e-mail valide.",
+          "storyBody": "Veuillez ecrire au moins 120 caracteres pour donner du contexte.",
+          "consentAccepted": "Vous devez accepter le consentement avant envoi."
+        },
+        "disclaimer": "Les histoires personnelles sont des experiences individuelles et ne constituent pas un avis medical, legal ou psychologique. Nous pouvons modifier des details d identification pour proteger la confidentialite et refuser des soumissions selon les normes editoriales.",
+        "submit": {
+          "idle": "Envoyer mon histoire",
+          "pending": "Envoi de l histoire..."
+        }
+      },
+      "preview": {
+        "eyebrow": "Apercu en direct",
+        "titleFallback": "Le titre de votre histoire apparaitra ici",
+        "bodyFallback": "Pendant que vous ecrivez, cette carte montre comment votre histoire peut apparaitre apres revision editoriale et protection de la confidentialite.",
+        "authorAnonymous": "Anonyme",
+        "authorFallback": "Votre nom",
+        "initialsFallback": "A.",
+        "meta": "Pays: {{country}} | Affichage: {{publication}}"
+      }
+    },
+    "detail": {
+      "eyebrow": "Histoire complete",
+      "backToStories": "Retour aux histoires",
+      "bodyTitle": "Histoire complete",
+      "meta": {
+        "authorLabel": "Autrice",
+        "countryLabel": "Pays",
+        "publishedLabel": "Publication",
+        "readTimeLabel": "Temps de lecture",
+        "readTimeValue": "{{count}} min de lecture"
+      },
+      "relatedActions": {
+        "title": "Besoin de soutien apres la lecture ?",
+        "resources": "Ouvrir le soutien immediat",
+        "contact": "Contacter notre equipe",
+        "allStories": "Voir toutes les histoires"
+      }
+    }
+  },
+  "countries": {
+    "US": "Etats-Unis",
+    "MX": "Mexique",
+    "FR": "France",
+    "BR": "Bresil"
+  },
+  "faqPage": {
+    "hero": {
+      "eyebrow": "Espace clarte",
+      "title": "Trouvez des reponses rapidement avec des questions guidees",
+      "description": "Utilisez des filtres, choisissez une carte question et ouvrez une reponse ciblee avec des actions utiles."
+    },
+    "search": {
+      "label": "Rechercher des questions",
+      "placeholder": "Tapez confidentialite, hotline, adoption, soutien ou securite",
+      "surprise": "Question surprise"
+    },
+    "filters": {
+      "label": "Filtrer par theme"
+    },
+    "categories": {
+      "all": "Tous les themes",
+      "urgent": "Soutien urgent",
+      "privacy": "Confidentialite",
+      "options": "Options",
+      "practical": "Aide pratique",
+      "emotional": "Soutien emotionnel"
+    },
+    "metrics": {
+      "questionsLabel": "Resultats",
+      "questionsValue": "{{count}} question(s)",
+      "countryLabel": "Contexte pays",
+      "countryValue": "Guidance pour {{country}}"
+    },
+    "questionRail": {
+      "title": "Flux de questions",
+      "description": "Selectionnez une carte pour charger une reponse ciblee."
+    },
+    "answer": {
+      "eyebrow": "Reponse ciblee",
+      "note": "Guidance informative uniquement. En danger immediat, contactez les services d urgence locaux.",
+      "actionsTitle": "Prochaines etapes sures",
+      "actions": {
+        "hotlines": "Ouvrir le soutien immediat",
+        "resources": "Voir toutes les ressources",
+        "contact": "Parler avec notre equipe"
+      }
+    },
+    "empty": {
+      "title": "Aucune question ne correspond",
+      "description": "Essayez un autre mot-cle ou reinitialisez les filtres.",
+      "reset": "Reinitialiser les filtres"
+    },
+    "items": {
+      "immediateSupport": {
+        "question": "Ou puis-je obtenir un soutien immediat maintenant?",
+        "answer": "Si la situation est urgente, allez vers les ressources de crise et hotlines pour une aide immediate et une orientation locale.",
+        "keywords": "urgent hotline urgence danger immediat securite"
+      },
+      "medicalProvider": {
+        "question": "Etes-vous un service medical agree?",
+        "answer": "Nous proposons un soutien informatif. Nous ne remplacons pas un diagnostic ou un traitement medical professionnel.",
+        "keywords": "medical agree clinique diagnostic traitement"
+      },
+      "privacyConfidentiality": {
+        "question": "Mes informations sont-elles privees et confidentielles?",
+        "answer": "Nous traitons les histoires personnelles avec discretion. Partagez seulement ce qui vous semble confortable.",
+        "keywords": "prive confidentialite donnees informations personnelles"
+      },
+      "localHelp": {
+        "question": "Comment trouver des centres d aide proches?",
+        "answer": "Ouvrez la page ressources pour consulter des repertoires par pays avec centres et organisations fiables.",
+        "keywords": "aide locale centre proche ressources carte"
+      },
+      "financialSupport": {
+        "question": "Existe-t-il une aide financiere ou materielle?",
+        "answer": "Plusieurs programmes proposent nourriture, logement, articles bebe, transport et accompagnement pratique.",
+        "keywords": "financiere logement nourriture transport bebe"
+      },
+      "adoptionBasics": {
+        "question": "Par ou commencer pour explorer l adoption?",
+        "answer": "Commencez par la section options pour voir les parcours d adoption, le cadre legal et les questions utiles.",
+        "keywords": "adoption processus legal agence options"
+      },
+      "parentingSupport": {
+        "question": "Quel soutien existe si je choisis la parentalite?",
+        "answer": "Vous pouvez acceder a des reseaux communautaires, une planification pratique et un soutien emotionnel.",
+        "keywords": "parentalite soutien famille communaute planification"
+      },
+      "emotionalSupport": {
+        "question": "Comment obtenir un soutien emotionnel sans pression?",
+        "answer": "Vous pouvez parler avec des accompagnants bienveillants et des ressources qui respectent votre dignite.",
+        "keywords": "emotionnel soutien sans pression compassion"
+      },
+      "partnerConversation": {
+        "question": "Comment parler avec mon partenaire ou ma famille?",
+        "answer": "Definissez des limites claires, choisissez des personnes de confiance et utilisez des questions guidees.",
+        "keywords": "partenaire famille conversation limites confiance"
+      },
+      "afterAbortionCare": {
+        "question": "Existe-t-il un soutien apres un avortement passe?",
+        "answer": "Oui. Des parcours de guerison existent avec counseling, accompagnement spirituel et groupes de soutien.",
+        "keywords": "apres avortement guerison recuperation deuil counseling"
+      }
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Canal de communication sur",
+      "title": "Nous sommes la. Ecrivez-nous a tout moment.",
+      "description": "Partagez votre situation et notre equipe repondra avec soin, clarte et prochaines etapes pratiques.",
+      "countryLegend": "Les messages seront orientes pour {{country}}.",
+      "primaryCta": "J ai besoin d aide immediate",
+      "secondaryCta": "Voir les ressources"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "description": "Ce formulaire nous aide a orienter votre demande vers la bonne equipe avec une approche bienveillante.",
+      "fields": {
+        "name": {
+          "label": "Nom complet"
+        },
+        "email": {
+          "label": "Adresse e-mail"
+        },
+        "phone": {
+          "label": "Telephone (optionnel)"
+        },
+        "reason": {
+          "label": "Raison du contact"
+        },
+        "message": {
+          "label": "Message"
+        }
+      },
+      "reasons": {
+        "help": "J ai besoin d aide",
+        "general": "Question generale",
+        "media": "Demande media",
+        "partner": "Organisation partenaire"
+      },
+      "errors": {
+        "name": "Veuillez saisir votre nom (au moins 2 caracteres).",
+        "email": "Veuillez saisir une adresse e-mail valide.",
+        "phone": "Le numero de telephone est trop long.",
+        "message": "Veuillez saisir au moins 20 caracteres dans votre message."
+      },
+      "disclaimer": "Nous contacter via ce formulaire ne cree pas de relation professionnelle, medicale, legale ou therapeutique. N utilisez pas ce formulaire pour les urgences medicales ou de crise. Si vous avez besoin d aide urgente, appelez 988 ou 911.",
+      "submit": {
+        "idle": "Envoyer le message",
+        "pending": "Envoi du message..."
+      },
+      "status": {
+        "success": "Votre message a bien ete envoye. Nous visons une reponse sous 1-2 jours ouvres.",
+        "error": "Nous ne pouvons pas envoyer votre message pour le moment. Veuillez reessayer dans un instant."
+      }
+    },
+    "support": {
+      "title": "Autres moyens de contact",
+      "description": "Utilisez ces canaux si vous preferez une autre facon de nous joindre.",
+      "emailLabel": "E-mail general",
+      "emailValue": "support@voicesbringinghope.org",
+      "responseTimeLabel": "Delai de reponse habituel",
+      "responseTimeValue": "Sous 1-2 jours ouvres",
+      "regionLabel": "Zone de service",
+      "regionValue": "Amerique du Nord et soutien numerique international",
+      "hotlineCta": "Voir les hotlines",
+      "storyCta": "Partager mon histoire",
+      "storyConsent": "En soumettant votre histoire, vous autorisez Voices Bringing Hope to Life a la publier sur ce site, en totalite ou en version editee, avec votre nom ou anonymement."
+    }
+  },
+  "legalPages": {
+    "eyebrow": "Informations legales",
+    "updatedLabel": "Derniere mise a jour",
+    "actions": {
+      "resources": "Voir le soutien immediat",
+      "contact": "Contacter le soutien"
+    },
+    "privacy": {
+      "intro": "Cette politique explique comment les donnees personnelles sont traitees avec respect, confidentialite et attention.",
+      "updatedValue": "30 mars 2026",
+      "sectionsTitle": "Resume de confidentialite",
+      "sections": {
+        "one": {
+          "title": "Donnees collectees",
+          "body": "Nous collectons seulement les donnees necessaires pour repondre, ameliorer le soutien et proteger la securite du site."
+        },
+        "two": {
+          "title": "Utilisation des donnees",
+          "body": "Les donnees servent a orienter les demandes, organiser le soutien et analyser les resultats de maniere agregée."
+        },
+        "three": {
+          "title": "Vos droits",
+          "body": "Vous pouvez demander acces, correction ou suppression des donnees eligibles via notre equipe de contact."
+        }
+      }
+    },
+    "terms": {
+      "intro": "Ces conditions definissent l usage acceptable du site et les responsabilites des utilisateurs.",
+      "updatedValue": "30 mars 2026",
+      "sectionsTitle": "Resume des conditions",
+      "sections": {
+        "one": {
+          "title": "Objectif du site",
+          "body": "Le site fournit un contenu informatif et de soutien et ne remplace pas un conseil professionnel qualifie."
+        },
+        "two": {
+          "title": "Responsabilites des utilisateurs",
+          "body": "Les utilisateurs doivent utiliser la plateforme de maniere legale, respectueuse et sans abus de donnees."
+        },
+        "three": {
+          "title": "Mises a jour",
+          "body": "Nous pouvons mettre a jour les politiques et contenus pour maintenir la clarte et la securite du service."
+        }
+      }
+    },
+    "disclaimer": {
+      "intro": "Cet avertissement general precise la nature informative de cette plateforme.",
+      "updatedValue": "30 mars 2026",
+      "sectionsTitle": "Resume de l avertissement general",
+      "sections": {
+        "one": {
+          "title": "Portee informative",
+          "body": "Le contenu est fourni a des fins educatives et de soutien sans garantie de resultat particulier."
+        },
+        "two": {
+          "title": "Pas de relation legale ou d urgence",
+          "body": "Le contenu ne cree pas de relation juridique, clinique ou de reponse d urgence."
+        },
+        "three": {
+          "title": "Ressources externes",
+          "body": "Les liens externes sont fournis a titre informatif; chaque organisme tiers gere ses propres services."
+        }
+      }
+    },
+    "medical": {
+      "intro": "Cet avertissement medical explique les limites des informations de sante sur le site.",
+      "updatedValue": "30 mars 2026",
+      "sectionsTitle": "Resume de l avertissement medical",
+      "sections": {
+        "one": {
+          "title": "Pas un avis medical",
+          "body": "Le contenu ne constitue ni diagnostic ni traitement et ne remplace pas une evaluation medicale qualifiee."
+        },
+        "two": {
+          "title": "Chaque situation est unique",
+          "body": "Les decisions medicales doivent etre prises avec des professionnels licencies selon votre contexte."
+        },
+        "three": {
+          "title": "Alerte urgence",
+          "body": "En cas de symptomes graves ou de risque immediat, contactez les services d urgence sans attendre."
+        }
+      }
+    },
+    "crisis": {
+      "intro": "Cet avertissement de crise decrit comment agir rapidement en cas de danger immediat.",
+      "updatedValue": "30 mars 2026",
+      "sectionsTitle": "Resume de l avertissement de crise",
+      "sections": {
+        "one": {
+          "title": "Danger immediat",
+          "body": "Si vous ou une autre personne etes en danger immediat, appelez le 911 maintenant."
+        },
+        "two": {
+          "title": "Soutien en crise emotionnelle",
+          "body": "Aux Etats-Unis, appelez ou envoyez un message au 988 pour un soutien de crise."
+        },
+        "three": {
+          "title": "Limites de la plateforme",
+          "body": "Ce site n est pas un service d intervention d urgence en temps reel."
+        }
+      }
+    },
+    "cookies": {
+      "intro": "Cette politique explique l usage des cookies et technologies similaires pour le bon fonctionnement du site.",
+      "updatedValue": "30 mars 2026",
+      "sectionsTitle": "Resume de la politique de cookies",
+      "sections": {
+        "one": {
+          "title": "Cookies essentiels",
+          "body": "Les cookies essentiels permettent les fonctions de base comme la langue, la navigation et la securite."
+        },
+        "two": {
+          "title": "Cookies analytiques",
+          "body": "Les mesures analytiques nous aident a ameliorer l experience et la clarte du contenu."
+        },
+        "three": {
+          "title": "Gestion des cookies",
+          "body": "Vous pouvez gerer les cookies depuis votre navigateur, avec impact possible sur certaines fonctions."
+        }
+      }
+    }
+  },
+  "resourceTopics": {
+    "eyebrow": "Soutien par pays",
+    "actions": {
+      "backToResources": "Retour a toutes les ressources",
+      "contact": "Contacter le soutien"
+    },
+    "hotlines": {
+      "title": "Aide immediate et hotlines",
+      "description": "Utilisez ces ressources de crise lorsque vous avez besoin d un soutien urgent pour la securite ou l etat emotionnel.",
+      "countryLegend": "Affichage des hotlines pour {{country}}.",
+      "resultsTitle": "Hotlines dans {{country}}",
+      "empty": "Aucune hotline disponible pour {{country}} pour le moment.",
+      "emergencyTitle": "Besoin d aide maintenant",
+      "emergencyBody": "Si le danger est immediat, appelez le {{emergencyNumber}}. Pour une crise, appelez le {{crisisNumber}}.",
+      "emergencyCall911": "Appeler le 911",
+      "emergencyCall988": "Appeler le 988",
+      "emergencyCallPrimary": "Appeler le {{number}}",
+      "emergencyCallSecondary": "Appeler le {{number}}"
+    },
+    "findLocalHelp": {
+      "title": "Trouver une aide locale",
+      "description": "Consultez des centres proches et des points de soutien pratique pour les prochaines etapes.",
+      "countryLegend": "Affichage des centres locaux pour {{country}}.",
+      "resultsTitle": "Centres locaux dans {{country}}",
+      "empty": "Aucun centre local disponible pour {{country}} pour le moment."
+    },
+    "emotionalSupport": {
+      "title": "Ressources de soutien emotionnel",
+      "description": "Consultez des organisations fiables et des ressources numeriques pour un accompagnement continu.",
+      "countryLegend": "Affichage du soutien emotionnel pour {{country}}.",
+      "resultsTitle": "Soutien emotionnel dans {{country}}",
+      "empty": "Aucune ressource emotionnelle disponible pour {{country}} pour le moment."
+    }
   }
 }
