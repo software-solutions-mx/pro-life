@@ -1,9 +1,19 @@
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+import { isSupportedLocale, normalizeLocale } from '../../i18n/locales'
+import { toLocalizedPath } from '../../seo/siteConfig'
 import StateScreen from './StateScreen'
 
 function NotFoundState() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const { locale: localeParam } = useParams()
+  const resolvedLocale = normalizeLocale(
+    localeParam ?? i18n.resolvedLanguage ?? i18n.language,
+  )
+  const homePath = toLocalizedPath(
+    '/',
+    isSupportedLocale(resolvedLocale) ? resolvedLocale : undefined,
+  )
 
   return (
     <StateScreen
@@ -12,7 +22,7 @@ function NotFoundState() {
       variant="warning"
       icon="signpost-split"
     >
-      <Link to="/" className="state-screen-action">
+      <Link to={homePath} className="state-screen-action">
         {t('errors.actions.backToHome')}
       </Link>
     </StateScreen>

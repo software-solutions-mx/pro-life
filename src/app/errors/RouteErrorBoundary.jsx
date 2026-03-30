@@ -1,9 +1,16 @@
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
-import { isRouteErrorResponse, useNavigate, useRouteError } from 'react-router-dom'
+import {
+  isRouteErrorResponse,
+  useNavigate,
+  useParams,
+  useRouteError,
+} from 'react-router-dom'
 import { ErrorState, NotFoundState, ServerErrorState } from '../../components/states'
 import { IS_DEV } from '../../config/env'
+import { isSupportedLocale, normalizeLocale } from '../../i18n/locales'
 import { captureException } from '../../monitoring/sentry'
+import { toLocalizedPath } from '../../seo/siteConfig'
 
 function getErrorDetails(error, t) {
   if (isRouteErrorResponse(error)) {
@@ -24,9 +31,17 @@ function getErrorDetails(error, t) {
 }
 
 function RouteErrorBoundary() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const error = useRouteError()
   const navigate = useNavigate()
+  const { locale: localeParam } = useParams()
+  const resolvedLocale = normalizeLocale(
+    localeParam ?? i18n.resolvedLanguage ?? i18n.language,
+  )
+  const homePath = toLocalizedPath(
+    '/',
+    isSupportedLocale(resolvedLocale) ? resolvedLocale : undefined,
+  )
 
   useEffect(() => {
     if (isRouteErrorResponse(error)) {
@@ -74,7 +89,7 @@ function RouteErrorBoundary() {
     <ErrorState
       message={message}
       actionLabel={t('errors.actions.backToHome')}
-      onAction={() => navigate('/')}
+      onAction={() => navigate(homePath)}
     />
   )
 }
