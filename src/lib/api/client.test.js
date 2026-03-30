@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { z } from 'zod'
+import { API_CLIENT_ID, API_CLIENT_SECRET } from '../../config/env'
 import { ApiContractError, apiClient } from './client'
 
 describe('apiClient', () => {
@@ -45,6 +46,27 @@ describe('apiClient', () => {
     expect(typeof requestUrl).toBe('string')
     expect(requestOptions.credentials).toBe('include')
     expect(requestOptions.headers['X-Requested-With']).toBe('XMLHttpRequest')
+    expect(requestOptions.headers['X-Client-Id']).toBe(API_CLIENT_ID)
+    expect(requestOptions.headers['X-Client-Secret']).toBe(API_CLIENT_SECRET)
+    expect(requestOptions.headers['Accept-Language']).toBe('en')
+    expect(requestOptions.headers['X-Locale']).toBe('en')
+  })
+
+  it('uses current document language for locale headers', async () => {
+    global.fetch.mockResolvedValue(
+      new Response(JSON.stringify({ status: 'ok' }), {
+        status: 200,
+        headers: { 'content-type': 'application/json' },
+      }),
+    )
+
+    document.documentElement.lang = 'es-MX'
+    await apiClient.get('/health')
+
+    const [, requestOptions] = global.fetch.mock.calls[0]
+    expect(requestOptions.headers['Accept-Language']).toBe('es-MX')
+    expect(requestOptions.headers['X-Locale']).toBe('es-MX')
+    document.documentElement.lang = ''
   })
 
   it('attaches CSRF token on mutating requests when available', async () => {

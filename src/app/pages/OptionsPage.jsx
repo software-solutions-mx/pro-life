@@ -5,8 +5,10 @@ import SEOHead from '../../components/SEO/SEOHead'
 import optionsHeroImage from '../../assets/images/support-images/support39.png'
 import optionsSupportImage from '../../assets/images/support-images/support71.png'
 import optionsClosingImage from '../../assets/images/support-images/support98.png'
+import { SUPPORTED_COUNTRY_CODES } from '../../data/countries'
 import { normalizeLocale } from '../../i18n/locales'
 import i18n from '../../i18n/config'
+import { useCountryPreference } from '../../i18n/hooks/useCountryPreference'
 import { toLocalizedPath } from '../../seo/siteConfig'
 
 function OptionsPage() {
@@ -14,6 +16,10 @@ function OptionsPage() {
   const location = useLocation()
   const { locale: localeParam } = useParams()
   const locale = normalizeLocale(localeParam ?? i18n.resolvedLanguage ?? i18n.language)
+  const { countryCode } = useCountryPreference(SUPPORTED_COUNTRY_CODES, locale)
+  const selectedCountryName = t(`countries.${countryCode}`, {
+    defaultValue: countryCode,
+  })
 
   const pathKeys = useMemo(
     () => ['continuingPregnancy', 'parenting', 'adoption', 'understandingAbortion'],
@@ -44,7 +50,11 @@ function OptionsPage() {
             <div className="options-hero-content">
               <p className="org-eyebrow">{t('optionsPage.hero.eyebrow')}</p>
               <h1 id="options-page-title">{t('optionsPage.hero.title')}</h1>
-              <p>{t('optionsPage.hero.description')}</p>
+              <p className="options-country-badge">
+                {t('optionsPage.countryLoadingLegend', {
+                  country: selectedCountryName,
+                })}
+              </p>
               <div className="options-hero-actions">
                 <Link
                   className="org-button org-button-accent"
@@ -91,7 +101,9 @@ function OptionsPage() {
             <h2 id="options-pathways-title" className="org-section-heading">
               {t('optionsPage.pathways.title')}
             </h2>
-            <p className="org-section-intro">{t('optionsPage.pathways.description')}</p>
+            <p className="org-section-intro">
+              {t('optionsPage.pathways.description', { country: selectedCountryName })}
+            </p>
             <div className="options-pathways-grid">
               {pathKeys.map((item) => (
                 <article key={item} className="org-card options-path-card">

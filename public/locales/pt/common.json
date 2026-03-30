@@ -16,7 +16,11 @@
     "getHelpNow": "Ajuda agora",
     "callNow": "Ligar {{phone}}",
     "openMenu": "Abrir menu de navegacao",
-    "closeMenu": "Fechar menu de navegacao"
+    "closeMenu": "Fechar menu de navegacao",
+    "countryLabel": "Pais",
+    "languageLabel": "Idioma",
+    "countryTooltip": "Os recursos e as informacoes mudam conforme o pais selecionado.",
+    "languageTooltip": "Escolha seu idioma sem alterar o pais."
   },
   "home": {
     "hero": {
@@ -190,6 +194,14 @@
     "stories": {
       "title": "Historias de Esperanca por Pais | Voices Bringing Hope to Life",
       "description": "Selecione um pais e veja historias em formato galeria com titulo e autora."
+    },
+    "faq": {
+      "title": "Perguntas Frequentes | Voices Bringing Hope to Life",
+      "description": "Pesquise e filtre perguntas comuns para encontrar orientacao pratica e um proximo passo seguro."
+    },
+    "contact": {
+      "title": "Contato e Apoio | Voices Bringing Hope to Life",
+      "description": "Envie uma mensagem para receber orientacao compassiva, recursos praticos e um proximo passo seguro."
     }
   },
   "actions": {
@@ -279,7 +291,7 @@
     },
     "pathways": {
       "title": "Explore cada caminho com respeito",
-      "description": "Cada situacao e unica. Revise cada caminho com clareza e escolha o proximo passo para sua realidade.",
+      "description": "Cada situacao e unica. Revise cada caminho com clareza em {{country}} e escolha o proximo passo para sua realidade.",
       "items": {
         "continuingPregnancy": {
           "title": "Continuar a gravidez",
@@ -339,7 +351,9 @@
       "body": "Voce pode dar um passo calmo hoje. Existe ajuda disponivel e voce nao precisa passar por isso sozinha.",
       "primaryCta": "Ir para apoio imediato",
       "secondaryCta": "Ler perguntas frequentes"
-    }
+    },
+    "countrySummary": "Mostrando informacoes para {{country}}",
+    "countryLoadingLegend": "Carregando informacoes de opcoes para {{country}}."
   },
   "resourcesPage": {
     "hero": {
@@ -372,7 +386,9 @@
       "title": "Precisa de ajuda imediata?",
       "body": "Se sua situacao for urgente, acesse direto recursos de emergencia e hotlines.",
       "cta": "Abrir apoio imediato"
-    }
+    },
+    "countrySummary": "Mostrando recursos para {{country}}",
+    "countryLoadingLegend": "Carregando recursos para {{country}}."
   },
   "storiesPage": {
     "hero": {
@@ -390,6 +406,239 @@
       "title": "Historias em {{country}}",
       "description": "Visual em galeria com imagem, titulo e nome da autora."
     },
-    "empty": "Ainda nao ha historias para este pais."
+    "empty": "Ainda nao ha historias para este pais.",
+    "countrySummary": "Mostrando historias para {{country}}",
+    "submit": {
+      "title": "Compartilhe sua historia de forma segura e guiada",
+      "description": "Sua historia pode encorajar outra mulher. Toda submissao e revisada antes da publicacao.",
+      "countryNote": "Contexto do envio: {{country}}",
+      "status": {
+        "success": "Obrigado por compartilhar sua historia. Nossa equipe editorial vai revisar com cuidado antes de publicar.",
+        "error": "Nao foi possivel enviar sua historia agora. Tente novamente em instantes."
+      },
+      "form": {
+        "fields": {
+          "title": {
+            "label": "Titulo da historia"
+          },
+          "authorName": {
+            "label": "Seu nome ou pseudonimo"
+          },
+          "email": {
+            "label": "E-mail para retorno (opcional)"
+          },
+          "publicationPreference": {
+            "label": "Como devemos exibir seu nome?"
+          },
+          "storyBody": {
+            "label": "Sua historia"
+          },
+          "allowFollowUp": {
+            "label": "Autorizo contato da equipe para esclarecimentos se necessario."
+          },
+          "consentAccepted": {
+            "label": "Confirmo que esta historia e minha, enviada voluntariamente, e pode ser publicada integral ou editada conforme diretrizes do site."
+          }
+        },
+        "publicationOptions": {
+          "anonymous": "Publicar anonima",
+          "firstName": "Usar primeiro nome",
+          "initials": "Usar apenas iniciais"
+        },
+        "characterCount": "{{count}} caracteres",
+        "errors": {
+          "title": "Informe um titulo com pelo menos 6 caracteres.",
+          "authorName": "Informe um nome ou pseudonimo (pelo menos 2 caracteres).",
+          "email": "Informe um e-mail valido.",
+          "storyBody": "Escreva ao menos 120 caracteres para contextualizar sua historia.",
+          "consentAccepted": "Voce precisa aceitar o consentimento antes de enviar."
+        },
+        "disclaimer": "Historias pessoais representam experiencias individuais e nao constituem orientacao medica, legal ou psicologica. Podemos editar detalhes de identificacao para proteger privacidade e recusar envios conforme criterios editoriais e de seguranca.",
+        "submit": {
+          "idle": "Enviar minha historia",
+          "pending": "Enviando historia..."
+        }
+      },
+      "preview": {
+        "eyebrow": "Previa ao vivo",
+        "titleFallback": "O titulo da sua historia aparecera aqui",
+        "bodyFallback": "Enquanto voce escreve, este card mostra como sua historia pode aparecer apos revisao editorial e ajustes de privacidade.",
+        "authorAnonymous": "Anonima",
+        "authorFallback": "Seu nome",
+        "initialsFallback": "A.",
+        "meta": "Pais: {{country}} | Exibicao: {{publication}}"
+      }
+    }
+  },
+  "countries": {
+    "US": "Estados Unidos",
+    "MX": "Mexico",
+    "FR": "Franca",
+    "BR": "Brasil"
+  },
+  "faqPage": {
+    "hero": {
+      "eyebrow": "Centro de clareza",
+      "title": "Encontre respostas rapidas com perguntas guiadas",
+      "description": "Use filtros inteligentes, escolha um card de pergunta e abra uma resposta focada com acoes uteis."
+    },
+    "search": {
+      "label": "Buscar perguntas",
+      "placeholder": "Digite privacidade, hotline, adocao, apoio ou seguranca",
+      "surprise": "Pergunta surpresa"
+    },
+    "filters": {
+      "label": "Filtrar por tema"
+    },
+    "categories": {
+      "all": "Todos os temas",
+      "urgent": "Apoio urgente",
+      "privacy": "Privacidade",
+      "options": "Opcoes",
+      "practical": "Ajuda pratica",
+      "emotional": "Cuidado emocional"
+    },
+    "metrics": {
+      "questionsLabel": "Resultados",
+      "questionsValue": "{{count}} pergunta(s)",
+      "countryLabel": "Contexto do pais",
+      "countryValue": "Orientacao para {{country}}"
+    },
+    "questionRail": {
+      "title": "Fluxo de perguntas",
+      "description": "Selecione um card para carregar uma resposta focada."
+    },
+    "answer": {
+      "eyebrow": "Resposta focada",
+      "note": "Orientacao informativa apenas. Em perigo imediato, contate os servicos locais de emergencia.",
+      "actionsTitle": "Proximos passos seguros",
+      "actions": {
+        "hotlines": "Abrir apoio imediato",
+        "resources": "Ver todos os recursos",
+        "contact": "Falar com nossa equipe"
+      }
+    },
+    "empty": {
+      "title": "Nenhuma pergunta encontrada",
+      "description": "Tente outra palavra-chave ou limpe os filtros para ver tudo.",
+      "reset": "Limpar filtros"
+    },
+    "items": {
+      "immediateSupport": {
+        "question": "Onde posso obter apoio imediato agora?",
+        "answer": "Se a situacao for urgente, acesse recursos de crise e hotlines para ajuda imediata e orientacao local.",
+        "keywords": "urgente hotline emergencia perigo imediato seguranca"
+      },
+      "medicalProvider": {
+        "question": "Voces sao um servico medico licenciado?",
+        "answer": "Oferecemos orientacao informativa e apoio. Nao substituimos diagnostico ou tratamento medico profissional.",
+        "keywords": "medico licenciado clinico diagnostico tratamento"
+      },
+      "privacyConfidentiality": {
+        "question": "Minhas informacoes sao privadas e confidenciais?",
+        "answer": "Tratamos historias pessoais com discricao. Compartilhe somente o que for confortavel para voce.",
+        "keywords": "privacidade confidencial dados informacoes pessoais"
+      },
+      "localHelp": {
+        "question": "Como encontro centros de ajuda perto de mim?",
+        "answer": "Abra a pagina de recursos para ver diretorios por pais com centros e organizacoes confiaveis.",
+        "keywords": "ajuda local centro perto recursos mapa"
+      },
+      "financialSupport": {
+        "question": "Existe apoio financeiro ou material?",
+        "answer": "Muitos programas oferecem alimentos, moradia, itens de bebe, transporte e orientacao pratica.",
+        "keywords": "financeiro moradia alimentos transporte bebe"
+      },
+      "adoptionBasics": {
+        "question": "Por onde comeco para explorar adocao?",
+        "answer": "Comece na secao de opcoes para revisar caminhos de adocao, contexto legal e perguntas importantes.",
+        "keywords": "adocao processo legal agencia opcoes"
+      },
+      "parentingSupport": {
+        "question": "Que apoio existe se eu escolher maternidade?",
+        "answer": "Voce pode acessar redes comunitarias, planejamento pratico e apoio emocional para familias.",
+        "keywords": "maternidade apoio familia comunidade planejamento"
+      },
+      "emotionalSupport": {
+        "question": "Como obter apoio emocional sem pressao?",
+        "answer": "Voce pode conversar com pessoas acolhedoras e recursos que respeitam sua dignidade e decisao.",
+        "keywords": "emocional apoio sem pressao compaixao"
+      },
+      "partnerConversation": {
+        "question": "Como conversar com meu parceiro ou familia?",
+        "answer": "Defina limites claros, escolha pessoas de confianca e use perguntas guiadas para comunicar necessidades.",
+        "keywords": "parceiro familia conversa limites confianca"
+      },
+      "afterAbortionCare": {
+        "question": "Existe apoio para processar um aborto passado?",
+        "answer": "Sim. Existem caminhos de cura com aconselhamento, acompanhamento espiritual e grupos de apoio.",
+        "keywords": "apos aborto cura recuperacao luto aconselhamento"
+      }
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Canal seguro de comunicacao",
+      "title": "Estamos aqui. Fale conosco quando precisar.",
+      "description": "Compartilhe sua situacao e nossa equipe respondera com cuidado, clareza e proximos passos praticos.",
+      "countryLegend": "As mensagens serao orientadas para {{country}}.",
+      "primaryCta": "Preciso de apoio imediato",
+      "secondaryCta": "Ver recursos primeiro"
+    },
+    "form": {
+      "title": "Envie uma mensagem",
+      "description": "Este formulario nos ajuda a direcionar sua solicitacao para a equipe correta com acolhimento.",
+      "fields": {
+        "name": {
+          "label": "Nome completo"
+        },
+        "email": {
+          "label": "E-mail"
+        },
+        "phone": {
+          "label": "Telefone (opcional)"
+        },
+        "reason": {
+          "label": "Motivo do contato"
+        },
+        "message": {
+          "label": "Mensagem"
+        }
+      },
+      "reasons": {
+        "help": "Preciso de ajuda",
+        "general": "Pergunta geral",
+        "media": "Solicitacao de midia",
+        "partner": "Organizacao parceira"
+      },
+      "errors": {
+        "name": "Informe seu nome (pelo menos 2 caracteres).",
+        "email": "Informe um e-mail valido.",
+        "phone": "O telefone esta muito longo.",
+        "message": "Inclua pelo menos 20 caracteres na mensagem."
+      },
+      "disclaimer": "Entrar em contato por este formulario nao cria relacao profissional, medica, legal ou terapeutica. Nao use este formulario para emergencias medicas ou crises imediatas. Se precisar de ajuda urgente, ligue para 988 ou 911.",
+      "submit": {
+        "idle": "Enviar mensagem",
+        "pending": "Enviando mensagem..."
+      },
+      "status": {
+        "success": "Sua mensagem foi enviada com sucesso. Buscamos responder em 1-2 dias uteis.",
+        "error": "Nao foi possivel enviar sua mensagem agora. Tente novamente em instantes."
+      }
+    },
+    "support": {
+      "title": "Outras formas de contato",
+      "description": "Use estes canais se preferir outra forma de falar com nossa equipe.",
+      "emailLabel": "E-mail geral",
+      "emailValue": "support@voicesbringinghope.org",
+      "responseTimeLabel": "Tempo medio de resposta",
+      "responseTimeValue": "Em 1-2 dias uteis",
+      "regionLabel": "Regiao de atendimento",
+      "regionValue": "America do Norte e suporte digital internacional",
+      "hotlineCta": "Ir para hotlines",
+      "storyCta": "Enviar minha historia",
+      "storyConsent": "Ao enviar sua historia, voce concede a Voices Bringing Hope to Life permissao para publica-la neste site, integral ou editada, com seu nome ou anonimamente."
+    }
   }
 }

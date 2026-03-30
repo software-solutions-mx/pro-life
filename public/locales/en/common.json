@@ -16,7 +16,11 @@
     "getHelpNow": "Get Help Now",
     "callNow": "Call {{phone}}",
     "openMenu": "Open navigation menu",
-    "closeMenu": "Close navigation menu"
+    "closeMenu": "Close navigation menu",
+    "countryLabel": "Country",
+    "languageLabel": "Language",
+    "countryTooltip": "Resources and guidance update based on the selected country.",
+    "languageTooltip": "Choose your preferred language independently from country."
   },
   "home": {
     "hero": {
@@ -190,6 +194,14 @@
     "stories": {
       "title": "Stories of Hope by Country | Voices Bringing Hope to Life",
       "description": "Select a country and browse stories in gallery format with each story title and author."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions | Voices Bringing Hope to Life",
+      "description": "Search and filter common questions to quickly find practical, compassionate guidance and your next safe step."
+    },
+    "contact": {
+      "title": "Contact Support Team | Voices Bringing Hope to Life",
+      "description": "Send a message to our support team for compassionate guidance, practical resources, and trusted next steps."
     }
   },
   "actions": {
@@ -279,7 +291,7 @@
     },
     "pathways": {
       "title": "Explore each path with respect",
-      "description": "Every situation is unique. Review each path with clarity, then choose the next step that fits your reality.",
+      "description": "Every situation is unique. Review each path with clarity in {{country}}, then choose the next step that fits your reality.",
       "items": {
         "continuingPregnancy": {
           "title": "Continuing your pregnancy",
@@ -339,7 +351,9 @@
       "body": "You can take one calm step today. Help is available, and you do not have to navigate this alone.",
       "primaryCta": "Go to immediate support",
       "secondaryCta": "Read common questions"
-    }
+    },
+    "countrySummary": "Showing information for {{country}}",
+    "countryLoadingLegend": "Loading options information for {{country}}."
   },
   "resourcesPage": {
     "hero": {
@@ -372,7 +386,9 @@
       "title": "Need immediate help right now?",
       "body": "If your situation feels urgent, go directly to emergency and hotline resources.",
       "cta": "Open immediate support"
-    }
+    },
+    "countrySummary": "Showing resources for {{country}}",
+    "countryLoadingLegend": "Loading resources for {{country}}."
   },
   "storiesPage": {
     "hero": {
@@ -390,6 +406,239 @@
       "title": "Stories in {{country}}",
       "description": "Gallery view with image, story title, and author name."
     },
-    "empty": "No stories are available for this country yet."
+    "empty": "No stories are available for this country yet.",
+    "countrySummary": "Showing stories for {{country}}",
+    "submit": {
+      "title": "Share your story in a safe, guided way",
+      "description": "Your story can encourage another woman. Every submission is reviewed before publication.",
+      "countryNote": "Submission context: {{country}}",
+      "status": {
+        "success": "Thank you for sharing your story. Our editorial team will review it with care before publication.",
+        "error": "We could not submit your story right now. Please try again in a moment."
+      },
+      "form": {
+        "fields": {
+          "title": {
+            "label": "Story title"
+          },
+          "authorName": {
+            "label": "Your name or pseudonym"
+          },
+          "email": {
+            "label": "Email for follow up (optional)"
+          },
+          "publicationPreference": {
+            "label": "How should we display your name?"
+          },
+          "storyBody": {
+            "label": "Your story"
+          },
+          "allowFollowUp": {
+            "label": "I allow the team to contact me for clarifications if needed."
+          },
+          "consentAccepted": {
+            "label": "I confirm this story is mine, submitted voluntarily, and can be published in whole or edited form according to site guidelines."
+          }
+        },
+        "publicationOptions": {
+          "anonymous": "Publish anonymously",
+          "firstName": "Use first name",
+          "initials": "Use initials only"
+        },
+        "characterCount": "{{count}} characters",
+        "errors": {
+          "title": "Please provide a title with at least 6 characters.",
+          "authorName": "Please provide a name or pseudonym (at least 2 characters).",
+          "email": "Please provide a valid email address.",
+          "storyBody": "Please write at least 120 characters so we can understand your story context.",
+          "consentAccepted": "You must accept consent terms before submitting."
+        },
+        "disclaimer": "Personal stories are individual experiences, not medical, legal, or psychological advice. We may edit identifying details to protect privacy and may decline submissions that do not meet safety or editorial standards.",
+        "submit": {
+          "idle": "Submit my story",
+          "pending": "Submitting story..."
+        }
+      },
+      "preview": {
+        "eyebrow": "Live preview",
+        "titleFallback": "Your story title will appear here",
+        "bodyFallback": "As you write, this card previews how your story may appear after editorial review and privacy edits.",
+        "authorAnonymous": "Anonymous",
+        "authorFallback": "Your name",
+        "initialsFallback": "A.",
+        "meta": "Country: {{country}} | Display: {{publication}}"
+      }
+    }
+  },
+  "countries": {
+    "US": "United States",
+    "MX": "Mexico",
+    "FR": "France",
+    "BR": "Brazil"
+  },
+  "faqPage": {
+    "hero": {
+      "eyebrow": "Clarity hub",
+      "title": "Find answers fast with guided questions",
+      "description": "Use smart filters, pick a question card, and get a focused answer panel with next-step actions."
+    },
+    "search": {
+      "label": "Search questions",
+      "placeholder": "Type privacy, hotline, adoption, support, or safety",
+      "surprise": "Surprise me with a question"
+    },
+    "filters": {
+      "label": "Filter by topic"
+    },
+    "categories": {
+      "all": "All topics",
+      "urgent": "Urgent support",
+      "privacy": "Privacy",
+      "options": "Options",
+      "practical": "Practical help",
+      "emotional": "Emotional care"
+    },
+    "metrics": {
+      "questionsLabel": "Matches",
+      "questionsValue": "{{count}} question(s)",
+      "countryLabel": "Country focus",
+      "countryValue": "Guidance for {{country}}"
+    },
+    "questionRail": {
+      "title": "Question stream",
+      "description": "Select any card to load a focused answer on the right."
+    },
+    "answer": {
+      "eyebrow": "Focused answer",
+      "note": "Informational guidance only. In immediate danger, contact local emergency services right away.",
+      "actionsTitle": "Next safe steps",
+      "actions": {
+        "hotlines": "Open immediate support",
+        "resources": "Browse all resources",
+        "contact": "Talk with our team"
+      }
+    },
+    "empty": {
+      "title": "No questions matched your search",
+      "description": "Try another keyword or clear filters to view the full question stream.",
+      "reset": "Clear filters"
+    },
+    "items": {
+      "immediateSupport": {
+        "question": "Where can I get immediate support right now?",
+        "answer": "If your situation feels urgent, go directly to crisis support and hotline resources for immediate assistance and local emergency guidance.",
+        "keywords": "urgent hotline emergency immediate danger safety"
+      },
+      "medicalProvider": {
+        "question": "Are you a licensed medical provider?",
+        "answer": "We provide informational and support guidance. We do not replace diagnosis, treatment, or care from a licensed medical professional.",
+        "keywords": "medical provider licensed clinical diagnosis treatment"
+      },
+      "privacyConfidentiality": {
+        "question": "Is my information private and confidential?",
+        "answer": "We treat personal stories with discretion and care. Share only what you are comfortable sharing, and ask us about privacy expectations.",
+        "keywords": "privacy confidential data personal information anonymous"
+      },
+      "localHelp": {
+        "question": "How do I find help centers near me?",
+        "answer": "Open the resources page to browse country-aware directories, support centers, and trustworthy organizations with practical contact details.",
+        "keywords": "local help center directory nearby resources map"
+      },
+      "financialSupport": {
+        "question": "Can I find financial or material support?",
+        "answer": "Many support programs include food, housing referrals, baby items, transportation support, and counseling about practical next steps.",
+        "keywords": "financial support housing food transportation baby supplies"
+      },
+      "adoptionBasics": {
+        "question": "Where do I start if I want to explore adoption?",
+        "answer": "Start with the options section to review adoption pathways, legal context, and questions to ask when evaluating licensed professionals.",
+        "keywords": "adoption process legal agency placement options"
+      },
+      "parentingSupport": {
+        "question": "What support exists if I choose parenting?",
+        "answer": "You can access community referrals, practical planning help, and emotional support networks designed for women and families.",
+        "keywords": "parenting support family planning community referrals"
+      },
+      "emotionalSupport": {
+        "question": "How can I get emotional support without pressure?",
+        "answer": "You can connect with supportive listeners and counseling resources that prioritize dignity, calm guidance, and non-coercive care.",
+        "keywords": "emotional support counseling pressure free compassionate"
+      },
+      "partnerConversation": {
+        "question": "How can I talk with my partner or family about this?",
+        "answer": "Start with clear boundaries, identify trusted people, and use structured conversation prompts to communicate your needs safely.",
+        "keywords": "partner family conversation boundaries trusted people"
+      },
+      "afterAbortionCare": {
+        "question": "Is there support if I am processing a past abortion?",
+        "answer": "Yes. Healing support can include counseling, spiritual accompaniment, and community groups focused on recovery and compassion.",
+        "keywords": "after abortion healing recovery grief counseling"
+      }
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Safe communication channel",
+      "title": "We are here. Reach out anytime.",
+      "description": "Share your situation and our support team will respond with care, clarity, and practical next steps.",
+      "countryLegend": "Messages will be guided for {{country}}.",
+      "primaryCta": "Need immediate support",
+      "secondaryCta": "Browse resources first"
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "This form helps us route your request to the right team while preserving a compassionate experience.",
+      "fields": {
+        "name": {
+          "label": "Full name"
+        },
+        "email": {
+          "label": "Email address"
+        },
+        "phone": {
+          "label": "Phone (optional)"
+        },
+        "reason": {
+          "label": "Reason for contact"
+        },
+        "message": {
+          "label": "Message"
+        }
+      },
+      "reasons": {
+        "help": "I need help",
+        "general": "General inquiry",
+        "media": "Media request",
+        "partner": "Partner organization"
+      },
+      "errors": {
+        "name": "Please enter your name (at least 2 characters).",
+        "email": "Please enter a valid email address.",
+        "phone": "Phone number is too long.",
+        "message": "Please include at least 20 characters in your message."
+      },
+      "disclaimer": "Contacting us through this form does not create a professional, medical, legal, or therapeutic relationship. Do not use this form for medical emergencies or immediate crisis situations. If you need urgent help, call 988 or 911.",
+      "submit": {
+        "idle": "Send message",
+        "pending": "Sending message..."
+      },
+      "status": {
+        "success": "Your message was sent successfully. We aim to reply within 1-2 business days.",
+        "error": "We could not send your message right now. Please try again in a moment."
+      }
+    },
+    "support": {
+      "title": "Other ways to connect",
+      "description": "Use these channels if you need a different way to reach our team.",
+      "emailLabel": "General email",
+      "emailValue": "support@voicesbringinghope.org",
+      "responseTimeLabel": "Typical response time",
+      "responseTimeValue": "Within 1-2 business days",
+      "regionLabel": "Service region",
+      "regionValue": "North America and international digital support",
+      "hotlineCta": "Go to hotlines",
+      "storyCta": "Submit your story",
+      "storyConsent": "By submitting your story, you grant Voices Bringing Hope to Life permission to publish it on this website in whole or edited form, with your name or anonymously."
+    }
   }
 }

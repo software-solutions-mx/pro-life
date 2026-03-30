@@ -1,6 +1,8 @@
 const DEFAULT_SITE_URL = 'https://goonline.com.mx'
 const DEFAULT_TRANSLATION_URL = '/locales/{{lng}}/{{ns}}.json'
 const DEFAULT_API_BASE_URL = '/api'
+const DEFAULT_API_CLIENT_ID = 'vbhl_web_client'
+const DEFAULT_API_CLIENT_SECRET = 'vbhl_web_client_public'
 const DEFAULT_SENTRY_TRACE_SAMPLE_RATE = 0.1
 const DEFAULT_APP_VERSION = 'local'
 const DEFAULT_HELP_PHONE = '911'
@@ -59,6 +61,9 @@ function loadEnv() {
   const dev = toBoolean(rawEnv.DEV, false)
   const prod = toBoolean(rawEnv.PROD, false)
   const apiBaseUrl = normalizeString(rawEnv.VITE_API_BASE_URL) ?? DEFAULT_API_BASE_URL
+  const apiClientId = normalizeString(rawEnv.VITE_API_CLIENT_ID) ?? DEFAULT_API_CLIENT_ID
+  const apiClientSecret =
+    normalizeString(rawEnv.VITE_API_CLIENT_SECRET) ?? DEFAULT_API_CLIENT_SECRET
   const translationUrl =
     normalizeString(rawEnv.VITE_TRANSLATION_URL) ?? DEFAULT_TRANSLATION_URL
   const siteUrl = normalizeString(rawEnv.VITE_SITE_URL) ?? DEFAULT_SITE_URL
@@ -78,6 +83,14 @@ function loadEnv() {
     errors.push(
       'VITE_API_BASE_URL: Must be an absolute URL or a root-relative path (starts with /)',
     )
+  }
+
+  if (apiClientId.length === 0) {
+    errors.push('VITE_API_CLIENT_ID: String must contain at least 1 character')
+  }
+
+  if (apiClientSecret.length === 0) {
+    errors.push('VITE_API_CLIENT_SECRET: String must contain at least 1 character')
   }
 
   if (translationUrl.length === 0) {
@@ -131,6 +144,8 @@ function loadEnv() {
     DEV: dev,
     PROD: prod,
     VITE_API_BASE_URL: apiBaseUrl,
+    VITE_API_CLIENT_ID: apiClientId,
+    VITE_API_CLIENT_SECRET: apiClientSecret,
     VITE_TRANSLATION_URL: translationUrl,
     VITE_SITE_URL: siteUrl,
     VITE_APP_ENV: appEnv,
@@ -159,6 +174,8 @@ export const SITE_URL = env.VITE_SITE_URL
 export const API_BASE_URL = env.VITE_API_BASE_URL.endsWith('/')
   ? env.VITE_API_BASE_URL.slice(0, -1)
   : env.VITE_API_BASE_URL
+export const API_CLIENT_ID = env.VITE_API_CLIENT_ID
+export const API_CLIENT_SECRET = env.VITE_API_CLIENT_SECRET
 export const TRANSLATION_URL = env.VITE_TRANSLATION_URL
 export const GSC_VERIFICATION_CODE = env.VITE_GSC_VERIFICATION_CODE
 export const ANALYTICS_DEBUG = env.VITE_ANALYTICS_DEBUG ?? false

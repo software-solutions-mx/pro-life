@@ -1,4 +1,4 @@
-import { API_BASE_URL } from '../../config/env'
+import { API_BASE_URL, API_CLIENT_ID, API_CLIENT_SECRET } from '../../config/env'
 
 export class ApiError extends Error {
   constructor(message, { status, url, data }) {
@@ -54,6 +54,15 @@ async function parseResponse(response) {
   return null
 }
 
+function getRequestLocale() {
+  if (typeof document === 'undefined') {
+    return 'en'
+  }
+
+  const htmlLang = document.documentElement.lang?.trim()
+  return htmlLang && htmlLang.length > 0 ? htmlLang : 'en'
+}
+
 async function request(path, options = {}) {
   const {
     method = 'GET',
@@ -74,9 +83,14 @@ async function request(path, options = {}) {
     validatedBody !== undefined &&
     validatedBody !== null &&
     !(validatedBody instanceof FormData)
+  const requestLocale = getRequestLocale()
   const requestHeaders = {
     Accept: 'application/json',
+    'Accept-Language': requestLocale,
+    'X-Locale': requestLocale,
     'X-Requested-With': 'XMLHttpRequest',
+    'X-Client-Id': API_CLIENT_ID,
+    'X-Client-Secret': API_CLIENT_SECRET,
     ...headers,
     ...(isJsonBody ? { 'Content-Type': 'application/json' } : {}),
   }

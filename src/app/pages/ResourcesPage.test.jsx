@@ -1,6 +1,7 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
-import { describe, expect, it } from 'vitest'
+import { beforeEach, describe, expect, it } from 'vitest'
+import { COUNTRY_PREFERENCE_STORAGE_KEY } from '../../i18n/hooks/useCountryPreference'
 import ResourcesPage from './ResourcesPage'
 
 function renderResourcesPage(initialEntry = '/resources') {
@@ -16,24 +17,25 @@ function renderResourcesPage(initialEntry = '/resources') {
 }
 
 describe('ResourcesPage', () => {
-  it('renders resources sections and country selector', () => {
+  beforeEach(() => {
+    localStorage.removeItem(COUNTRY_PREFERENCE_STORAGE_KEY)
+  })
+
+  it('renders resources sections and gallery', () => {
     renderResourcesPage()
 
     expect(
       screen.getByRole('heading', { level: 1, name: 'resourcesPage.hero.title' }),
     ).toBeInTheDocument()
-    expect(screen.getByLabelText('resourcesPage.selector.label')).toBeInTheDocument()
     expect(
       screen.getByRole('heading', { level: 2, name: 'resourcesPage.gallery.title' }),
     ).toBeInTheDocument()
     expect(screen.getAllByRole('listitem').length).toBeGreaterThan(0)
   })
 
-  it('filters gallery rows when country changes', () => {
+  it('uses global country preference from localStorage', () => {
+    localStorage.setItem(COUNTRY_PREFERENCE_STORAGE_KEY, 'FR')
     renderResourcesPage('/en/resources')
-
-    const countrySelect = screen.getByLabelText('resourcesPage.selector.label')
-    fireEvent.change(countrySelect, { target: { value: 'FR' } })
 
     expect(screen.getByText('Soutien Maternite 24h')).toBeInTheDocument()
     expect(screen.queryByText('Maternal Mental Health Hotline')).not.toBeInTheDocument()

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useLocation, useParams } from 'react-router-dom'
 import SEOHead from '../../components/SEO/SEOHead'
@@ -7,73 +7,18 @@ import resourceImageBabyFeet from '../../assets/images/support-images/support52.
 import resourceImageBeams from '../../assets/images/support-images/support62.png'
 import resourceImageLake from '../../assets/images/support-images/support70.png'
 import resourceImageBabyFace from '../../assets/images/support-images/support149.png'
+import { SUPPORTED_COUNTRY_CODES } from '../../data/countries'
 import resourcesCatalog from '../../data/resources/resources.sample.json'
 import { normalizeLocale } from '../../i18n/locales'
 import i18n from '../../i18n/config'
+import { useCountryPreference } from '../../i18n/hooks/useCountryPreference'
 import { toLocalizedPath } from '../../seo/siteConfig'
-
-const LOCALE_COUNTRY_FALLBACKS = {
-  en: 'US',
-  es: 'MX',
-  fr: 'FR',
-  pt: 'BR',
-}
 
 const RESOURCE_IMAGES = {
   babyFeet: resourceImageBabyFeet,
   beams: resourceImageBeams,
   lake: resourceImageLake,
   babyFace: resourceImageBabyFace,
-}
-
-function countryCodeToFlag(code) {
-  if (typeof code !== 'string' || code.length !== 2) {
-    return ''
-  }
-
-  return code
-    .toUpperCase()
-    .split('')
-    .map((character) => String.fromCodePoint(127397 + character.charCodeAt(0)))
-    .join('')
-}
-
-function getRegionFromLocale(localeCode) {
-  if (typeof localeCode !== 'string' || localeCode.length === 0) {
-    return null
-  }
-
-  try {
-    const parsed = new Intl.Locale(localeCode)
-    return parsed.region?.toUpperCase() ?? null
-  } catch {
-    const match = localeCode.match(/[-_]([A-Za-z]{2})\b/)
-    return match ? match[1].toUpperCase() : null
-  }
-}
-
-function inferCountryCode(countryCodes, locale) {
-  if (typeof navigator !== 'undefined') {
-    const browserLocales = [
-      ...(Array.isArray(navigator.languages) ? navigator.languages : []),
-      navigator.language,
-      Intl.DateTimeFormat().resolvedOptions().locale,
-    ].filter(Boolean)
-
-    for (const localeCode of browserLocales) {
-      const region = getRegionFromLocale(localeCode)
-      if (region && countryCodes.includes(region)) {
-        return region
-      }
-    }
-  }
-
-  const fallbackCountry = LOCALE_COUNTRY_FALLBACKS[locale]
-  if (fallbackCountry && countryCodes.includes(fallbackCountry)) {
-    return fallbackCountry
-  }
-
-  return countryCodes[0]
 }
 
 function toPhoneUri(value) {
@@ -91,24 +36,13 @@ function ResourcesPage() {
   const { locale: localeParam } = useParams()
   const locale = normalizeLocale(localeParam ?? i18n.resolvedLanguage ?? i18n.language)
 
-  const countries = resourcesCatalog.countries
-  const countryCodes = useMemo(
-    () => countries.map((country) => country.code),
-    [countries],
+  const { countryCode: activeCountryCode } = useCountryPreference(
+    SUPPORTED_COUNTRY_CODES,
+    locale,
   )
-  const defaultCountryCode = useMemo(
-    () => inferCountryCode(countryCodes, locale),
-    [countryCodes, locale],
-  )
-  const [selectedCountryCode, setSelectedCountryCode] = useState(() => defaultCountryCode)
-  const activeCountryCode = countryCodes.includes(selectedCountryCode)
-    ? selectedCountryCode
-    : defaultCountryCode
-
-  const selectedCountry = useMemo(
-    () => countries.find((country) => country.code === activeCountryCode) ?? countries[0],
-    [activeCountryCode, countries],
-  )
+  const selectedCountryName = t(`countries.${activeCountryCode}`, {
+    defaultValue: activeCountryCode,
+  })
 
   const filteredResources = useMemo(
     () =>
@@ -134,33 +68,11 @@ function ResourcesPage() {
             <div className="resources-hero-content">
               <p className="org-eyebrow">{t('resourcesPage.hero.eyebrow')}</p>
               <h1 id="resources-page-title">{t('resourcesPage.hero.title')}</h1>
-              <p>{t('resourcesPage.hero.description')}</p>
-              <div className="resources-country-panel">
-                <label
-                  className="resources-country-label"
-                  htmlFor="resources-country-select"
-                >
-                  {t('resourcesPage.selector.label')}
-                </label>
-                <div className="resources-country-control">
-                  <span aria-hidden="true">{countryCodeToFlag(activeCountryCode)}</span>
-                  <select
-                    id="resources-country-select"
-                    className="resources-country-select"
-                    value={activeCountryCode}
-                    onChange={(event) => setSelectedCountryCode(event.target.value)}
-                  >
-                    {countries.map((country) => (
-                      <option key={country.code} value={country.code}>
-                        {`${countryCodeToFlag(country.code)} ${country.name}`}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                <p className="resources-country-helper">
-                  {t('resourcesPage.selector.helper')}
-                </p>
-              </div>
+              <p className="resources-country-badge">
+                {t('resourcesPage.countryLoadingLegend', {
+                  country: selectedCountryName,
+                })}
+              </p>
               <div className="resources-hero-actions">
                 <Link
                   className="org-button org-button-accent"
@@ -189,11 +101,11 @@ function ResourcesPage() {
           <div className="org-container">
             <div className="resources-gallery-shell">
               <h2 id="resources-gallery" className="org-section-heading">
-                {t('resourcesPage.gallery.title', { country: selectedCountry.name })}
+                {t('resourcesPage.gallery.title', { country: selectedCountryName })}
               </h2>
               <p className="org-section-intro">
                 {t('resourcesPage.gallery.description', {
-                  country: selectedCountry.name,
+                  country: selectedCountryName,
                 })}
               </p>
 
