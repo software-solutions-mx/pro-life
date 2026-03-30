@@ -83,12 +83,19 @@ function SEOHead({
   noindex = false,
   schema = [],
 }) {
-  const { i18n } = useTranslation('common')
   const resolvedLocale = normalizeLocale(locale)
+  const { i18n } = useTranslation('common', { lng: resolvedLocale, useSuspense: false })
+  const hasResolvedLocaleCommon = i18n.hasResourceBundle(resolvedLocale, 'common')
+  const hasDefaultLocaleCommon = i18n.hasResourceBundle(DEFAULT_LOCALE, 'common')
+  const translationLocale = hasResolvedLocaleCommon
+    ? resolvedLocale
+    : hasDefaultLocaleCommon
+      ? DEFAULT_LOCALE
+      : null
   const localeTranslator =
-    typeof i18n.getFixedT === 'function'
-      ? i18n.getFixedT(resolvedLocale, 'common')
-      : (key, options) => options?.defaultValue ?? key
+    translationLocale && typeof i18n.getFixedT === 'function'
+      ? i18n.getFixedT(translationLocale, 'common')
+      : (_key, options) => options?.defaultValue ?? ''
   const localeMeta = getLocaleMeta(locale)
   const siteName = localeTranslator('brand.name', { defaultValue: '' })
   const resolvedTitle =
