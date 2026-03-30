@@ -4,6 +4,7 @@ import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { SUPPORTED_COUNTRIES, countryCodeToFlag } from '../../../data/countries'
 import { useCountryPreference } from '../../../i18n/hooks/useCountryPreference'
 import mainLogo from '../../../assets/images/main-logos/logo6.png'
+import i18n from '../../../i18n/config'
 import { DEFAULT_LOCALE, normalizeLocale } from '../../../i18n/locales'
 import { stripLocaleFromPath, toLocalizedPath } from '../../../seo/siteConfig'
 
@@ -71,12 +72,14 @@ function SiteHeader({ locale }) {
     }
   }, [isMobileOpen])
 
-  const handleLocaleChange = (nextLocale) => {
+  const handleLocaleChange = async (nextLocale) => {
     const normalizedNextLocale = normalizeLocale(nextLocale)
     const basePath = stripLocaleFromPath(location.pathname)
     const nextPath = toLocalizedPath(basePath, normalizedNextLocale)
     const currentRoute = `${location.pathname}${location.search}${location.hash}`
     const nextRoute = `${nextPath}${location.search}${location.hash}`
+
+    await i18n.changeLanguage(normalizedNextLocale)
 
     if (nextRoute !== currentRoute) {
       navigate(nextRoute)
