@@ -8,7 +8,7 @@ import storyImageHopeHand from '../../assets/images/support-images/support48.png
 import storyImageGlow from '../../assets/images/support-images/support54.png'
 import storyImageBabyHand from '../../assets/images/support-images/support57.png'
 import { SUPPORTED_COUNTRY_CODES } from '../../data/countries'
-import storiesCatalog from '../../data/stories/stories.sample.json'
+import { getStoriesByCountry } from '../../data/stories/storyCatalog'
 import {
   STORY_PUBLICATION_PREFERENCES,
   storySubmissionFormSchema,
@@ -76,8 +76,7 @@ function StoriesPage() {
   const storySubmissionMutation = useStorySubmission()
 
   const filteredStories = useMemo(
-    () =>
-      storiesCatalog.stories.filter((story) => story.countryCode === activeCountryCode),
+    () => getStoriesByCountry(activeCountryCode),
     [activeCountryCode],
   )
   const publicationOptions = useMemo(
@@ -266,6 +265,12 @@ function StoriesPage() {
                       <div className="stories-card-copy">
                         <h3>{story.title}</h3>
                         <p>{story.author}</p>
+                        <Link
+                          className="org-button org-button-outline stories-card-link"
+                          to={toLocalizedPath(`/stories/${story.id}`, locale)}
+                        >
+                          {t('storiesPage.gallery.readStoryCta')}
+                        </Link>
                       </div>
                     </article>
                   ))}

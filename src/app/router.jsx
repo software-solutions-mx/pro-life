@@ -36,8 +36,16 @@ const sharedChildren = [
     element: withRouteSuspense(() => import('./pages/StoriesPage')),
   },
   {
+    path: 'testimonials/:storyId',
+    element: withRouteSuspense(() => import('./pages/StoryViewPage')),
+  },
+  {
     path: 'stories',
     element: withRouteSuspense(() => import('./pages/StoriesPage')),
+  },
+  {
+    path: 'stories/:storyId',
+    element: withRouteSuspense(() => import('./pages/StoryViewPage')),
   },
   {
     path: 'faq',

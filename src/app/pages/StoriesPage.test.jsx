@@ -78,6 +78,17 @@ describe('StoriesPage', () => {
     expect(document.title).toBe('seo.stories.title')
   })
 
+  it('renders story cards with links to story view routes', () => {
+    renderStoriesPage('/en/testimonials')
+
+    const storyLinks = screen.getAllByRole('link', {
+      name: 'storiesPage.gallery.readStoryCta',
+    })
+    expect(storyLinks.length).toBeGreaterThan(0)
+    expect(storyLinks[0]).toHaveAttribute('href')
+    expect(storyLinks[0].getAttribute('href')).toContain('/en/stories/')
+  })
+
   it('shows validation errors when required fields are missing', async () => {
     renderStoriesPage('/en/testimonials')
 

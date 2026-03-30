@@ -202,6 +202,10 @@
     "contact": {
       "title": "Contact et Soutien | Voices Bringing Hope to Life",
       "description": "Envoyez un message pour obtenir une orientation bienveillante, des ressources pratiques et un prochain pas sur."
+    },
+    "storyDetail": {
+      "title": "{{title}} | {{brand}}",
+      "description": "Lisez l histoire complete \"{{title}}\" de {{author}} en {{country}}."
     }
   },
   "actions": {
@@ -404,7 +408,8 @@
     },
     "gallery": {
       "title": "Histoires en {{country}}",
-      "description": "Vue galerie avec image, titre de l histoire et nom de l auteure."
+      "description": "Vue galerie avec image, titre de l histoire et nom de l auteure.",
+      "readStoryCta": "Lire l histoire complete"
     },
     "empty": "Aucune histoire disponible pour ce pays pour le moment.",
     "countrySummary": "Histoires affichees pour {{country}}",
@@ -467,6 +472,24 @@
         "authorFallback": "Votre nom",
         "initialsFallback": "A.",
         "meta": "Pays: {{country}} | Affichage: {{publication}}"
+      }
+    },
+    "detail": {
+      "eyebrow": "Histoire complete",
+      "backToStories": "Retour aux histoires",
+      "bodyTitle": "Histoire complete",
+      "meta": {
+        "authorLabel": "Autrice",
+        "countryLabel": "Pays",
+        "publishedLabel": "Publication",
+        "readTimeLabel": "Temps de lecture",
+        "readTimeValue": "{{count}} min de lecture"
+      },
+      "relatedActions": {
+        "title": "Besoin de soutien apres la lecture ?",
+        "resources": "Ouvrir le soutien immediat",
+        "contact": "Contacter notre equipe",
+        "allStories": "Voir toutes les histoires"
       }
     }
   },
