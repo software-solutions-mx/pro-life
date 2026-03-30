@@ -48,8 +48,8 @@ describe('apiClient', () => {
     expect(requestOptions.headers['X-Requested-With']).toBe('XMLHttpRequest')
     expect(requestOptions.headers['X-Client-Id']).toBe(API_CLIENT_ID)
     expect(requestOptions.headers['X-Client-Secret']).toBe(API_CLIENT_SECRET)
-    expect(requestOptions.headers['Accept-Language']).toBe('en')
-    expect(requestOptions.headers['X-Locale']).toBe('en')
+    expect(requestOptions.headers['Accept-Language']).toBe('es')
+    expect(requestOptions.headers['X-Locale']).toBe('es')
   })
 
   it('uses current document language for locale headers', async () => {
@@ -64,8 +64,8 @@ describe('apiClient', () => {
     await apiClient.get('/health')
 
     const [, requestOptions] = global.fetch.mock.calls[0]
-    expect(requestOptions.headers['Accept-Language']).toBe('es-MX')
-    expect(requestOptions.headers['X-Locale']).toBe('es-MX')
+    expect(requestOptions.headers['Accept-Language']).toBe('es')
+    expect(requestOptions.headers['X-Locale']).toBe('es')
     document.documentElement.lang = ''
   })
 

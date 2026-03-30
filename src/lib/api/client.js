@@ -1,4 +1,5 @@
 import { API_BASE_URL, API_CLIENT_ID, API_CLIENT_SECRET } from '../../config/env'
+import { DEFAULT_LOCALE, isSupportedLocale, normalizeLocale } from '../../i18n/locales'
 
 export class ApiError extends Error {
   constructor(message, { status, url, data }) {
@@ -56,11 +57,12 @@ async function parseResponse(response) {
 
 function getRequestLocale() {
   if (typeof document === 'undefined') {
-    return 'en'
+    return DEFAULT_LOCALE
   }
 
   const htmlLang = document.documentElement.lang?.trim()
-  return htmlLang && htmlLang.length > 0 ? htmlLang : 'en'
+  const normalizedLocale = normalizeLocale(htmlLang)
+  return isSupportedLocale(normalizedLocale) ? normalizedLocale : DEFAULT_LOCALE
 }
 
 async function request(path, options = {}) {
