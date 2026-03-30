@@ -206,6 +206,46 @@
     "storyDetail": {
       "title": "{{title}} | {{brand}}",
       "description": "Lee la historia completa \"{{title}}\" de {{author}} en {{country}}."
+    },
+    "legalPages": {
+      "privacy": {
+        "title": "Aviso de privacidad | Voices Bringing Hope to Life",
+        "description": "Conoce como Voices Bringing Hope to Life recopila, usa y protege informacion personal."
+      },
+      "terms": {
+        "title": "Terminos de uso | Voices Bringing Hope to Life",
+        "description": "Lee los terminos que regulan el uso del sitio y su contenido."
+      },
+      "disclaimer": {
+        "title": "Descargo general | Voices Bringing Hope to Life",
+        "description": "Comprende el alcance informativo y los limites del contenido publicado."
+      },
+      "medical": {
+        "title": "Descargo medico | Voices Bringing Hope to Life",
+        "description": "Revisa los limites medicos del contenido educativo y de apoyo."
+      },
+      "crisis": {
+        "title": "Descargo de crisis | Voices Bringing Hope to Life",
+        "description": "Consulta la guia de escalamiento para situaciones urgentes o de peligro inmediato."
+      },
+      "cookies": {
+        "title": "Politica de cookies | Voices Bringing Hope to Life",
+        "description": "Conoce como se usan cookies y tecnologias similares en este sitio."
+      }
+    },
+    "resourceTopics": {
+      "hotlines": {
+        "title": "Ayuda inmediata y lineas de crisis | Voices Bringing Hope to Life",
+        "description": "Recursos urgentes y lineas de apoyo segun el pais seleccionado."
+      },
+      "findLocalHelp": {
+        "title": "Buscar ayuda local | Voices Bringing Hope to Life",
+        "description": "Centros locales y apoyo practico por pais."
+      },
+      "emotionalSupport": {
+        "title": "Recursos de apoyo emocional | Voices Bringing Hope to Life",
+        "description": "Organizaciones y recursos de apoyo emocional por pais."
+      }
     }
   },
   "actions": {
@@ -662,6 +702,162 @@
       "hotlineCta": "Ir a lineas de ayuda",
       "storyCta": "Compartir mi historia",
       "storyConsent": "Al enviar tu historia, autorizas a Voices Bringing Hope to Life a publicarla en este sitio, completa o editada, con tu nombre o de forma anonima."
+    }
+  },
+  "legalPages": {
+    "eyebrow": "Informacion legal",
+    "updatedLabel": "Ultima actualizacion",
+    "actions": {
+      "resources": "Ir a apoyo inmediato",
+      "contact": "Contactar al equipo"
+    },
+    "privacy": {
+      "intro": "Este aviso explica como tratamos informacion personal con dignidad, confidencialidad y cuidado.",
+      "updatedValue": "30 de marzo de 2026",
+      "sectionsTitle": "Resumen de privacidad",
+      "sections": {
+        "one": {
+          "title": "Informacion que recopilamos",
+          "body": "Solo recopilamos datos necesarios para responder solicitudes, mejorar calidad de apoyo y mantener seguridad del sitio."
+        },
+        "two": {
+          "title": "Como usamos la informacion",
+          "body": "Los datos se usan para orientar solicitudes, canalizar apoyo y analizar mejoras de servicio en forma agregada."
+        },
+        "three": {
+          "title": "Tus derechos y opciones",
+          "body": "Puedes solicitar acceso, correccion o eliminacion de datos personales elegibles mediante nuestro equipo de contacto."
+        }
+      }
+    },
+    "terms": {
+      "intro": "Estos terminos definen el uso aceptable del sitio y las expectativas para las personas usuarias.",
+      "updatedValue": "30 de marzo de 2026",
+      "sectionsTitle": "Resumen de terminos de uso",
+      "sections": {
+        "one": {
+          "title": "Finalidad del sitio",
+          "body": "Este sitio ofrece contenido informativo y de apoyo; no sustituye asesoria profesional licenciada."
+        },
+        "two": {
+          "title": "Responsabilidades de uso",
+          "body": "Las personas usuarias deben usar la plataforma de forma respetuosa, legal y sin abuso de datos o formularios."
+        },
+        "three": {
+          "title": "Actualizaciones y disponibilidad",
+          "body": "Podemos actualizar contenido, funciones o politicas para mantener claridad, seguridad y calidad del servicio."
+        }
+      }
+    },
+    "disclaimer": {
+      "intro": "Este descargo general aclara el caracter informativo de la plataforma.",
+      "updatedValue": "30 de marzo de 2026",
+      "sectionsTitle": "Resumen de descargo general",
+      "sections": {
+        "one": {
+          "title": "Alcance informativo",
+          "body": "Todo material se ofrece con fines educativos y de apoyo, sin garantia de resultados especificos."
+        },
+        "two": {
+          "title": "Sin representacion legal o de emergencia",
+          "body": "El contenido no crea relacion legal, clinica ni de respuesta de emergencia con esta organizacion."
+        },
+        "three": {
+          "title": "Recursos externos",
+          "body": "Los enlaces a terceros son de referencia; cada proveedor externo define sus propias politicas y servicios."
+        }
+      }
+    },
+    "medical": {
+      "intro": "Este descargo medico explica los limites del contenido de salud en el sitio.",
+      "updatedValue": "30 de marzo de 2026",
+      "sectionsTitle": "Resumen de descargo medico",
+      "sections": {
+        "one": {
+          "title": "No es consejo medico",
+          "body": "El contenido no constituye diagnostico, tratamiento ni reemplazo de evaluacion medica profesional."
+        },
+        "two": {
+          "title": "Cada caso es distinto",
+          "body": "Las decisiones medicas deben tomarse con profesionales licenciados que conozcan tu contexto y riesgos."
+        },
+        "three": {
+          "title": "Advertencia de emergencia",
+          "body": "Si hay sintomas graves o riesgo de seguridad, busca atencion de emergencia de inmediato."
+        }
+      }
+    },
+    "crisis": {
+      "intro": "Este descargo de crisis explica como escalar rapidamente cuando hay riesgo inmediato.",
+      "updatedValue": "30 de marzo de 2026",
+      "sectionsTitle": "Resumen de descargo de crisis",
+      "sections": {
+        "one": {
+          "title": "Peligro inmediato",
+          "body": "Si tu o alguien mas esta en peligro inmediato, llama al 911 ahora."
+        },
+        "two": {
+          "title": "Apoyo en crisis emocional",
+          "body": "Para crisis emocional urgente en Estados Unidos, llama o envia mensaje al 988."
+        },
+        "three": {
+          "title": "Limites de la plataforma",
+          "body": "Este sitio no funciona como despacho de emergencia en tiempo real ni garantiza intervencion inmediata."
+        }
+      }
+    },
+    "cookies": {
+      "intro": "Esta politica explica como usamos cookies y tecnologias similares para funcionalidad y mejora del sitio.",
+      "updatedValue": "30 de marzo de 2026",
+      "sectionsTitle": "Resumen de politica de cookies",
+      "sections": {
+        "one": {
+          "title": "Cookies esenciales",
+          "body": "Las cookies esenciales mantienen funciones clave como idioma, continuidad de navegacion y seguridad."
+        },
+        "two": {
+          "title": "Cookies de analitica",
+          "body": "Las herramientas de analitica permiten entender uso agregado para mejorar usabilidad y claridad de contenido."
+        },
+        "three": {
+          "title": "Control de cookies",
+          "body": "Puedes ajustar cookies desde el navegador, aunque desactivar algunas puede afectar el funcionamiento."
+        }
+      }
+    }
+  },
+  "resourceTopics": {
+    "eyebrow": "Apoyo por pais",
+    "actions": {
+      "backToResources": "Volver a todos los recursos",
+      "contact": "Contactar al equipo"
+    },
+    "hotlines": {
+      "title": "Ayuda inmediata y lineas de crisis",
+      "description": "Usa estas lineas y recursos de crisis cuando necesites apoyo urgente de seguridad o emocional.",
+      "countryLegend": "Mostrando lineas de apoyo para {{country}}.",
+      "resultsTitle": "Lineas de apoyo en {{country}}",
+      "empty": "Aun no hay lineas de apoyo disponibles para {{country}}.",
+      "emergencyTitle": "Necesitas ayuda ahora",
+      "emergencyBody": "Si estas en peligro inmediato, llama al {{emergencyNumber}}. Para crisis, llama al {{crisisNumber}}.",
+      "emergencyCall911": "Llamar al 911",
+      "emergencyCall988": "Llamar al 988",
+      "emergencyCallPrimary": "Llamar al {{number}}",
+      "emergencyCallSecondary": "Llamar al {{number}}"
+    },
+    "findLocalHelp": {
+      "title": "Buscar centros de ayuda local",
+      "description": "Explora centros cercanos y puntos de apoyo practico para tus siguientes pasos.",
+      "countryLegend": "Mostrando centros locales para {{country}}.",
+      "resultsTitle": "Centros de ayuda local en {{country}}",
+      "empty": "Aun no hay centros de ayuda local para {{country}}."
+    },
+    "emotionalSupport": {
+      "title": "Recursos de apoyo emocional",
+      "description": "Consulta organizaciones y recursos digitales confiables para acompanamiento continuo.",
+      "countryLegend": "Mostrando recursos de apoyo emocional para {{country}}.",
+      "resultsTitle": "Recursos de apoyo emocional en {{country}}",
+      "empty": "Aun no hay recursos de apoyo emocional para {{country}}."
     }
   }
 }

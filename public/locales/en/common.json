@@ -206,6 +206,46 @@
     "storyDetail": {
       "title": "{{title}} | {{brand}}",
       "description": "Read the full story \"{{title}}\" by {{author}} from {{country}}."
+    },
+    "legalPages": {
+      "privacy": {
+        "title": "Privacy Policy | Voices Bringing Hope to Life",
+        "description": "Learn how Voices Bringing Hope to Life collects, uses, and protects personal information."
+      },
+      "terms": {
+        "title": "Terms of Use | Voices Bringing Hope to Life",
+        "description": "Read the terms that govern use of the Voices Bringing Hope to Life website and content."
+      },
+      "disclaimer": {
+        "title": "General Disclaimer | Voices Bringing Hope to Life",
+        "description": "Understand the informational scope and limitations of content published by Voices Bringing Hope to Life."
+      },
+      "medical": {
+        "title": "Medical Disclaimer | Voices Bringing Hope to Life",
+        "description": "Review the medical disclaimer for educational content and emergency-care boundaries."
+      },
+      "crisis": {
+        "title": "Crisis Disclaimer | Voices Bringing Hope to Life",
+        "description": "Read crisis and emergency escalation guidance, including immediate support resources."
+      },
+      "cookies": {
+        "title": "Cookie Policy | Voices Bringing Hope to Life",
+        "description": "Learn how this site uses cookies and related technologies for functionality and analytics."
+      }
+    },
+    "resourceTopics": {
+      "hotlines": {
+        "title": "Immediate Help and Hotlines | Voices Bringing Hope to Life",
+        "description": "Country-specific emergency and hotline resources for immediate support."
+      },
+      "findLocalHelp": {
+        "title": "Find Local Help | Voices Bringing Hope to Life",
+        "description": "Country-specific local centers and practical support addresses."
+      },
+      "emotionalSupport": {
+        "title": "Emotional Support Resources | Voices Bringing Hope to Life",
+        "description": "Country-specific emotional support organizations and trusted websites."
+      }
     }
   },
   "actions": {
@@ -662,6 +702,162 @@
       "hotlineCta": "Go to hotlines",
       "storyCta": "Submit your story",
       "storyConsent": "By submitting your story, you grant Voices Bringing Hope to Life permission to publish it on this website in whole or edited form, with your name or anonymously."
+    }
+  },
+  "legalPages": {
+    "eyebrow": "Legal information",
+    "updatedLabel": "Last updated",
+    "actions": {
+      "resources": "Go to immediate support",
+      "contact": "Contact support team"
+    },
+    "privacy": {
+      "intro": "This privacy policy explains how we handle personal information with dignity, confidentiality, and care.",
+      "updatedValue": "March 30, 2026",
+      "sectionsTitle": "Privacy policy summary",
+      "sections": {
+        "one": {
+          "title": "What information we collect",
+          "body": "We only collect the information needed to respond to requests, improve support quality, and maintain site security."
+        },
+        "two": {
+          "title": "How we use your information",
+          "body": "Information is used to provide requested guidance, route support inquiries, and analyze service effectiveness in aggregate form."
+        },
+        "three": {
+          "title": "Your rights and choices",
+          "body": "You may request access, correction, or deletion of eligible personal data by contacting our support team."
+        }
+      }
+    },
+    "terms": {
+      "intro": "These terms define acceptable use of this website and clarify expectations for all users.",
+      "updatedValue": "March 30, 2026",
+      "sectionsTitle": "Terms of use summary",
+      "sections": {
+        "one": {
+          "title": "Purpose of this website",
+          "body": "This website provides informational and support-oriented content and does not replace licensed professional advice."
+        },
+        "two": {
+          "title": "User responsibilities",
+          "body": "Users agree to use the platform respectfully, lawfully, and without attempts to misuse data, forms, or services."
+        },
+        "three": {
+          "title": "Updates and availability",
+          "body": "We may update content, features, or policies to keep information accurate, safe, and aligned with service goals."
+        }
+      }
+    },
+    "disclaimer": {
+      "intro": "This general disclaimer clarifies the informational nature of this platform.",
+      "updatedValue": "March 30, 2026",
+      "sectionsTitle": "General disclaimer summary",
+      "sections": {
+        "one": {
+          "title": "Informational scope",
+          "body": "All materials are offered for educational and supportive purposes and should not be treated as guaranteed outcomes."
+        },
+        "two": {
+          "title": "No legal or emergency representation",
+          "body": "Site content does not create a legal, clinical, or emergency response relationship between users and this organization."
+        },
+        "three": {
+          "title": "External resources",
+          "body": "Links to third-party resources are provided for convenience; each external provider manages its own policies and services."
+        }
+      }
+    },
+    "medical": {
+      "intro": "This medical disclaimer explains the limits of health-related content on the website.",
+      "updatedValue": "March 30, 2026",
+      "sectionsTitle": "Medical disclaimer summary",
+      "sections": {
+        "one": {
+          "title": "Not medical advice",
+          "body": "Content is not a diagnosis, treatment plan, or substitute for evaluation by a qualified medical professional."
+        },
+        "two": {
+          "title": "Individual differences matter",
+          "body": "Medical decisions should be made with licensed professionals who understand personal history, risk factors, and local regulations."
+        },
+        "three": {
+          "title": "Emergency warning",
+          "body": "If symptoms are severe or safety is at risk, seek emergency care immediately through local emergency services."
+        }
+      }
+    },
+    "crisis": {
+      "intro": "This crisis disclaimer explains how to escalate quickly when safety is at immediate risk.",
+      "updatedValue": "March 30, 2026",
+      "sectionsTitle": "Crisis disclaimer summary",
+      "sections": {
+        "one": {
+          "title": "Immediate danger",
+          "body": "If you or someone else is in immediate danger, call 911 now."
+        },
+        "two": {
+          "title": "Mental health crisis support",
+          "body": "For urgent emotional distress in the United States, call or text 988 for crisis support."
+        },
+        "three": {
+          "title": "Platform limits in emergencies",
+          "body": "This site is not staffed as a real-time emergency dispatch service and cannot guarantee immediate intervention."
+        }
+      }
+    },
+    "cookies": {
+      "intro": "This policy explains how cookies and similar technologies support website functionality and insights.",
+      "updatedValue": "March 30, 2026",
+      "sectionsTitle": "Cookie policy summary",
+      "sections": {
+        "one": {
+          "title": "Essential cookies",
+          "body": "Essential cookies keep core features working, including language handling, navigation continuity, and security protections."
+        },
+        "two": {
+          "title": "Analytics cookies",
+          "body": "Analytics tools help us understand aggregate usage trends to improve usability and content clarity."
+        },
+        "three": {
+          "title": "Cookie controls",
+          "body": "You can manage cookie preferences through browser settings, though disabling certain cookies may affect site behavior."
+        }
+      }
+    }
+  },
+  "resourceTopics": {
+    "eyebrow": "Support by country",
+    "actions": {
+      "backToResources": "Back to all resources",
+      "contact": "Contact support team"
+    },
+    "hotlines": {
+      "title": "Immediate help and hotlines",
+      "description": "Use these trusted crisis and hotline services when urgent emotional or safety support is needed.",
+      "countryLegend": "Showing hotline resources for {{country}}.",
+      "resultsTitle": "Hotline resources in {{country}}",
+      "empty": "No hotline resources are available for {{country}} yet.",
+      "emergencyTitle": "Get help now",
+      "emergencyBody": "If you are in immediate danger, call {{emergencyNumber}}. For crisis support, call {{crisisNumber}}.",
+      "emergencyCall911": "Call 911",
+      "emergencyCall988": "Call 988",
+      "emergencyCallPrimary": "Call {{number}}",
+      "emergencyCallSecondary": "Call {{number}}"
+    },
+    "findLocalHelp": {
+      "title": "Find local help centers",
+      "description": "Explore nearby centers and practical support locations that can help with next steps.",
+      "countryLegend": "Showing local support centers for {{country}}.",
+      "resultsTitle": "Local help centers in {{country}}",
+      "empty": "No local help centers are available for {{country}} yet."
+    },
+    "emotionalSupport": {
+      "title": "Emotional support resources",
+      "description": "Review trusted emotional support organizations and digital resources for ongoing care.",
+      "countryLegend": "Showing emotional support resources for {{country}}.",
+      "resultsTitle": "Emotional support resources in {{country}}",
+      "empty": "No emotional support resources are available for {{country}} yet."
     }
   }
 }

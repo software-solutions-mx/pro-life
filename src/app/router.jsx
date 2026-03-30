@@ -32,6 +32,10 @@ const sharedChildren = [
     element: withRouteSuspense(() => import('./pages/ResourcesPage')),
   },
   {
+    path: 'resources/:topic',
+    element: withRouteSuspense(() => import('./pages/ResourceTopicPage')),
+  },
+  {
     path: 'testimonials',
     element: withRouteSuspense(() => import('./pages/StoriesPage')),
   },
@@ -54,6 +58,10 @@ const sharedChildren = [
   {
     path: 'contact',
     element: withRouteSuspense(() => import('./pages/ContactPage')),
+  },
+  {
+    path: 'legal/:policySlug',
+    element: withRouteSuspense(() => import('./pages/LegalPage')),
   },
   {
     path: 'ux-states',
