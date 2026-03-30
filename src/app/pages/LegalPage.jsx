@@ -36,7 +36,12 @@ function LegalPage() {
           path={location.pathname}
           noindex
         />
-        <NotFoundState />
+        <NotFoundState
+          title={t('errors.notFound.title')}
+          message={t('errors.notFound.message')}
+          actionLabel={t('errors.actions.backToHome')}
+          homePath={toLocalizedPath('/', locale)}
+        />
       </>
     )
   }

@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
+import i18n from '../i18n/config'
 import RouteErrorBoundary from './errors/RouteErrorBoundary'
 import RootLayout from './layouts/RootLayout'
 import LoadingState from '../components/states/LoadingState'
@@ -8,7 +9,14 @@ function withRouteSuspense(importer) {
   const LazyRouteComponent = lazy(importer)
 
   return (
-    <Suspense fallback={<LoadingState />}>
+    <Suspense
+      fallback={
+        <LoadingState
+          title={i18n.t('errors.loading.title')}
+          message={i18n.t('errors.loading.message')}
+        />
+      }
+    >
       <LazyRouteComponent />
     </Suspense>
   )

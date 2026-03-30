@@ -24,7 +24,12 @@ class AppErrorBoundary extends Component {
 
   render() {
     if (this.state.hasError) {
-      return <ErrorState message={i18n.t('errors.app.unexpectedInApplication')} />
+      return (
+        <ErrorState
+          title={i18n.t('errors.general.title')}
+          message={i18n.t('errors.app.unexpectedInApplication')}
+        />
+      )
     }
 
     return this.props.children

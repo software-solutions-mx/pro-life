@@ -3,11 +3,20 @@ import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import { describe, expect, it } from 'vitest'
 import NotFoundState from './NotFoundState'
 
-function renderNotFound(initialEntry) {
+function renderNotFound({ initialEntry, homePath = '/' }) {
   const router = createMemoryRouter(
     [
-      { path: '/:locale/*', element: <NotFoundState /> },
-      { path: '/*', element: <NotFoundState /> },
+      {
+        path: '/*',
+        element: (
+          <NotFoundState
+            title="errors.notFound.title"
+            message="errors.notFound.message"
+            actionLabel="errors.actions.backToHome"
+            homePath={homePath}
+          />
+        ),
+      },
     ],
     { initialEntries: [initialEntry] },
   )
@@ -16,16 +25,16 @@ function renderNotFound(initialEntry) {
 }
 
 describe('NotFoundState', () => {
-  it('links back to localized home when locale param exists', () => {
-    renderNotFound('/en/does-not-exist')
+  it('renders action link using provided home path', () => {
+    renderNotFound({ initialEntry: '/en/does-not-exist', homePath: '/en' })
 
     expect(
       screen.getByRole('link', { name: 'errors.actions.backToHome' }),
     ).toHaveAttribute('href', '/en')
   })
 
-  it('falls back to default home for unsupported locale param', () => {
-    renderNotFound('/xx/does-not-exist')
+  it('uses default home path when no path is provided', () => {
+    renderNotFound({ initialEntry: '/does-not-exist' })
 
     expect(
       screen.getByRole('link', { name: 'errors.actions.backToHome' }),

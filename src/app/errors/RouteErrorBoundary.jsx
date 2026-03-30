@@ -8,9 +8,8 @@ import {
 } from 'react-router-dom'
 import { ErrorState, NotFoundState, ServerErrorState } from '../../components/states'
 import { IS_DEV } from '../../config/env'
-import { isSupportedLocale, normalizeLocale } from '../../i18n/locales'
 import { captureException } from '../../monitoring/sentry'
-import { toLocalizedPath } from '../../seo/siteConfig'
+import { getLocalizedHomePath } from '../utils/getLocalizedHomePath'
 
 function getErrorDetails(error, t) {
   if (isRouteErrorResponse(error)) {
@@ -35,13 +34,11 @@ function RouteErrorBoundary() {
   const error = useRouteError()
   const navigate = useNavigate()
   const { locale: localeParam } = useParams()
-  const resolvedLocale = normalizeLocale(
-    localeParam ?? i18n.resolvedLanguage ?? i18n.language,
-  )
-  const homePath = toLocalizedPath(
-    '/',
-    isSupportedLocale(resolvedLocale) ? resolvedLocale : undefined,
-  )
+  const homePath = getLocalizedHomePath({
+    localeParam,
+    resolvedLanguage: i18n.resolvedLanguage,
+    language: i18n.language,
+  })
 
   useEffect(() => {
     if (isRouteErrorResponse(error)) {
@@ -70,12 +67,21 @@ function RouteErrorBoundary() {
 
   if (isRouteErrorResponse(error)) {
     if (error.status === 404) {
-      return <NotFoundState />
+      return (
+        <NotFoundState
+          title={t('errors.notFound.title')}
+          message={t('errors.notFound.message')}
+          actionLabel={t('errors.actions.backToHome')}
+          homePath={homePath}
+        />
+      )
     }
 
     if (error.status >= 500) {
       return (
         <ServerErrorState
+          title={t('errors.server.title')}
+          message={t('errors.server.message')}
           actionLabel={t('errors.actions.retry')}
           onAction={() => navigate(0)}
         />
@@ -87,6 +93,7 @@ function RouteErrorBoundary() {
 
   return (
     <ErrorState
+      title={t('errors.general.title')}
       message={message}
       actionLabel={t('errors.actions.backToHome')}
       onAction={() => navigate(homePath)}

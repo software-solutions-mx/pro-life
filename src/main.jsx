@@ -22,7 +22,14 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <I18nextProvider i18n={i18n} defaultNS="common">
       <QueryClientProvider client={queryClient}>
-        <Suspense fallback={<LoadingState />}>
+        <Suspense
+          fallback={
+            <LoadingState
+              title={i18n.t('errors.loading.title')}
+              message={i18n.t('errors.loading.message')}
+            />
+          }
+        >
           <AppErrorBoundary>
             <App />
           </AppErrorBoundary>
