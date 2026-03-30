@@ -85,8 +85,13 @@ function SEOHead({
 }) {
   const resolvedLocale = normalizeLocale(locale)
   const { i18n } = useTranslation('common', { lng: resolvedLocale, useSuspense: false })
-  const hasResolvedLocaleCommon = i18n.hasResourceBundle(resolvedLocale, 'common')
-  const hasDefaultLocaleCommon = i18n.hasResourceBundle(DEFAULT_LOCALE, 'common')
+  const hasResourceBundle = typeof i18n?.hasResourceBundle === 'function'
+  const hasResolvedLocaleCommon = hasResourceBundle
+    ? i18n.hasResourceBundle(resolvedLocale, 'common')
+    : true
+  const hasDefaultLocaleCommon = hasResourceBundle
+    ? i18n.hasResourceBundle(DEFAULT_LOCALE, 'common')
+    : true
   const translationLocale = hasResolvedLocaleCommon
     ? resolvedLocale
     : hasDefaultLocaleCommon

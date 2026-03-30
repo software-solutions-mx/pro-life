@@ -3,7 +3,10 @@ import LoadingState from '../../components/states/LoadingState'
 
 function RouteLoadingFallback() {
   const { t, i18n } = useTranslation('common', { useSuspense: false })
-  const hasCommonNamespace = i18n.hasLoadedNamespace('common')
+  const hasCommonNamespace =
+    typeof i18n?.hasLoadedNamespace === 'function'
+      ? i18n.hasLoadedNamespace('common')
+      : true
 
   return (
     <LoadingState

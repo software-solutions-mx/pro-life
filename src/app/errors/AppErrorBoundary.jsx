@@ -24,7 +24,10 @@ class AppErrorBoundary extends Component {
 
   render() {
     if (this.state.hasError) {
-      const hasCommonNamespace = i18n.hasLoadedNamespace('common')
+      const hasCommonNamespace =
+        typeof i18n?.hasLoadedNamespace === 'function'
+          ? i18n.hasLoadedNamespace('common')
+          : true
 
       return (
         <ErrorState
