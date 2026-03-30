@@ -186,6 +186,10 @@
     "resources": {
       "title": "Local Resources by Country | Voices Bringing Hope to Life",
       "description": "Select your country and browse practical support resources including phone, web, and local help centers."
+    },
+    "stories": {
+      "title": "Stories of Hope by Country | Voices Bringing Hope to Life",
+      "description": "Select a country and browse stories in gallery format with each story title and author."
     }
   },
   "actions": {
@@ -369,5 +373,23 @@
       "body": "If your situation feels urgent, go directly to emergency and hotline resources.",
       "cta": "Open immediate support"
     }
+  },
+  "storiesPage": {
+    "hero": {
+      "eyebrow": "Stories of hope",
+      "title": "Read stories from women and families",
+      "description": "Choose a country to browse stories that reflect courage, support, and next-step healing.",
+      "primaryCta": "Get immediate support",
+      "secondaryCta": "Share your story"
+    },
+    "selector": {
+      "label": "Select country",
+      "helper": "Stories are filtered by country, defaulting to your likely region."
+    },
+    "gallery": {
+      "title": "Stories in {{country}}",
+      "description": "Gallery view with image, story title, and author name."
+    },
+    "empty": "No stories are available for this country yet."
   }
 }

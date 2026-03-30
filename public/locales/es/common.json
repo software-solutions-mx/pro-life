@@ -186,6 +186,10 @@
     "resources": {
       "title": "Recursos Locales por Pais | Voices Bringing Hope to Life",
       "description": "Selecciona tu pais y revisa recursos practicos de apoyo con telefono, web y centros de ayuda."
+    },
+    "stories": {
+      "title": "Historias de Esperanza por Pais | Voices Bringing Hope to Life",
+      "description": "Selecciona un pais y revisa historias en formato galeria con titulo y autora."
     }
   },
   "actions": {
@@ -369,5 +373,23 @@
       "body": "Si tu situacion es urgente, ve directo a recursos de emergencia y lineas de ayuda.",
       "cta": "Abrir apoyo inmediato"
     }
+  },
+  "storiesPage": {
+    "hero": {
+      "eyebrow": "Historias de esperanza",
+      "title": "Lee historias de mujeres y familias",
+      "description": "Elige un pais para explorar historias de valentia, acompanamiento y esperanza.",
+      "primaryCta": "Obtener apoyo inmediato",
+      "secondaryCta": "Compartir mi historia"
+    },
+    "selector": {
+      "label": "Seleccionar pais",
+      "helper": "Las historias se filtran por pais y usan tu region probable por defecto."
+    },
+    "gallery": {
+      "title": "Historias en {{country}}",
+      "description": "Vista de galeria con imagen, titulo y nombre de autora."
+    },
+    "empty": "Aun no hay historias para este pais."
   }
 }

@@ -1,0 +1,190 @@
+{
+  "countries": [
+    {
+      "code": "US",
+      "name": "United States"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico"
+    },
+    {
+      "code": "FR",
+      "name": "France"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil"
+    }
+  ],
+  "stories": [
+    {
+      "id": "us-1",
+      "countryCode": "US",
+      "title": "I Found Courage One Day at a Time",
+      "author": "Emily R.",
+      "imageKey": "hopeHand"
+    },
+    {
+      "id": "us-2",
+      "countryCode": "US",
+      "title": "From Fear to a Future I Could Hold",
+      "author": "Sarah M.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "us-3",
+      "countryCode": "US",
+      "title": "Support Helped Me Rebuild My Confidence",
+      "author": "Lauren D.",
+      "imageKey": "babyHand"
+    },
+    {
+      "id": "us-4",
+      "countryCode": "US",
+      "title": "I Learned to Ask for Help Without Shame",
+      "author": "Natalie W.",
+      "imageKey": "glow"
+    },
+    {
+      "id": "us-5",
+      "countryCode": "US",
+      "title": "A New Plan Began With One Honest Conversation",
+      "author": "Brianna K.",
+      "imageKey": "hopeHand"
+    },
+    {
+      "id": "us-6",
+      "countryCode": "US",
+      "title": "Peace Came Back When I Felt Heard",
+      "author": "Olivia J.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "mx-1",
+      "countryCode": "MX",
+      "title": "No Estaba Sola en el Momento Mas Dificil",
+      "author": "Daniela P.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "mx-2",
+      "countryCode": "MX",
+      "title": "Aprendi a Respirar y Dar el Siguiente Paso",
+      "author": "Mariana T.",
+      "imageKey": "hopeHand"
+    },
+    {
+      "id": "mx-3",
+      "countryCode": "MX",
+      "title": "Un Acompanamiento Que Me Devolvio la Esperanza",
+      "author": "Valeria C.",
+      "imageKey": "babyHand"
+    },
+    {
+      "id": "mx-4",
+      "countryCode": "MX",
+      "title": "Con Apoyo, Pude Ver Mas de Una Salida",
+      "author": "Fernanda L.",
+      "imageKey": "glow"
+    },
+    {
+      "id": "mx-5",
+      "countryCode": "MX",
+      "title": "Una Voz Tranquila Cambio Mi Noche Mas Dificil",
+      "author": "Andrea M.",
+      "imageKey": "hopeHand"
+    },
+    {
+      "id": "mx-6",
+      "countryCode": "MX",
+      "title": "Hoy Camino con Mas Seguridad y Esperanza",
+      "author": "Paola N.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "fr-1",
+      "countryCode": "FR",
+      "title": "Une Main Tendue Quand J en Avais Besoin",
+      "author": "Claire B.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "fr-2",
+      "countryCode": "FR",
+      "title": "J ai Trouve un Chemin Plus Paisible",
+      "author": "Amelie N.",
+      "imageKey": "babyHand"
+    },
+    {
+      "id": "fr-3",
+      "countryCode": "FR",
+      "title": "Un Espace de Respect et de Verite",
+      "author": "Lucie F.",
+      "imageKey": "hopeHand"
+    },
+    {
+      "id": "fr-4",
+      "countryCode": "FR",
+      "title": "Une Presence Calme a Change Ma Semaine",
+      "author": "Camille G.",
+      "imageKey": "glow"
+    },
+    {
+      "id": "fr-5",
+      "countryCode": "FR",
+      "title": "J ai Retrouve de l Espoir Pas a Pas",
+      "author": "Sophie R.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "fr-6",
+      "countryCode": "FR",
+      "title": "Des Ressources Concretes m Ont Redonne Confiance",
+      "author": "Nora P.",
+      "imageKey": "babyHand"
+    },
+    {
+      "id": "br-1",
+      "countryCode": "BR",
+      "title": "Encontrei Forca Para Seguir em Frente",
+      "author": "Carolina S.",
+      "imageKey": "babyHand"
+    },
+    {
+      "id": "br-2",
+      "countryCode": "BR",
+      "title": "Um Apoio Que Mudou Meu Caminho",
+      "author": "Bianca L.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "br-3",
+      "countryCode": "BR",
+      "title": "Com Calma, Eu Consegui Tomar Minha Decisao",
+      "author": "Renata V.",
+      "imageKey": "hopeHand"
+    },
+    {
+      "id": "br-4",
+      "countryCode": "BR",
+      "title": "Uma Conversa Acolhedora Mudou Meu Dia",
+      "author": "Patricia A.",
+      "imageKey": "glow"
+    },
+    {
+      "id": "br-5",
+      "countryCode": "BR",
+      "title": "Descobri Apoio Real Quando Mais Precisava",
+      "author": "Juliana C.",
+      "imageKey": "newborn"
+    },
+    {
+      "id": "br-6",
+      "countryCode": "BR",
+      "title": "Com Informacao Clara, Voltei a Respirar",
+      "author": "Melissa T.",
+      "imageKey": "babyHand"
+    }
+  ]
+}
