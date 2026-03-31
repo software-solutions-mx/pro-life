@@ -2349,6 +2349,10 @@
   min-width: 0;
 }
 
+.faq-answer-column {
+  position: relative;
+}
+
 .faq-question-list {
   display: grid;
   gap: 0.65rem;
@@ -3068,6 +3072,19 @@
 
   .faq-stage-grid {
     grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
+  }
+
+  .faq-answer-column {
+    position: sticky;
+    top: calc(var(--nav-height) + 0.9rem);
+    align-self: start;
+  }
+
+  .faq-answer-card {
+    max-height: calc(100dvh - var(--nav-height) - 1.8rem);
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    overscroll-behavior: contain;
   }
 
   .resources-hero-inner {

@@ -74,7 +74,7 @@ function removeByKey(key) {
 function SEOHead({
   title,
   description,
-  locale = DEFAULT_LOCALE,
+  locale,
   path = '/',
   alternatePath,
   canonical,
@@ -83,8 +83,10 @@ function SEOHead({
   noindex = false,
   schema = [],
 }) {
-  const resolvedLocale = normalizeLocale(locale)
-  const { i18n } = useTranslation('common', { lng: resolvedLocale, useSuspense: false })
+  const { i18n } = useTranslation('common', { useSuspense: false })
+  const resolvedLocale = normalizeLocale(
+    locale ?? i18n.resolvedLanguage ?? i18n.language ?? DEFAULT_LOCALE,
+  )
   const hasResourceBundle = typeof i18n?.hasResourceBundle === 'function'
   const hasResolvedLocaleCommon = hasResourceBundle
     ? i18n.hasResourceBundle(resolvedLocale, 'common')
@@ -101,7 +103,7 @@ function SEOHead({
     translationLocale && typeof i18n.getFixedT === 'function'
       ? i18n.getFixedT(translationLocale, 'common')
       : (_key, options) => options?.defaultValue ?? ''
-  const localeMeta = getLocaleMeta(locale)
+  const localeMeta = getLocaleMeta(resolvedLocale)
   const siteName = localeTranslator('brand.name', { defaultValue: '' })
   const resolvedTitle =
     title ?? localeTranslator('seo.defaults.title', { defaultValue: siteName })
@@ -143,7 +145,7 @@ function SEOHead({
 
     removeByPrefix('meta:property:og:locale:alternate:')
     alternateUrls.links
-      .filter((link) => link.locale !== locale)
+      .filter((link) => link.locale !== resolvedLocale)
       .forEach((link) => {
         setMetaByProperty('og:locale:alternate', link.ogLocale, link.locale)
       })
@@ -171,11 +173,11 @@ function SEOHead({
     alternateUrls.xDefault,
     canonicalUrl,
     googleSiteVerification,
-    locale,
     localeMeta.htmlLang,
     localeMeta.ogLocale,
     noindex,
     ogType,
+    resolvedLocale,
     resolvedDescription,
     resolvedOgImage,
     resolvedSchemas,

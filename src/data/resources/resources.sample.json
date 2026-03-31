@@ -1,20 +1,76 @@
 {
   "countries": [
     {
-      "code": "US",
-      "name": "United States"
+      "code": "AR",
+      "name": "Argentina"
     },
     {
-      "code": "MX",
-      "name": "Mexico"
-    },
-    {
-      "code": "FR",
-      "name": "France"
+      "code": "AU",
+      "name": "Australia"
     },
     {
       "code": "BR",
-      "name": "Brazil"
+      "name": "Brasil"
+    },
+    {
+      "code": "CA",
+      "name": "Canadá"
+    },
+    {
+      "code": "CL",
+      "name": "Chile"
+    },
+    {
+      "code": "CO",
+      "name": "Colombia"
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador"
+    },
+    {
+      "code": "ES",
+      "name": "España"
+    },
+    {
+      "code": "FR",
+      "name": "Francia"
+    },
+    {
+      "code": "GB",
+      "name": "Reino Unido"
+    },
+    {
+      "code": "GL",
+      "name": "GL"
+    },
+    {
+      "code": "IN",
+      "name": "IN"
+    },
+    {
+      "code": "MX",
+      "name": "México"
+    },
+    {
+      "code": "NU",
+      "name": "NU"
+    },
+    {
+      "code": "PE",
+      "name": "Perú"
+    },
+    {
+      "code": "PT",
+      "name": "Portugal"
+    },
+    {
+      "code": "US",
+      "name": "Estados Unidos"
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela"
     }
   ],
   "resources": [
@@ -125,6 +181,446 @@
       "resourceType": "address",
       "resourceValue": "Rua das Flores 240, Sao Paulo 01310-100",
       "imageKey": "lake"
+    },
+    {
+      "id": "resource-001",
+      "countryCode": "US",
+      "title": "National Right to Life Committee",
+      "description": "La organización pro-vida más grande de los Estados Unidos. Defiende la vida humana desde la concepción a través de legislación, educación pública y movilización ciudadana desde 1968.",
+      "resourceType": "url",
+      "resourceValue": "https://www.nrlc.org",
+      "imageKey": "beams",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-002",
+      "countryCode": "US",
+      "title": "Human Life International",
+      "description": "Una de las mayores organizaciones pro-vida del mundo con presencia en más de 100 países. Combina la defensa de la vida con recursos educativos, asistencia a madres y formación de líderes pro-vida.",
+      "resourceType": "url",
+      "resourceValue": "https://www.hli.org",
+      "imageKey": "lake",
+      "category": "international"
+    },
+    {
+      "id": "resource-003",
+      "countryCode": "US",
+      "title": "March for Life",
+      "description": "Organización que convoca anualmente la marcha por la vida más grande del mundo en Washington D.C. Educa y moviliza a ciudadanos de todas las edades para defender la vida desde la concepción.",
+      "resourceType": "url",
+      "resourceValue": "https://marchforlife.org",
+      "imageKey": "babyFace",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-004",
+      "countryCode": "US",
+      "title": "Heartbeat International",
+      "description": "Red internacional de más de 3,000 centros de crisis de embarazo en todo el mundo. Ofrece apoyo gratuito y confidencial a mujeres ante embarazos inesperados: consejería, recursos materiales y acompañamiento.",
+      "resourceType": "url",
+      "resourceValue": "https://www.heartbeatinternational.org",
+      "imageKey": "babyFeet",
+      "category": "direct-support"
+    },
+    {
+      "id": "resource-005",
+      "countryCode": "US",
+      "title": "Care Net",
+      "description": "Red de más de 1,200 centros de embarazo en América del Norte que ofrecen consejería, pruebas de embarazo, ecografías gratuitas, apoyo material y espiritual a mujeres en crisis de embarazo.",
+      "resourceType": "url",
+      "resourceValue": "https://www.care-net.org",
+      "imageKey": "beams",
+      "category": "direct-support"
+    },
+    {
+      "id": "resource-006",
+      "countryCode": "US",
+      "title": "Students for Life of America",
+      "description": "La organización pro-vida estudiantil más grande de los Estados Unidos, presente en más de 1,300 campus universitarios. Forma líderes jóvenes que defienden la vida en sus comunidades académicas.",
+      "resourceType": "url",
+      "resourceValue": "https://studentsforlife.org",
+      "imageKey": "lake",
+      "category": "youth"
+    },
+    {
+      "id": "resource-007",
+      "countryCode": "US",
+      "title": "Live Action",
+      "description": "Organización pro-vida especializada en medios digitales, periodismo de investigación y producción de contenido educativo viral. Produce videos, documentales y campañas de concienciación ampliamente compartidos.",
+      "resourceType": "url",
+      "resourceValue": "https://liveaction.org",
+      "imageKey": "babyFace",
+      "category": "media"
+    },
+    {
+      "id": "resource-008",
+      "countryCode": "CA",
+      "title": "Birthright International",
+      "description": "Fundada en 1968 en Toronto, es una de las primeras organizaciones en ofrecer apoyo a mujeres embarazadas sin condiciones. Presente en más de 200 ciudades en todo el mundo con consejería gratuita y confidencial.",
+      "resourceType": "url",
+      "resourceValue": "https://www.birthright.org",
+      "imageKey": "babyFeet",
+      "category": "direct-support"
+    },
+    {
+      "id": "resource-009",
+      "countryCode": "GB",
+      "title": "Society for the Protection of Unborn Children (SPUC)",
+      "description": "La organización pro-vida más antigua del Reino Unido, fundada en 1967. Defiende la vida del no nacido a través de educación, activismo parlamentario y apoyo a familias.",
+      "resourceType": "url",
+      "resourceValue": "https://www.spuc.org.uk",
+      "imageKey": "beams",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-010",
+      "countryCode": "GB",
+      "title": "Right to Life UK",
+      "description": "Organización pro-vida del Reino Unido enfocada en activismo político, campañas de concienciación y formación de ciudadanos comprometidos con la defensa de la vida en todos sus estadios.",
+      "resourceType": "url",
+      "resourceValue": "https://righttolife.org.uk",
+      "imageKey": "lake",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-011",
+      "countryCode": "ES",
+      "title": "Red Madre",
+      "description": "Red española de apoyo a madres en situación vulnerable. Ofrece acompañamiento personalizado, ayuda económica, material para bebé, orientación laboral y apoyo psicológico a mujeres ante un embarazo difícil.",
+      "resourceType": "url",
+      "resourceValue": "https://www.redmadre.es",
+      "imageKey": "babyFace",
+      "category": "direct-support"
+    },
+    {
+      "id": "resource-012",
+      "countryCode": "ES",
+      "title": "HazteOír",
+      "description": "Plataforma ciudadana española que defiende los valores de la familia, la vida y la libertad en el debate público. Moviliza a ciudadanos y realiza campañas de incidencia política y social.",
+      "resourceType": "url",
+      "resourceValue": "https://www.hazteoir.org",
+      "imageKey": "babyFeet",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-013",
+      "countryCode": "CO",
+      "title": "Fundación Provida Colombia",
+      "description": "Organización colombiana dedicada a la defensa de la vida desde la concepción y al apoyo de madres en situación de vulnerabilidad. Ofrece consejería, recursos materiales y educación sobre el valor de la vida.",
+      "resourceType": "url",
+      "resourceValue": "https://www.fundacionprovida.org",
+      "imageKey": "beams",
+      "category": "direct-support"
+    },
+    {
+      "id": "resource-014",
+      "countryCode": "AR",
+      "title": "Asociación Civil Provida Argentina",
+      "description": "Organización argentina que trabaja en la defensa de la vida no nacida y el apoyo a madres en todo el país. Realiza campañas educativas, asistencia directa y activismo legislativo.",
+      "resourceType": "url",
+      "resourceValue": "https://www.provida.org.ar",
+      "imageKey": "lake",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-015",
+      "countryCode": "MX",
+      "title": "Provida México",
+      "description": "Organización mexicana pro-vida con décadas de trabajo en la defensa de la vida desde la concepción. Realiza educación, apoyo a centros de crisis y activismo político y social.",
+      "resourceType": "url",
+      "resourceValue": "https://www.provida.org.mx",
+      "imageKey": "babyFace",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-016",
+      "countryCode": "PE",
+      "title": "Camino de Vida - Perú",
+      "description": "Organización peruana que ofrece apoyo integral a mujeres ante embarazos inesperados: consejería, recursos materiales, orientación legal y espiritual, con un enfoque profundamente humano y sin juicio.",
+      "resourceType": "url",
+      "resourceValue": "https://www.caminodevida.org.pe",
+      "imageKey": "babyFeet",
+      "category": "direct-support"
+    },
+    {
+      "id": "resource-017",
+      "countryCode": "CL",
+      "title": "Acción Familia Chile",
+      "description": "Organización chilena que defiende los valores de la familia y la vida desde la concepción en Chile. Realiza educación, eventos públicos y activismo en defensa del no nacido.",
+      "resourceType": "url",
+      "resourceValue": "https://www.accionfamilia.org",
+      "imageKey": "beams",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-018",
+      "countryCode": "VE",
+      "title": "Vida Virtual - Venezuela",
+      "description": "Plataforma venezolana pro-vida que produce contenido educativo digital sobre el valor de la vida, el desarrollo embrionario y el apoyo a mujeres en crisis de embarazo. Llega a miles de personas en todo el país.",
+      "resourceType": "url",
+      "resourceValue": "https://www.vidavirtual.org.ve",
+      "imageKey": "lake",
+      "category": "media"
+    },
+    {
+      "id": "resource-019",
+      "countryCode": "ES",
+      "title": "Fundación Familia y Vida",
+      "description": "Fundación española dedicada a la educación sobre la familia, la vida y la bioética desde una perspectiva pro-vida. Ofrece talleres, conferencias y materiales educativos para colegios y universidades.",
+      "resourceType": "url",
+      "resourceValue": "https://www.familiavida.es",
+      "imageKey": "babyFace",
+      "category": "education"
+    },
+    {
+      "id": "resource-020",
+      "countryCode": "ES",
+      "title": "Feministas por la Vida",
+      "description": "Organización de mujeres que defienden la vida desde un enfoque feminista: porque el verdadero empoderamiento femenino incluye proteger la vida del no nacido. Trabajan en España y Latinoamérica.",
+      "resourceType": "url",
+      "resourceValue": "https://www.feministasporlavida.org",
+      "imageKey": "babyFeet",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-021",
+      "countryCode": "ES",
+      "title": "Option Line",
+      "description": "Servicio de orientación que ayuda a encontrar centros cercanos y recursos relacionados con embarazo, adopción, crianza y apoyo posterior al aborto.",
+      "resourceType": "url",
+      "resourceValue": "https://optionline.org",
+      "imageKey": "beams",
+      "category": "Línea y buscador de ayuda"
+    },
+    {
+      "id": "resource-022",
+      "countryCode": "ES",
+      "title": "Save the Storks",
+      "description": "Organización enfocada en acompañar a mujeres con embarazos inesperados y ayudarles a elegir la vida mediante apoyo y recursos.",
+      "resourceType": "url",
+      "resourceValue": "https://savethestorks.org",
+      "imageKey": "lake",
+      "category": "Apoyo al embarazo"
+    },
+    {
+      "id": "resource-023",
+      "countryCode": "ES",
+      "title": "Human Coalition",
+      "description": "Organización que busca hacer impensable el aborto mediante apoyo a mujeres en crisis y defensa de la vida prenatal.",
+      "resourceType": "url",
+      "resourceValue": "https://www.humancoalition.org",
+      "imageKey": "babyFace",
+      "category": "Rescate y apoyo en embarazo en crisis"
+    },
+    {
+      "id": "resource-024",
+      "countryCode": "GL",
+      "title": "40 Days for Life",
+      "description": "Movimiento internacional de base que organiza campañas públicas en múltiples países para promover una cultura de vida.",
+      "resourceType": "url",
+      "resourceValue": "https://www.40daysforlife.com",
+      "imageKey": "babyFeet",
+      "category": "Movimiento de oración y movilización"
+    },
+    {
+      "id": "resource-025",
+      "countryCode": "ES",
+      "title": "Americans United for Life",
+      "description": "Organización centrada en estrategias legales y de política pública orientadas a la protección de la vida humana.",
+      "resourceType": "url",
+      "resourceValue": "https://aul.org",
+      "imageKey": "beams",
+      "category": "Incidencia legal"
+    },
+    {
+      "id": "resource-026",
+      "countryCode": "ES",
+      "title": "Feminists for Life",
+      "description": "Organización que sostiene que la sociedad debe responder a las necesidades reales de las mujeres para que no vean el aborto como única salida.",
+      "resourceType": "url",
+      "resourceValue": "https://feministsforlife.org",
+      "imageKey": "lake",
+      "category": "Apoyo a mujeres y defensa cultural"
+    },
+    {
+      "id": "resource-027",
+      "countryCode": "IN",
+      "title": "Vida Humana Internacional",
+      "description": "Plataforma de contenido en español orientada a temas de vida prenatal, aborto y dignidad humana desde una perspectiva provida.",
+      "resourceType": "url",
+      "resourceValue": "https://vidahumana.org",
+      "imageKey": "babyFace",
+      "category": "Educación en español"
+    },
+    {
+      "id": "resource-028",
+      "countryCode": "CA",
+      "title": "Canadian Centre for Bio-Ethical Reform",
+      "description": "Organización educativa canadiense que busca cambiar corazones y mentes respecto al aborto mediante trabajo público y formativo.",
+      "resourceType": "url",
+      "resourceValue": "https://www.endthekilling.ca",
+      "imageKey": "babyFeet",
+      "category": "Educación pública"
+    },
+    {
+      "id": "resource-029",
+      "countryCode": "CA",
+      "title": "Alliance for Life Ontario",
+      "description": "Red de grupos provida en Ontario que promueve el respeto por la vida humana desde la concepción hasta la muerte natural.",
+      "resourceType": "url",
+      "resourceValue": "https://allianceforlifeontario.ca",
+      "imageKey": "beams",
+      "category": "Red educativa regional"
+    },
+    {
+      "id": "resource-030",
+      "countryCode": "NU",
+      "title": "Voice for Life",
+      "description": "Organización provida de Nueva Zelanda dedicada a defender a los más vulnerables y promover una cultura de vida.",
+      "resourceType": "url",
+      "resourceValue": "https://www.voiceforlife.org.nz",
+      "imageKey": "lake",
+      "category": "Defensa pública y educación"
+    },
+    {
+      "id": "resource-031",
+      "countryCode": "AU",
+      "title": "Cherish Life",
+      "description": "Organización australiana enfocada en promover y defender la vida mediante educación y participación ciudadana.",
+      "resourceType": "url",
+      "resourceValue": "https://www.cherishlife.org.au",
+      "imageKey": "babyFace",
+      "category": "Defensa pública y educación"
+    },
+    {
+      "id": "resource-032",
+      "countryCode": "MX",
+      "title": "Centro de Ayuda a la Mujer Embarazada (México)",
+      "description": "Red de centros en México que ofrecen ultrasonidos, asesoría, pañales, ropa, apoyo legal y emocional a mujeres embarazadas en situación de vulnerabilidad.",
+      "resourceType": "url",
+      "resourceValue": "https://www.camemexico.org",
+      "imageKey": "babyFeet",
+      "category": "local_center_network"
+    },
+    {
+      "id": "resource-033",
+      "countryCode": "CL",
+      "title": "Provida Chile",
+      "description": "Organización chilena que brinda apoyo a mujeres embarazadas en riesgo, ofreciendo acogida, alimentación, vivienda temporal y acompañamiento integral.",
+      "resourceType": "url",
+      "resourceValue": "https://www.providachile.cl",
+      "imageKey": "beams",
+      "category": "national_association"
+    },
+    {
+      "id": "resource-034",
+      "countryCode": "AR",
+      "title": "Grupo de Apoyo para Madres Solteras (Argentina)",
+      "description": "Red de apoyo que conecta a madres solteras con recursos, grupos de contención y ayuda práctica para afrontar la maternidad sin pareja.",
+      "resourceType": "url",
+      "resourceValue": "https://www.madressolteras.org.ar",
+      "imageKey": "lake",
+      "category": "support_group"
+    },
+    {
+      "id": "resource-035",
+      "countryCode": "US",
+      "title": "National Institute of Family and Life Advocates (NIFLA)",
+      "description": "Red de centros de embarazo en Estados Unidos que ofrecen ultrasonidos, asesoramiento, apoyo material y educación sobre opciones.",
+      "resourceType": "url",
+      "resourceValue": "https://www.nifla.org",
+      "imageKey": "babyFace",
+      "category": "national_association"
+    },
+    {
+      "id": "resource-036",
+      "countryCode": "CO",
+      "title": "Foundation for Life (Colombia)",
+      "description": "Fundación colombiana que ofrece asesoría legal, psicológica y apoyo material a mujeres en situación de embarazo no planeado, especialmente en casos de vulnerabilidad.",
+      "resourceType": "url",
+      "resourceValue": "https://www.fundacionparalavida.org.co",
+      "imageKey": "babyFeet",
+      "category": "national_association"
+    },
+    {
+      "id": "resource-037",
+      "countryCode": "PE",
+      "title": "Centro de Ayuda a la Mujer (Perú)",
+      "description": "Centros peruanos que ofrecen apoyo integral a mujeres embarazadas: asesoría, ultrasonidos, pañales, ropa, y acompañamiento.",
+      "resourceType": "url",
+      "resourceValue": "https://www.camperu.org",
+      "imageKey": "beams",
+      "category": "local_center_network"
+    },
+    {
+      "id": "resource-038",
+      "countryCode": "BR",
+      "title": "Associação Nacional Pró-Vida (Brasil)",
+      "description": "Organización brasileña que ofrece apoyo a mujeres embarazadas, orientación legal y campañas educativas para defender la vida desde la concepción.",
+      "resourceType": "url",
+      "resourceValue": "https://www.anprovida.org.br",
+      "imageKey": "lake",
+      "category": "national_association"
+    },
+    {
+      "id": "resource-039",
+      "countryCode": "PT",
+      "title": "Abrigo Materno (Portugal)",
+      "description": "Red de casas de acogida para mujeres embarazadas en situación de vulnerabilidad en Portugal. Ofrecen alojamiento, alimentación, apoyo psicológico y formación.",
+      "resourceType": "url",
+      "resourceValue": "https://www.abrigomaterno.pt",
+      "imageKey": "babyFace",
+      "category": "shelter"
+    },
+    {
+      "id": "resource-040",
+      "countryCode": "EC",
+      "title": "Centro de Ayuda a la Mujer (Ecuador)",
+      "description": "Organización ecuatoriana que ofrece asesoría legal, psicológica, y apoyo material a mujeres embarazadas en situación de riesgo.",
+      "resourceType": "url",
+      "resourceValue": "https://www.camecuador.org",
+      "imageKey": "babyFeet",
+      "category": "local_center_network"
+    },
+    {
+      "id": "resource-041",
+      "countryCode": "US",
+      "title": "New Wave Feminists",
+      "description": "Organización feminista pro-vida que trabaja para cambiar la narrativa del aborto desde una perspectiva de apoyo a la mujer y su hijo no nacido.",
+      "resourceType": "url",
+      "resourceValue": "https://www.newwavefeminists.com",
+      "imageKey": "beams",
+      "category": "advocacy"
+    },
+    {
+      "id": "resource-044",
+      "countryCode": "ES",
+      "title": "Red de Casas de Acogida (España)",
+      "description": "Red de casas de acogida para mujeres embarazadas en situación de exclusión social, que ofrecen alojamiento, formación y apoyo integral.",
+      "resourceType": "url",
+      "resourceValue": "https://www.redcasasacogida.es",
+      "imageKey": "lake",
+      "category": "shelter_network"
+    },
+    {
+      "id": "resource-045",
+      "countryCode": "MX",
+      "title": "Proyecto Raquel (México)",
+      "description": "Programa de acompañamiento para mujeres que han vivido un aborto y necesitan sanación emocional y espiritual.",
+      "resourceType": "url",
+      "resourceValue": "https://www.proyectoraquel.mx",
+      "imageKey": "babyFace",
+      "category": "post_abortion_healing"
+    },
+    {
+      "id": "resource-046",
+      "countryCode": "US",
+      "title": "1in3 Initiative",
+      "description": "Iniciativa que recopila historias de mujeres que han tenido abortos y ahora se arrepienten, ofreciendo apoyo y recursos para la sanación.",
+      "resourceType": "url",
+      "resourceValue": "https://www.1in3initiative.com",
+      "imageKey": "babyFeet",
+      "category": "post_abortion_healing"
     }
   ]
 }

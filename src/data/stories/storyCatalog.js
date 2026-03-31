@@ -47,17 +47,50 @@ function buildStoryDate(index) {
   return `2025-${month}-${day}`
 }
 
+function isNonEmptyString(value) {
+  return typeof value === 'string' && value.trim().length > 0
+}
+
+function getStoryBody(story, countryContext) {
+  if (Array.isArray(story.body)) {
+    const normalizedBody = story.body
+      .filter((paragraph) => isNonEmptyString(paragraph))
+      .map((paragraph) => paragraph.trim())
+
+    if (normalizedBody.length > 0) {
+      return normalizedBody
+    }
+  }
+
+  return countryContext.body.map((paragraph) =>
+    paragraph.replace('{{title}}', story.title),
+  )
+}
+
 function withStoryDetails(story, index) {
   const countryContext =
     STORY_CONTEXT_BY_COUNTRY[story.countryCode] ?? DEFAULT_STORY_CONTEXT
+
+  const summary = isNonEmptyString(story.summary)
+    ? story.summary.trim()
+    : countryContext.summary
+  const readingMinutes = Number.isFinite(story.readingMinutes)
+    ? Number(story.readingMinutes)
+    : Number.isFinite(story.readTimeMinutes)
+      ? Number(story.readTimeMinutes)
+      : 4 + (index % 4)
+  const publishedAt = isNonEmptyString(story.publishedAt)
+    ? story.publishedAt.trim()
+    : isNonEmptyString(story.date)
+      ? story.date.trim()
+      : buildStoryDate(index)
+
   return {
     ...story,
-    summary: countryContext.summary,
-    body: countryContext.body.map((paragraph) =>
-      paragraph.replace('{{title}}', story.title),
-    ),
-    readingMinutes: 4 + (index % 4),
-    publishedAt: buildStoryDate(index),
+    summary,
+    body: getStoryBody(story, countryContext),
+    readingMinutes,
+    publishedAt,
   }
 }
 

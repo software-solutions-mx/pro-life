@@ -1,20 +1,44 @@
 {
   "countries": [
     {
-      "code": "US",
-      "name": "United States"
-    },
-    {
-      "code": "MX",
-      "name": "Mexico"
-    },
-    {
-      "code": "FR",
-      "name": "France"
+      "code": "AR",
+      "name": "Argentina"
     },
     {
       "code": "BR",
-      "name": "Brazil"
+      "name": "Brasil"
+    },
+    {
+      "code": "CL",
+      "name": "Chile"
+    },
+    {
+      "code": "CO",
+      "name": "Colombia"
+    },
+    {
+      "code": "ES",
+      "name": "España"
+    },
+    {
+      "code": "FR",
+      "name": "Francia"
+    },
+    {
+      "code": "MX",
+      "name": "México"
+    },
+    {
+      "code": "PE",
+      "name": "Perú"
+    },
+    {
+      "code": "US",
+      "name": "Estados Unidos"
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela"
     }
   ],
   "stories": [
@@ -185,6 +209,505 @@
       "title": "Com Informacao Clara, Voltei a Respirar",
       "author": "Melissa T.",
       "imageKey": "babyHand"
+    },
+    {
+      "id": "valentina-el-bebe-que-me-salvo",
+      "countryCode": "MX",
+      "title": "El bebé que me salvó a mí",
+      "author": "Valentina R.",
+      "imageKey": "newborn",
+      "summary": "A los 17 años, presionada por su novio y su propia familia, Valentina estuvo a punto de ceder. Lo que encontró en cambio fue el amor más grande de su vida.",
+      "body": [
+        "Tenía diecisiete años cuando descubrí que estaba embarazada. Recuerdo exactamente el momento en que vi las dos líneas: me senté en el suelo del baño y no pude mover por lo que pareció una eternidad. El corazón me latía tan fuerte que podía escucharlo en mis oídos.",
+        "Mi novio de ese entonces fue el primero en saberlo. Su reacción fue inmediata y fría: 'Tienes que abortar. No hay otra opción. Yo no estoy listo para ser papá.' Tenía diecinueve años y hablaba como si esto fuera solo un problema logístico que resolver lo más pronto posible. Yo todavía estaba en shock.",
+        "Cuando se lo dije a mi mamá, esperaba que me abrazara. En cambio, me dijo algo que todavía recuerdo con dolor: 'Valentina, eres una niña. Arruinarás tu vida si tienes ese bebé. Yo ya sé lo que tienes que hacer.' Me dio dinero esa misma noche y me dijo que había hecho una cita para la siguiente semana.",
+        "Durante los días que siguieron, viví en una niebla. Lloraba en silencio por las noches. Me sentía sola en la decisión más importante de mi vida, y todos a mi alrededor ya habían decidido por mí. Pero había algo dentro de mí, una voz muy pequeña pero muy persistente, que me decía que eso no estaba bien.",
+        "Una tarde, casi por accidente, llegué a una página de internet que hablaba sobre la vida desde la concepción. Leí que a las seis semanas, que era exactamente cuando yo estaba, el corazón del bebé ya latía. Ese dato me rompió por dentro. No era un 'tejido'. Era un corazón. Latiendo. Para mí.",
+        "Llamé a una línea de apoyo pro-vida que encontré en esa misma página. La mujer que atendió la llamada no me juzgó, no me presionó, solo me escuchó llorar durante veinte minutos y luego me habló con una calma y una ternura que yo no había recibido de nadie más. Me habló de opciones, de recursos, de mujeres que habían estado exactamente donde yo estaba.",
+        "Cancelé la cita. Le dije a mi novio que no iba a abortar. Me dejó esa misma noche. Le dije a mi mamá. Hubo silencio, luego lágrimas, luego una discusión que duró días. Pero yo ya había tomado mi decisión.",
+        "Mi hija Sofía nació el 14 de noviembre de ese año. Cuando la vi por primera vez, supe con una certeza absoluta que había hecho lo correcto. No tenía palabras para describir lo que sentí: era como si toda la confusión, el miedo y la soledad de los meses anteriores se disolvieran en ese instante.",
+        "Mi mamá fue la primera en pedirme perdón. Hoy es la abuela más entregada del mundo. Mi hija tiene cuatro años ahora, y le ilumina los ojos cada vez que entra a un cuarto.",
+        "Sofía es la persona más valiente que conozco, aunque todavía no lo sabe. Vino al mundo contra todo. Me enseñó que el amor real no tiene condiciones, que la valentía se aprende cuando no tienes otra opción, y que las mejores cosas de la vida a veces comienzan con el mayor de los miedos.",
+        "Hoy soy maestra de primaria. Estoy terminando mi licenciatura en educación. Y cada mañana, cuando despierto y escucho a Sofía cantar en su cuarto, sé que la decisión más difícil de mi vida fue también la más correcta. Ella no me arruinó la vida. Ella me salvó."
+      ],
+      "readingMinutes": 6,
+      "publishedAt": "2024-03-15"
+    },
+    {
+      "id": "daniela-la-noche-que-casi-perdi-todo",
+      "countryCode": "CO",
+      "title": "La noche que casi perdí todo",
+      "author": "Daniela M.",
+      "imageKey": "hopeHand",
+      "summary": "Universitaria de tercer año, Daniela estaba a punto de convertirse en médica. Un embarazo inesperado amenazó con destruir todos sus planes. Lo que no sabía es que ese bebé sería su mayor logro.",
+      "body": [
+        "Cursaba el tercer año de medicina cuando empecé a sentirme rara. Atribuí el cansancio a las noches de estudio, las náuseas al estrés de los exámenes. Cuando finalmente compré una prueba de embarazo, más por descartar que por sospechar en serio, el resultado fue positivo.",
+        "Recuerdo que miré la prueba durante mucho tiempo, de pie en el baño de mi apartamento de estudiante, con libros de anatomía apilados en el escritorio al lado. La ironía no se me escapó: yo, que había estudiado el desarrollo embrionario semana a semana, estaba ahora mirando esa línea rosada sin poder procesar lo que significaba para mi vida.",
+        "Mi primer pensamiento fue automático: 'No puedo tener este bebé. No puedo.' Tenía una residencia por delante, años de estudios, deudas universitarias. No había padre en el cuadro, solo un chico de intercambio que había regresado a su país. Estaba absolutamente sola.",
+        "Durante dos semanas viví una guerra interna que no le conté a nadie. Investigué clínicas. Calculé fechas. Me convencí de que era la única opción racional. Pero cada noche, antes de dormir, me encontraba con las manos sobre el vientre, en silencio, sin poder terminar de convencerme.",
+        "Una compañera de clase, Sofía, notó que algo andaba mal. Un día me invitó a tomar café y simplemente me dijo: 'Sea lo que sea, puedes contarme.' Y yo, que llevaba dos semanas sin dormir bien, simplemente rompí a llorar en medio de la cafetería de la universidad.",
+        "Sofía era pro-vida. No de manera agresiva ni fanática, sino de una forma que yo nunca había conocido: con ternura y con razones. Me habló durante horas. Me habló del bebé que ya crecía en mí, de su corazón que ya latía, de su ADN único e irrepetible. Me habló de becas para madres universitarias, de guarderías en la universidad, de mujeres médicas que habían pasado por exactamente lo mismo.",
+        "Me llevó a un centro de apoyo para embarazadas. Allí conocí a una ginecóloga que también era madre soltera, que también había estudiado medicina con un bebé pequeño. Me dijo algo que cambió todo: 'Este bebé no es el fin de tu carrera. Puede ser la razón más poderosa que tengas para terminarla.'",
+        "Mateo nació en julio, entre mi tercer y cuarto año de medicina. El parto fue difícil. Los primeros meses fueron agotadores. Pero también fueron los meses en que aprendí más sobre mí misma que en toda mi carrera. Aprendí a pedir ayuda, a ser eficiente, a encontrar fuerzas donde juraba que no había ninguna.",
+        "Me gradué de médica hace dos años. Mateo tenía cuatro años en mi graduación y estaba en primera fila, con un letrero que decía 'Mi mamá es doctora' que él mismo había decorado con crayones. Fue el momento más hermoso de mi vida, superando incluso el día en que recibí mi admisión a la facultad.",
+        "Hoy trabajo en pediatría. No fue casualidad. No podía terminar estudiando otra cosa después de lo que aprendí sobre la vida humana desde sus primeros instantes, desde adentro y desde afuera al mismo tiempo.",
+        "A veces pienso en la noche en que estuve a punto de tomar la decisión que casi tomo. Y me estremezco, no de horror, sino de gratitud. Gratitud de no haberla tomado. Gratitud por Sofía, que notó que algo andaba mal. Gratitud por Mateo, que llegó cuando nadie lo planeó y se convirtió en la mejor parte de todo lo que soy."
+      ],
+      "readingMinutes": 7,
+      "publishedAt": "2024-01-20"
+    },
+    {
+      "id": "rosa-cuando-pense-que-no-podia-mas",
+      "countryCode": "AR",
+      "title": "Cuando pensé que no podía más",
+      "author": "Rosa E.",
+      "imageKey": "babyHand",
+      "summary": "Con tres hijos, sin trabajo y en la pobreza, Rosa enfrentó un cuarto embarazo que nadie esperaba. Hoy dice que ese niño fue la mayor bendición de su vida.",
+      "body": [
+        "Tenía treinta y ocho años y ya tenía tres hijos cuando descubrí que estaba embarazada de nuevo. Mi marido llevaba cinco meses sin trabajo. Vivíamos en una casa pequeña en la periferia de Córdoba, con lo justo para comer. Cuando vi el resultado del test, lo primero que sentí no fue miedo ni alegría: fue agotamiento.",
+        "Ese agotamiento tenía nombre: ya no podía más. No podía más de la pobreza, del estrés, de la incertidumbre económica que nos aplastaba todos los días. Y encima, un bebé más.",
+        "En el centro de salud del barrio, la médica me habló directamente sobre la posibilidad de interrumpir el embarazo. No me presionó, pero tampoco me ofreció ninguna alternativa. Solo me dijo que era 'una opción'. Para alguien que está agotada y asustada, esa palabra llena un vacío que no debería ser llenado así.",
+        "Estuve a punto de hacerlo. Fui incluso a informarme. Pero esa noche volví a casa y mis tres hijos corrieron a abrazarme cuando entré por la puerta. Mi hijo mayor, de diez años, me preguntó qué tenía en la barriga. No sé cómo lo supo, pero lo supo. Le dije que nada todavía. Me miró y me dijo: 'Mamá, si es un hermanito, yo lo cuido.'",
+        "Esa noche lloré sin parar. Pero algo en mí cambió. Empecé a buscar, de verdad, alternativas. Encontré una organización pro-vida en mi ciudad que ofrecía canasta básica, ropa de bebé y acompañamiento. Al principio fui desconfiada. Pensé que iban a juzgarme o a darme sermones. Encontré lo contrario: mujeres cálidas, prácticas, que me ayudaron a gestionar subsidios sociales que yo ni sabía que existían.",
+        "Mi marido encontró trabajo al cuarto mes de embarazo. No fue un milagro instantáneo, pero fue real. La organización nos consiguió donaciones de muebles para el cuarto del bebé. Las mismas mujeres que me apoyaron durante el embarazo me acompañaron al hospital el día del parto.",
+        "Hernán nació en agosto, sano y con un llanto potente que se escuchó por todo el pasillo. Mis tres hijos estaban afuera esperando. Cuando los dejaron pasar, los cuatro se rodearon en torno a él y hubo un silencio diferente, uno de esos silencios que son en realidad los momentos más llenos de la vida.",
+        "Han pasado tres años. Hernán tiene tres años y es la alegría más ruidosa, más contagiosa y más incontenible de la casa. Mi hijo mayor lo cuida como prometió. Tiene razón: lo cuida.",
+        "No voy a mentirles: todavía hay meses difíciles. La pobreza no desaparece de un día para otro. Pero Hernán no me hundió. Al contrario: de alguna manera que no puedo explicar del todo, su llegada nos unió, nos obligó a ser más creativos, más solidarios entre nosotros, más familia.",
+        "Hoy les digo a las mujeres que me preguntan: no te dejes convencer de que un bebé más es demasiado. La vida siempre encuentra la manera. Y ese bebé que parece imposible suele ser el que más luz trae."
+      ],
+      "readingMinutes": 6,
+      "publishedAt": "2023-11-08"
+    },
+    {
+      "id": "paola-mi-madre-queria-que-abortara",
+      "countryCode": "ES",
+      "title": "Mi madre quería que abortara",
+      "author": "Paola S.",
+      "imageKey": "glow",
+      "summary": "La familia de Paola se unió para convencerla. Todos tenían argumentos. Ella solo tenía una certeza: que ese bebé era su bebé.",
+      "body": [
+        "Cuando les dije a mis padres que estaba embarazada, mi madre tomó el control de la situación con una velocidad que no me dejó espacio para respirar. Ella siempre ha sido así: práctica, decidida, resolutiva. En tres minutos ya había evaluado mi situación, y su conclusión fue: 'Paola, tienes que abortar. Eres demasiado joven, no tienes pareja estable, no tienes dinero. Esto no tiene sentido.'",
+        "Tenía veinticuatro años. No era tan joven. Pero en el esquema mental de mi madre, todavía era su niña con una 'vida por delante' que no podía desperdiciar en un bebé no planeado.",
+        "Mi padre, más callado, le siguió la corriente. Mi hermana me llamó y me dijo con mucha delicadeza pero con firmeza que había que 'ser realistas'. Mi mejor amiga me preguntó si lo había 'pensado bien'. Todos, absolutamente todos en mi vida, empujaban en la misma dirección.",
+        "Hubo dos semanas en que cedí. Me convencí de que no tenía otra opción. Que era lo lógico. Que no era el momento. Que ya vendría otro bebé 'cuando estuviera lista'. Hice una cita en una clínica.",
+        "La noche antes de la cita, no dormí. A las tres de la madrugada me levanté, me senté en la cocina con una taza de té que no me tomé, y me hice una pregunta que nadie me había hecho: '¿Qué quiero yo?'",
+        "La respuesta llegó con una claridad que me sorprendió: yo quería a ese bebé. No porque fuera lo práctico ni lo lógico ni lo conveniente. Sino porque ya era mío. Ya lo amaba. Ya pensaba en él (o en ella) cuando me quedaba sola.",
+        "Llamé a la clínica y cancelé la cita. Esa misma mañana le dije a mi madre que había cambiado de opinión. Hubo una discusión enorme, la más grande que hemos tenido en nuestra vida. Ella lloró, yo lloré, dijo cosas dolorosas, yo dije cosas dolorosas.",
+        "Pero me mantuve firme. No porque fuera fácil, sino porque sabía con todo mi ser que era lo correcto.",
+        "Luna nació en enero. Mi madre estuvo en el parto. Cuando la sostuvo en brazos por primera vez, la vi cambiar en tiempo real. No dijo nada durante un rato largo, solo la miró. Luego levantó los ojos hacia mí y me dijo, con una voz que nunca le había escuchado: 'Tenías razón.'",
+        "Hoy mi madre es la persona más enamorada de Luna en el planeta. Viene a vernos dos veces por semana. Luna la llama 'yaya' con una voz que convierte a mi madre en mantequilla cada vez.",
+        "Nunca reproché a mi familia sus palabras de aquella época. Actuaron desde el miedo, desde la preocupación, desde sus propias limitaciones. Pero sí aprendí algo importante: la decisión de traer una vida al mundo no puede delegarse. Tiene que venir de adentro. Y cuando viene de adentro, nada puede detenerla."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2024-05-02"
+    },
+    {
+      "id": "carmen-de-las-cenizas-del-abuso",
+      "countryCode": "VE",
+      "title": "De las cenizas del abuso a la luz de la maternidad",
+      "author": "Carmen V.",
+      "imageKey": "newborn",
+      "summary": "Carmen quedó embarazada en una relación abusiva de la que había escapado apenas. La vergüenza la consumía. Pero encontró en su hijo la sanación que nunca esperó.",
+      "body": [
+        "Hay partes de mi historia que todavía me cuesta contar en voz alta. Pero las cuento porque sé que hay mujeres que necesitan saber que lo que yo viví también puede tener un final diferente.",
+        "Salí de una relación abusiva después de dos años y medio. Mi expareja no me golpeaba con los puños, pero encontró otras formas igual de devastadoras de destruirme: el control, el aislamiento, la humillación constante, las amenazas. Cuando finalmente encontré el valor para irme, pensé que lo peor había terminado.",
+        "Dos semanas después descubrí que estaba embarazada.",
+        "El mundo se me cayó encima. Ese embarazo me ataba, en mi mente, a él para siempre. A sus gritos, a sus insultos, a todo lo que había tardado tanto en dejar atrás. Sentí una vergüenza que no cabía en mi cuerpo. Sentí que era un castigo.",
+        "Una parte de mí quería borrar ese embarazo como quería borrar esa relación. Quería empezar de cero, sin ningún recordatorio de lo que había vivido. Es comprensible, quizás. Pero en el fondo, yo sabía que ese bebé no era responsable de lo que su padre me había hecho.",
+        "Una trabajadora social de la casa de acogida donde me refugié al salir de esa relación fue quien me ayudó a ver las cosas de otra manera. Me dijo algo que me quedó grabado: 'Carmen, ese bebé no es la continuación de tu abuso. Ese bebé puede ser el comienzo de tu sanación.'",
+        "No la creí de inmediato. Pero me quedé con esas palabras.",
+        "Continué el embarazo. No fue un proceso fácil. Hubo momentos oscuros. Hubo noches en que lloraba sin poder parar. Hubo días en que la vergüenza volvía a aplastame. Pero también empecé a sentir algo que no había sentido en años: que estaba haciendo algo por mí misma, una decisión que nadie me había obligado a tomar. Era mía.",
+        "Andrés nació en enero de 2021. Cuando lo vi, lo primero que pensé fue: 'Es mío. Solo mío.' No de él, no de la relación, no del pasado. Mío.",
+        "Y entonces entendí lo que me había dicho la trabajadora social. Porque en ese momento, Andrés no fue un recordatorio de lo que había vivido. Fue la prueba de que yo había sobrevivido y de que tenía razón de estar aquí.",
+        "La crianza en solitario es dura. No lo voy a endulzar. Hay días agotadores, noches sin dormir, meses en que los recursos escasean. Pero Andrés me da una razón para levantarme cada mañana que va más allá de cualquier circunstancia.",
+        "He asistido a terapia, he trabajado en mi sanación, he reconstruido mi vida ladrillo a ladrillo. Y en todo ese proceso, Andrés ha sido mi compañero más fiel, el que me abraza cuando lloro, el que ríe con esa risa que no se parece a nada que yo haya amado antes.",
+        "La maternidad no borró mi trauma. Pero sí me dio un propósito tan grande que el trauma ya no ocupa todo el espacio. Y eso, para alguien que llegó a creer que no merecía nada bueno, es todo."
+      ],
+      "readingMinutes": 8,
+      "publishedAt": "2023-09-14"
+    },
+    {
+      "id": "isabel-el-bebe-que-cambio-mis-prioridades",
+      "countryCode": "US",
+      "title": "El bebé que cambió mis prioridades",
+      "author": "Isabel F.",
+      "imageKey": "hopeHand",
+      "summary": "Abogada de treinta y seis años, Isabel lo tenía todo planeado, excepto un bebé. Cuando el embarazo llegó, su primer instinto fue controlarlo. Lo que no sabía es que ese bebé le enseñaría lo que ningún logro profesional pudo.",
+      "body": [
+        "Soy abogada. Soy organizada, metódica, analítica. Mi vida estaba planificada en hojas de ruta con fechas y objetivos. Matrimonio, sí, pero a los cuarenta. Hijos, quizás, pero 'cuando estuviera más estable'. Carrera, siempre primero.",
+        "A los treinta y seis años, en el pico de mi carrera, quedé embarazada de manera inesperada. Mi pareja y yo llevábamos tres años juntos pero sin hablar seriamente de hijos. Cuando le dije, su reacción fue de apoyo tímido: 'Lo que tú decidas, yo te apoyo.'",
+        "Esa frase, que pretendía ser generosa, en realidad me dejó completamente sola con la decisión.",
+        "Mi primer instinto fue buscar información como lo hago con cualquier caso difícil: exhaustivamente. Leí todo. Estadísticas sobre embarazos tardíos, riesgos, opciones, clínicas. Redacté mentalmente pros y contras. Me convencí de que el momento no era el correcto. De que mi carrera estaba en un punto crítico. De que yo 'no era el tipo de persona' para ser madre todavía.",
+        "Pero había una pregunta que no podía meter en una hoja de cálculo: ¿cómo me sentiría en diez años si no lo tenía?",
+        "Esa pregunta me detuvo en seco. La respondí con honestidad, a solas, a las dos de la madrugada, y la respuesta me dejó sin palabras: me sentiría devastada.",
+        "Llamé a mi madre al día siguiente. Le conté todo. Ella, que nunca me presiona sobre nada, dijo con calma: 'Mija, los momentos perfectos no existen. Los bebés se adaptan a la vida, no al revés.' Treinta y seis años y mi mamá todavía me enseña cosas.",
+        "Nicolás nació ocho meses después. El parto fue largo y agotador. Las primeras semanas fueron un caos que ningún MBA te prepara para enfrentar. Pero también fueron las semanas en que descubrí que soy capaz de cosas que nunca había imaginado.",
+        "Volví al trabajo a los cuatro meses. No fue fácil. Hubo reuniones que perdí por fiebre de Nicolás, noches que dormí tres horas antes de preparar un alegato importante, momentos en que sentí que fallaba en todos los frentes al mismo tiempo.",
+        "Pero también ocurrió algo que no había previsto: Nicolás me hizo mejor abogada. Me volvió más empática, más capaz de entender que detrás de cada caso hay personas reales con miedos reales. Me hizo más humana.",
+        "Hoy Nicolás tiene dos años. Es el primero en quedarme dormido encima en el sofá al final del día, el que me llama 'mamá' con una voz que me hace olvidar cualquier caso difícil, el que me enseña cada día que los mejores argumentos no siempre ganan, pero el amor siempre encuentra la manera.",
+        "Mi hoja de ruta cambió. Pero el destino que encontré es mucho mejor que el que yo había planeado."
+      ],
+      "readingMinutes": 6,
+      "publishedAt": "2024-02-11"
+    },
+    {
+      "id": "miriam-sola-pero-no-abandonada",
+      "countryCode": "PE",
+      "title": "Sola, pero no abandonada",
+      "author": "Miriam O.",
+      "imageKey": "babyHand",
+      "summary": "El esposo de Miriam la dejó cuando supo del embarazo. Ella tuvo que elegir sin él. Y eligió la vida.",
+      "body": [
+        "Mi esposo y yo llevábamos cuatro años casados cuando quedé embarazada. No fue un embarazo planeado, pero tampoco fue una sorpresa terrible. Al menos eso creí yo.",
+        "Cuando se lo dije, esperaba alegría o al menos tranquilidad. En cambio, su reacción fue un silencio que se extendió durante tres días. Al cuarto día me senté frente a él y le pregunté directamente qué estaba pasando. Me dijo que no estaba listo, que él no quería hijos todavía, que habíamos hablado de eso antes y que yo lo sabía.",
+        "Tenía razón en que lo habíamos hablado. Pero los planes cambian. La vida cambia. Pensé que él también cambiaría.",
+        "No cambió. Al mes de saber que estaba embarazada, me dijo que se iba. No de manera cruel ni violenta. Solo que no podía estar donde no quería estar. Y se fue.",
+        "Me quedé sola en nuestro departamento en Lima, a los treinta y un años, embarazada de dos meses y con el peso del mundo sobre los hombros. La primera semana no salí. No comí bien, no dormí bien, no hice nada bien. Solo existí en una especie de parálisis emocional.",
+        "Mi mejor amiga, Lucía, fue quien me sacó de ese hoyo. Llegó un sábado con comida, se sentó conmigo y me dijo algo que no esperaba: 'Miriam, hay dos personas en este cuarto a las que tengo que ayudar. A ti y a ese bebé.'",
+        "Esa frase cambió algo en mi forma de verme. Yo no estaba sola del todo. Tenía a alguien que dependía completamente de mí. Y esa dependencia, lejos de aplasarme más, me dio una razón para levantarme.",
+        "Busqué un centro de apoyo para madres solteras. Encontré uno a diez minutos de mi casa que ofrecía talleres, orientación legal, grupos de apoyo y una red de mujeres que sabían exactamente lo que yo estaba sintiendo. Esa red se convirtió en mi familia.",
+        "Camila nació en junio. El parto fue hermoso en su propia manera imperfecta. Lucía estuvo conmigo toda la noche. Mi madre llegó desde Arequipa dos días antes por si acaso.",
+        "El padre de Camila apareció cuando ella tenía seis meses. Quería conocerla. Tuvimos conversaciones difíciles. Llegamos a un acuerdo de visitas que respetamos ambos. No es la familia que yo imaginé, pero es la familia que tenemos.",
+        "Camila tiene ahora tres años. Es inteligente, curiosa, habladora y absolutamente enamorada del océano. Los fines de semana vamos al malecón y ella corre hacia las olas sin ningún miedo, riéndose de la espuma que le moja los pies.",
+        "Hay días en que la soledad pesa. Hay noches en que quisiera tener a alguien con quien compartir la maravilla que es esta niña. Pero nunca, ni por un segundo, me arrepiento de haberla tenido. Ella llegó en el peor momento de mi vida y lo convirtió en el más significativo.",
+        "A las mujeres que están solas y embarazadas les digo esto: la soledad de este momento no define lo que viene. Y ese bebé que cargas sola hoy puede ser la razón más poderosa que hayas tenido para no estarlo nunca más."
+      ],
+      "readingMinutes": 7,
+      "publishedAt": "2023-12-03"
+    },
+    {
+      "id": "sofia-pedro-cuando-el-miedo-casi-vencio",
+      "countryCode": "CL",
+      "title": "Cuando el miedo casi venció al amor",
+      "author": "Sofía y Pedro A.",
+      "imageKey": "glow",
+      "summary": "Una pareja joven, una crisis económica severa y un bebé inesperado. Estuvieron a punto de tomar la decisión de la que hoy saben que se habrían arrepentido toda la vida.",
+      "body": [
+        "Sofía: Teníamos veintisiete y veinticinco años. Llevábamos dos años juntos, vivíamos arrendando un departamento pequeño en Santiago, yo trabajaba en una tienda y Pedro estaba desempleado desde hacía tres meses. Cuando descubrí que estaba embarazada, la primera palabra que pensé no fue alegría sino 'imposible'.",
+        "Pedro: Cuando Sofía me lo dijo, sentí que el suelo se movía. Literalmente. Hice los cálculos en mi cabeza en tiempo real y el resultado era devastador: sin trabajo, sin ahorros, con el arriendo venciendo en un mes. No veía cómo íbamos a poder.",
+        "Sofía: Lo que siguió fue una de las conversaciones más difíciles y más honestas que hemos tenido en nuestra relación. Hablamos durante noches enteras. Los dos exploramos la misma opción sin decirla en voz alta, hasta que una noche Pedro la dijo: 'Sofía, quizás no podemos tenerlo ahora.'",
+        "Pedro: Decirlo en voz alta fue horrible. No porque yo quisiera decirlo, sino porque en el momento en que lo dije, me di cuenta de que no lo creía. Que lo estaba diciendo por miedo, no por convicción.",
+        "Sofía: Buscamos información. Encontramos una organización pro-vida en Santiago que ofrecía apoyo a parejas en crisis de embarazo. Fui con desconfianza, pensando que nos iban a dar un sermón. Pero lo que encontramos fue algo completamente diferente.",
+        "Pedro: Nos recibió una pareja de voluntarios que había estado en una situación muy similar a la nuestra años atrás. Sin trabajo, sin dinero, con un bebé en camino. Nos contaron su historia sin romantizarla, con toda la verdad. Y luego nos mostraron los recursos disponibles: subsidios de vivienda, apoyo alimentario, ropa de bebé, orientación laboral.",
+        "Sofía: También nos hablaron del bebé que ya existía. A las nueve semanas que tenía yo en ese momento, ya tenía forma humana reconocible. Ya tenía dedos. Ya se movía. Eso, escucharlo de esa manera, frente a una pareja real que lo había vivido, lo cambió todo.",
+        "Pedro: Tomamos la decisión juntos, esa misma noche. Íbamos a tener a nuestro bebé. Y en lugar de enfocarnos en todo lo que nos faltaba, nos íbamos a enfocar en encontrar lo que necesitábamos.",
+        "Sofía: Las siguientes semanas fueron intensas. Pedro consiguió trabajo a las dos semanas. Un trabajo mejor del que había tenido antes. No fue fácil, no fue magia, fue determinación. La organización nos consiguió cuna, cochecito, ropa. Mi familia, cuando se enteró, reaccionó mejor de lo que esperábamos.",
+        "Pedro: Tomás nació en diciembre. En el hospital, cuando lo pusieron sobre el pecho de Sofía y él abrió los ojos por primera vez, no hubo ningún pensamiento de 'no podemos'. Solo había amor. Amor puro, sin condiciones, aplastante.",
+        "Sofía: Cuando pienso en la noche que casi decimos que no, siento un escalofrío. No de horror, sino de gratitud inmensa de que no lo hicimos. Tomás tiene un año y medio. Camina, ya dice 'mamá' y 'papá' con una precisión que nos vuelve locos de amor.",
+        "Pedro: La crisis económica siguió. No desapareció de la noche a la mañana. Pero la enfrentamos como familia, y eso lo cambia todo. Tomás no fue nuestra carga. Fue nuestra fuerza."
+      ],
+      "readingMinutes": 6,
+      "publishedAt": "2024-04-18"
+    },
+    {
+      "id": "ana-el-perdon-que-me-devolvi",
+      "countryCode": "MX",
+      "title": "El perdón que me devolví a mí misma",
+      "author": "Ana G.",
+      "imageKey": "newborn",
+      "summary": "Ana tuvo un aborto a los veintidós años del que se arrepintió profundamente. Diez años después, ante un nuevo embarazo, eligió diferente. Esta es su historia de dolor, perdón y redención.",
+      "body": [
+        "Hubo un tiempo en que yo era el tipo de persona que nunca pensó que se arrepentiría. Era joven, progresista, convencida de que el aborto era simplemente una decisión de salud reproductiva. Cuando a los veintidós años quedé embarazada de una relación que ya estaba terminando, no dudé mucho. Me convencí de que era lo lógico, lo práctico, lo que 'tenía sentido'.",
+        "Lo que no me contó nadie es lo que viene después.",
+        "Los primeros meses sentí una especie de alivio extraño mezclado con algo que no sabía nombrar. Seguí adelante con mi vida. Terminé la universidad. Conseguí trabajo. Salí con gente. Me convencí de que estaba bien.",
+        "Pero había noches, especialmente en los aniversarios que mi mente calculaba sin que yo se lo pidiera, en que algo oscuro y pesado se sentaba sobre mi pecho. Empecé a soñar con un bebé que nunca vi. Empecé a llorar sin razón aparente.",
+        "Tardé años en reconocer lo que eso era: duelo. Estaba de duelo por una vida que yo había terminado, y que durante mucho tiempo no me permití llorar porque hacerlo significaba admitir que lo que había hecho era real.",
+        "No voy a decir que el aborto me destruyó. No lo hizo. Sigo siendo una persona funcional, que trabaja, que ama, que ríe. Pero dejó una marca que jamás imaginé cuando tomé esa decisión a los veintidós años.",
+        "A los treinta y tres, en una relación estable con un hombre bueno, quedé embarazada de nuevo. No fue planeado del todo, pero tampoco fue una sorpresa terrible. Mi pareja, Miguel, lo recibió con amor.",
+        "Y sin embargo, el miedo volvió. No el miedo a tener el bebé, sino el miedo a merecer ser madre después de lo que había hecho. Me pregunté si tenía derecho a estar feliz. Si tenía derecho a un bebé cuando antes había elegido no tenerlo.",
+        "Fui a buscar orientación a un centro de apoyo pro-vida. Lo que encontré allí fue algo que no esperaba: una mujer que había pasado exactamente por lo mismo. Que también había tenido un aborto, que también había cargado ese peso durante años, y que me dijo algo que me abrió una puerta: 'Ana, el perdón es real. Y también es tuyo si lo quieres.'",
+        "Lloré más que en todos los años anteriores juntos. Lloré por el bebé que no tuve a los veintidós años. Lloré por el miedo de ahora. Lloré por el perdón que me había negado durante tanto tiempo.",
+        "Renata nació en mayo. Cuando la sostuve por primera vez, sentí que algo se completaba. No que el dolor anterior desaparecía, sino que se transformaba en algo distinto: en una responsabilidad sagrada de amar con todo lo que tengo.",
+        "He seguido en terapia. He seguido trabajando en ese perdón. Hay días en que todavía pesa. Pero hay más días, cada vez más, en que me miro al espejo y veo a una mujer que eligió diferente cuando tuvo la oportunidad, y que esa elección le devolvió algo que creía perdido para siempre.",
+        "Cuento esta historia porque sé que hay mujeres que ya tuvieron un aborto y que viven con ese peso en silencio. Quiero que sepan: hay esperanza. Hay perdón. Y si algún día tienen la oportunidad de elegir de nuevo, esa nueva elección también importa."
+      ],
+      "readingMinutes": 8,
+      "publishedAt": "2023-08-20"
+    },
+    {
+      "id": "laura-cuando-el-diagnostico-no-define",
+      "countryCode": "CO",
+      "title": "Cuando el diagnóstico no define el destino",
+      "author": "Laura C.",
+      "imageKey": "hopeHand",
+      "summary": "A los cinco meses de embarazo, los médicos le dijeron a Laura que su bebé tenía síndrome de Down. Le recomendaron interrumpir el embarazo. Ella eligió distinto. Hoy Sebastián tiene cuatro años.",
+      "body": [
+        "Tenía treinta y dos años y estaba en el quinto mes de embarazo cuando el resultado de la amniocentesis llegó. La doctora me llamó por teléfono para comunicármelo y recuerdo que estaba en el supermercado cuando atendí la llamada. Me senté en el piso del pasillo de los cereales y no pude levantarme durante un buen rato.",
+        "Síndrome de Down. Trisomía 21. Palabras que yo conocía de manera abstracta, que de repente tenían el peso del mundo porque se referían a mi bebé, al bebé que llevaba cinco meses creciendo dentro de mí.",
+        "Los días que siguieron fueron una avalancha de información médica, de opiniones, de consultas. Varios médicos, con la mejor intención del mundo, me presentaron estadísticas, me hablaron de 'calidad de vida', de 'lo que está por venir', de 'la carga' que implica criar a un niño con discapacidad. Uno me dijo directamente: 'Dada la etapa del embarazo, todavía tiene tiempo de interrumpirlo.'",
+        "Nadie me presentó a ninguna familia que lo hubiera vivido. Nadie me habló de lo que el síndrome de Down realmente significa en la vida cotidiana, más allá de los diagnósticos clínicos. Solo recibí estadísticas y la opción de detener el embarazo.",
+        "Mi esposo, Andrés, fue mi ancla. Fue él quien buscó grupos de padres de niños con síndrome de Down. Fue él quien encontró a familias dispuestas a hablar con nosotros. Fue él quien un día me puso el teléfono en la mano y me dijo: 'Habla con ella.'",
+        "'Ella' era Marcela, una madre de Medellín cuyo hijo con síndrome de Down tenía doce años. Lo que me dijo en esa llamada de cuarenta minutos valió más que todas las consultas médicas juntas. No me dijo que era fácil. No me mintió. Me dijo que era diferente, que requería más, que había desafíos que yo no podía imaginar. Y luego me dijo: 'Pero también hay cosas que él me ha enseñado que ningún libro ni ningún experto podría enseñarme. Y no cambiaría ni un día de esta vida.'",
+        "Andrés y yo tomamos la decisión juntos, con los ojos abiertos. Seguiríamos el embarazo. Sebastián nacería.",
+        "La preparación fue intensa. Aprendimos sobre intervención temprana, sobre terapias, sobre los recursos disponibles. Construimos una red de apoyo que incluía a médicos, terapeutas, familias como la de Marcela y organizaciones especializadas.",
+        "Sebastián nació en agosto. La primera vez que lo vi, vi a mi hijo. No vi un diagnóstico. No vi estadísticas. Vi a un bebé pequeño con las manos de Andrés y mi forma de fruncir el ceño cuando duerme.",
+        "Hoy Sebastián tiene cuatro años. Camina, baila, pinta, abraza con una intensidad que desarma a cualquiera. Va a una escuela inclusiva. Tiene amigos. Tiene un humor que nos hace reír todos los días. Tiene una capacidad para el amor que me hace sentir, cada vez que me mira, que estoy recibiendo el regalo más puro y más honesto del mundo.",
+        "¿Es difícil? Sí, a veces. ¿Hay momentos duros? Por supuesto. ¿Cambiaría algo? Ni un segundo.",
+        "Le digo a los médicos que me recomendaron interrumpir el embarazo: no era su vida la que estaban decidiendo. Era la de Sebastián. Y Sebastián tiene mucho por decir sobre el valor de su propia vida.",
+        "Y a los padres que están donde yo estaba, con un diagnóstico en la mano y el miedo en el corazón: hay familias que ya vivieron esto y están dispuestas a hablar con ustedes. Busquen esas voces antes de decidir. Sus hijos merecen esa búsqueda."
+      ],
+      "readingMinutes": 7,
+      "publishedAt": "2024-06-30"
+    },
+    {
+      "id": "historia-001",
+      "countryCode": "MX",
+      "title": "El ultrasonido que me salvó la vida a mí y a mi hijo",
+      "author": "María F., 24 años",
+      "imageKey": "babyHand",
+      "summary": "Tenía 19 años, mi novio me presionaba para abortar. Una cita de ultrasonido cambió todo.",
+      "body": [
+        "Cuando descubrí que estaba embarazada, tenía 19 años y estaba en mi segundo año de universidad. Mi novio, cuando le dije la noticia, se enfureció. Me dijo que arruinaría su futuro, que no estaba listo, que debía 'solucionarlo'. Me sentí sola, asustada, con un nudo en el estómago. Fui a una clínica pensando que solo me darían información, pero la consejera me preguntó si quería ver a mi bebé. Dudé, pero acepté. En la pantalla vi un pequeño corazón latiendo con fuerza. Escuché ese latido. En ese momento, todo cambió. Ahí estaba mi hijo, indefenso, con vida. Salí de allí decidida. Terminé con mi novio, me acerqué a mi familia que me apoyó, y hoy, cinco años después, Mateo es la luz de mi vida. Me titulé, trabajo y soy feliz. No puedo imaginar mi vida sin él. Elegir la vida fue el mejor regalo que me di a mí misma."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2024-01-15"
+    },
+    {
+      "id": "historia-002",
+      "countryCode": "ES",
+      "title": "Miedo, soledad y el apoyo que llegó en el momento justo",
+      "author": "Laura G.",
+      "imageKey": "glow",
+      "summary": "Embarazada, desempleada y sola en un país extranjero. Pensé que el aborto era mi única salida.",
+      "body": [
+        "Llegué a España con una maleta y sueños rotos. Meses después, descubrí que estaba embarazada. No tenía trabajo, mi familia estaba lejos, ni siquiera tenía un lugar fijo donde vivir. El padre no quiso saber nada. Sentí que el mundo se derrumbaba. Fui a una clínica de planificación familiar y me dieron una lista de lugares donde abortar. Pero algo me detuvo. Encontré por internet a Voces que Dan Vida. Una mujer llamada Carmen me escuchó llorar durante una hora. No me juzgó. Me dijo: 'No estás sola, vamos a encontrar la manera'. Me ayudaron a conseguir un albergue para madres, luego un trabajo a medio tiempo, y poco a poco fui reconstruyendo mi vida. Mi hijo, Daniel, nació sano y hermoso. Hoy, tres años después, tengo un trabajo estable, mi propio apartamento y un hijo que me da fuerzas cada día. Si hubiera abortado, me habría perdido el mayor amor de mi vida."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2023-11-20"
+    },
+    {
+      "id": "historia-003",
+      "countryCode": "CO",
+      "title": "Me dijeron que mi bebé tenía 'malformaciones incompatibles' y aún así elegí la vida",
+      "author": "Ana R.",
+      "imageKey": "newborn",
+      "summary": "Los médicos me sugirieron abortar porque mi bebé tenía una condición grave. Hoy, mi hija es mi mayor maestra de amor.",
+      "body": [
+        "En la semana 20, los médicos encontraron que mi bebé tenía una malformación congénita severa. Me dijeron que podría no sobrevivir al parto, y si lo hacía, tendría discapacidades profundas. Me sugirieron 'interrumpir el embarazo' como si fuera algo sencillo. Mi esposo y yo estábamos destrozados. Pero algo dentro de mí me decía que esa vida era valiosa. Busqué segundas opiniones, encontré grupos de apoyo de familias con hijos con la misma condición. Decidimos darle una oportunidad. Valentina nació con síndrome de Edwards. Los médicos decían que no viviría más de unos días. Hoy tiene 2 años. Es una guerrera. Nos ha enseñado que la vida, incluso frágil, es un regalo. Cada sonrisa suya vale más que cualquier comodidad. Elegirla fue elegir el amor sin condiciones."
+      ],
+      "readingMinutes": 6,
+      "publishedAt": "2024-02-10"
+    },
+    {
+      "id": "historia-004",
+      "countryCode": "AR",
+      "title": "Él me dijo 'aborta o me voy' y yo elegí a mi hija",
+      "author": "Sofía L.",
+      "imageKey": "hopeHand",
+      "summary": "Mi pareja de años me dio un ultimátum. Hoy estoy agradecida de haber elegido a mi hija.",
+      "body": [
+        "Llevaba cinco años con Juan. Cuando le dije que estaba embarazada, su cara cambió. Me dijo: 'No estoy listo para ser padre. Si tienes ese bebé, me voy'. Fue un golpe durísimo. Yo amaba a Juan, o al menos eso creía. Pasé días llorando, sintiendo que debía elegir entre él y mi bebé. Una amiga me llevó a un centro de ayuda. Hablé con una consejera que me escuchó sin presionarme. Me preguntó: '¿Qué pasaría si él se va y tú abortas? ¿Y si te quedas y te arrepientes?'. Entendí que el verdadero amor no pone condiciones. Juan se fue. Estuve sola durante el embarazo, pero mi familia y el centro me apoyaron. Camila nació y mi mundo cambió. Juan nunca volvió, pero no lo necesito. Camila es lo mejor que me pasó. Hoy, con 3 años, es mi compañera, mi razón para seguir adelante. Elegirla a ella fue elegirme a mí."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2023-09-05"
+    },
+    {
+      "id": "historia-005",
+      "countryCode": "US",
+      "title": "Pensé que un aborto solucionaría mis problemas de pareja. Me equivoqué.",
+      "author": "Patricia M.",
+      "imageKey": "babyHand",
+      "summary": "Él decía que un bebé arruinaría nuestra relación. Elegí la vida, y aunque la relación terminó, encontré algo mucho mejor.",
+      "body": [
+        "Tenía 22 años y una relación que creía estable. Cuando supe que estaba embarazada, mi novio me dijo que no estaba listo y que un hijo arruinaría todo lo que estábamos construyendo. Me llevó a una clínica de aborto. Yo estaba tan confundida, tan manipulada. En la sala de espera, una chica me entregó un folleto de Voces que Dan Vida. Salí de allí sin hacer nada. Llamé y hablé con una consejera que me ayudó a ver que la decisión era mía, no de él. Decidí tener a mi bebé. Él se enojó y me dejó. Fue doloroso, pero también liberador. Mi hijo Tomás es mi todo. Ahora, a los 3 años, me mira y dice 'te quiero mamá' y sé que ninguna relación que me exigiera abortar merecía la pena. Mi hijo me enseñó lo que es el amor incondicional."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2023-12-12"
+    },
+    {
+      "id": "historia-006",
+      "countryCode": "MX",
+      "title": "Estudiaba y trabajaba, sentía que no podía más. El aborto parecía la 'solución lógica'.",
+      "author": "Valentina C.",
+      "imageKey": "glow",
+      "summary": "Llevaba una vida perfectamente planeada. El embarazo no estaba en los planes. Hoy sé que los mejores planes no los hace uno.",
+      "body": [
+        "Era una chica organizada, con metas claras: terminar mi carrera, especializarme, viajar. Cuando me enteré del embarazo, mi mundo se vino abajo. Era un 'accidente' que arruinaba mi plan perfecto. Fui a una clínica privada para informarme sobre el aborto. La doctora me explicó el procedimiento como si fuera un trámite. Salí con una cita para la semana siguiente. Pero algo no me dejaba en paz. Pasé días sin dormir. Recordé que en la universidad había visto un documental sobre el desarrollo prenatal: el corazón late a las 3 semanas, los dedos se forman a las 8. Eso me golpeó. Cancelé la cita. Fue difícil, sí. Mi familia no me apoyó al principio. Pero encontré grupos de madres estudiantes. Terminé mi carrera con un bebé en brazos, luego una maestría. Hoy, mi hija tiene 5 años y es la alegría de mi vida. Mi plan era bueno, pero el plan de Dios era mejor."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2024-01-28"
+    },
+    {
+      "id": "historia-007",
+      "countryCode": "CO",
+      "title": "Dos líneas en la prueba y el pánico se apoderó de mí",
+      "author": "Camila S.",
+      "imageKey": "newborn",
+      "summary": "Lloré tres días seguidos. Una amiga me llevó a un centro de ayuda donde encontré esperanza.",
+      "body": [
+        "Tenía 17 años. Las dos líneas rosadas aparecieron y sentí que mi vida terminaba. Mi papá es muy estricto, mi mamá se decepcionaría. El papá era un chico de mi clase que ni siquiera me contestaba los mensajes. Estuve tres días encerrada en mi cuarto sin comer, pensando que la única salida era abortar. Una amiga me llevó casi a la fuerza a un centro de apoyo. Allí, una señora muy amable me preguntó cómo me sentía. Yo solo lloraba. Me dijo: 'No tienes que decidir nada hoy. Solo déjame acompañarte'. Me enseñó fotos de bebés en el vientre, me explicó que mi bebé ya tenía latidos. Poco a poco, fui sintiendo que no estaba sola. Mi mamá se enteró, al principio fue duro, pero luego me abrazó y me dijo que me apoyaría. Mi hijo Santiago nació sano. Hoy, con 2 años, me da fuerzas para seguir adelante. Terminé la escuela y ahora estudio enfermería. Ser madre joven no fue el fin, fue un nuevo comienzo."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2023-10-17"
+    },
+    {
+      "id": "historia-008",
+      "countryCode": "ES",
+      "title": "No quería ser madre soltera. El miedo me paralizaba.",
+      "author": "Elena D.",
+      "imageKey": "hopeHand",
+      "summary": "Imaginaba el futuro y solo veía dificultades. Alguien me recordó que el amor puede con todo.",
+      "body": [
+        "Cuando supe que estaba embarazada, lo primero que pensé fue: 'Voy a ser madre soltera'. El padre me había dejado semanas antes sin saber del embarazo. Me veía sola, sin ayuda, con un bebé que no sabía cómo cuidar. La idea del aborto me rondaba la cabeza como una 'solución práctica'. Un día, caminando por la calle, una chica me entregó un folleto de Voces que Dan Vida. Decía: 'No estás sola'. Llamé por curiosidad. La persona que me atendió no me habló de religión ni me juzgó. Me habló de recursos. Me dijo que había madres solteras que salían adelante con ayuda. Me conectó con un grupo de apoyo. Conocí a otras mujeres que estaban en mi misma situación y que me animaron. Hoy, mi hija Martina tiene 4 años. Sí, ha sido duro a veces, pero también ha sido hermoso. No soy madre soltera, soy madre guerrera. Y nunca, nunca me he arrepentido."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2024-02-01"
+    },
+    {
+      "id": "historia-009",
+      "countryCode": "AR",
+      "title": "El doctor me dijo 'el feto no es viable'. Hoy mi hija corre y juega.",
+      "author": "Isabel T.",
+      "imageKey": "babyHand",
+      "summary": "Un diagnóstico desalentador casi me hace perder la esperanza. Elegí confiar en la vida.",
+      "body": [
+        "En la semana 12, un médico me dijo que mi bebé tenía una condición que la haría 'inviable'. Me sugirió 'no continuar con el embarazo'. Salí de la consulta deshecha. Mi esposo y yo no sabíamos qué hacer. Buscamos otra opinión. Un segundo médico nos dijo que, aunque había algunos riesgos, no había razón para pensar que mi hija no podría vivir. Decidimos darle una oportunidad. Fue un embarazo de altos y bajos, con controles frecuentes. Al final, Lucía nació sana, sin ninguna de las complicaciones que pronosticaron. Hoy tiene 3 años, es una niña feliz, llena de energía, que no para de correr y de hacer preguntas. Me pregunto cuántas vidas se han perdido por diagnósticos apresurados. La medicina no es una ciencia exacta. La vida, sí, es un milagro."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2023-08-22"
+    },
+    {
+      "id": "historia-010",
+      "countryCode": "US",
+      "title": "Me sentía una carga para mi familia. Casi cometí el peor error.",
+      "author": "Daniela P.",
+      "imageKey": "glow",
+      "summary": "Mi familia tenía problemas económicos y yo era otra boca que alimentar. Pensé que abortar era 'lo responsable'.",
+      "body": [
+        "Mis padres ya estaban pasando por dificultades económicas. Cuando les dije que estaba embarazada, vi sus caras de preocupación. Mi mamá lloró, mi papá guardó silencio. Me sentí una carga. Pensé que lo 'responsable' sería abortar, no traer más problemas a mi familia. Una tía se enteró de mis pensamientos y me habló con firmeza pero con amor. Me dijo que una vida nunca es una carga. Me llevó a un centro de apoyo donde me ofrecieron ayuda con alimentos, ropa y hasta asesoría para que mis padres pudieran acceder a beneficios. Mi bebé, Nicolás, nació. Mis padres lo adoran. La economía no se arregló de inmediato, pero el amor en casa creció. Mi mamá dice que Nicolás fue la bendición que nos unió. Nunca más volveré a pensar que una vida es una carga. Cada vida es un regalo."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2023-11-10"
+    },
+    {
+      "id": "historia-011",
+      "countryCode": "MX",
+      "title": "Él me manipuló diciendo que el bebé 'arruinaría nuestro amor'",
+      "author": "Rocío M.",
+      "imageKey": "newborn",
+      "summary": "Era una relación tóxica, pero yo no lo veía. El embarazo me abrió los ojos.",
+      "body": [
+        "Mi novio era encantador, pero controlador. Cuando le dije que estaba embarazada, se puso furioso. Me dijo que si tenía ese bebé, todo el amor que me tenía se acabaría. Me dijo que sería un obstáculo para nuestra relación. Estuve semanas confundida, sintiendo que debía elegir entre él y mi bebé. Un día, una compañera de trabajo me habló de su propia experiencia. Me contó que ella había pasado por lo mismo, que el novio la presionó y ella abortó, y que luego la relación se rompió igual. Me dijo: 'Si él te condiciona así, no te ama'. Esa frase me hizo click. Decidí tener a mi bebé. Él se fue, como amenazó. Pero yo me di cuenta de que me había librado de una persona que no me quería de verdad. Mi hijo Emilio es mi orgullo. Hoy, con 2 años, me sonríe cada mañana y sé que hice lo correcto."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2024-01-05"
+    },
+    {
+      "id": "historia-012",
+      "countryCode": "CO",
+      "title": "Tenía 15 años, el pánico me nublaba. Una consejera me tendió la mano.",
+      "author": "Lucía F.",
+      "imageKey": "hopeHand",
+      "summary": "A los 15, un embarazo parece el fin del mundo. Alguien me ayudó a ver que era un nuevo comienzo.",
+      "body": [
+        "Era una niña. Así me sentía. Cuando me enteré del embarazo, no quería vivir. Mis papás se iban a morir. Mis amigas me darían la espalda. El papá, otro adolescente asustado, me dijo que abortara. Fui a un centro de salud y una enfermera me vio llorando. Se sentó conmigo y me preguntó si quería hablar. Le conté todo. Me preguntó si quería ver una ecografía. Yo dije que sí, no sé por qué. En la pantalla vi un pequeño puntito con un latido. La enfermera me dijo: 'Ese es tu bebé. Tiene vida. Y tú también vas a tener una vida hermosa'. Me acompañó a hablar con mis papás. Lloraron, sí, pero luego me abrazaron. Mi hija, Valeria, nació. Terminé la escuela con mucho esfuerzo y apoyo de mi familia. Ahora tengo 19 años, estudio diseño gráfico y Valeria es mi mayor inspiración. Fue duro, pero valió la pena."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2023-09-18"
+    },
+    {
+      "id": "historia-013",
+      "countryCode": "ES",
+      "title": "El aborto parecía la 'salida fácil' hasta que entendí lo que realmente era",
+      "author": "Claudia H.",
+      "imageKey": "babyHand",
+      "summary": "Crecí en un ambiente donde el aborto era un 'derecho'. Descubrí que era la muerte de un inocente.",
+      "body": [
+        "Siempre me consideré liberal, a favor de la 'libertad de la mujer'. Cuando me quedé embarazada sin esperarlo, mi primera reacción fue: 'aborto, claro'. Era lo que había escuchado toda mi vida. Fui a una clínica. Mientras esperaba, una chica me entregó un folleto con fotos de embriones. Me impactó. Esa no era una 'bola de células', tenía forma humana. Salí de allí y empecé a investigar por mi cuenta. Leí sobre el desarrollo prenatal. Descubrí que a las 8 semanas ya tiene dedos, a las 10 semanas ya puede sentir dolor. Me horroricé. Cancelé la cita. Decidí tener a mi bebé. Fue el mejor giro de mi vida. Mi hija, Alba, ahora tiene 3 años y me ha enseñado lo que realmente significa defender la vida. Me arrepiento de haber creído alguna vez que era un 'derecho' terminar con una vida inocente."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2023-12-03"
+    },
+    {
+      "id": "historia-014",
+      "countryCode": "AR",
+      "title": "Mi pareja me abandonó cuando supo del embarazo. El camino fue duro, pero hoy soy feliz.",
+      "author": "Natalia R.",
+      "imageKey": "glow",
+      "summary": "Me dejó sola, con una carta y sin explicación. Pensé que no podría. Hoy sé que sí pude, con ayuda.",
+      "body": [
+        "Éramos una pareja estable. Cuando le dije que estaba embarazada, me pidió unos días para pensarlo. Al cuarto día, me dejó una carta debajo de la puerta diciendo que no estaba listo y que se iba. No contestó más llamadas. Me sentí traicionada, vacía, con un futuro negro. El aborto se me cruzó como una 'solución' para no enfrentar la maternidad sola. Una amiga me habló de un grupo de apoyo para madres solteras. Fui con poco ánimo. Allí conocí a otras mujeres que habían pasado por lo mismo y que ahora tenían hijos maravillosos. Me animaron. Me ayudaron con recursos para el embarazo y los primeros meses. Mi hijo, Tomás, nació sano. Hoy, con 4 años, es mi mejor compañero. La relación no sobrevivió, pero yo sí, y con más fuerza que nunca."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2024-02-14"
+    },
+    {
+      "id": "historia-015",
+      "countryCode": "US",
+      "title": "Ya tenía dos hijos pequeños, el tercero parecía imposible. Ahora no imagino mi vida sin él.",
+      "author": "Verónica A.",
+      "imageKey": "newborn",
+      "summary": "Estaba desbordada. Dos niños pequeños, poco dinero. Un tercer bebé parecía una locura.",
+      "body": [
+        "Mis dos hijos tenían 2 y 4 años. Yo trabajaba medio tiempo y mi esposo también. Llegábamos justos a fin de mes. Cuando me enteré del tercer embarazo, sentí que el mundo se me venía encima. 'No puedo con más', pensé. Hablé con mi esposo y los dos estábamos en shock. Consideramos el aborto como una opción para no 'complicar más la vida'. Un día, hablando con mi madre, ella me dijo algo que me quedó grabado: 'Los hijos nunca son una carga, son una bendición. Y las bendiciones siempre llegan con su propio pan bajo el brazo'. No era una frase religiosa, era una verdad que ella había vivido. Decidimos seguir adelante. Mi hijo menor, Lucas, nació. Y sí, los primeros años fueron intensos. Pero ahora mis tres hijos juegan juntos, se aman, se cuidan. La casa está llena de risas. No puedo imaginar mi familia sin Lucas. Fue un regalo inesperado, pero el mejor regalo."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2023-10-30"
+    },
+    {
+      "id": "historia-016",
+      "countryCode": "CO",
+      "title": "La presión de mi familia fue enorme: 'No arruines tu futuro'",
+      "author": "Marta J.",
+      "imageKey": "hopeHand",
+      "summary": "Mis padres me hablaban de mi carrera, mi futuro. Nadie me habló del futuro de mi bebé.",
+      "body": [
+        "Tenía 21 años y estaba en tercer año de medicina. Mis padres estaban muy orgullosos. Cuando supe que estaba embarazada, el silencio en casa fue sepulcral. Luego vinieron las frases: 'Vas a arruinar tu carrera', '¿Cómo vas a ser médico con un hijo?', 'No estás lista'. Nadie me preguntó qué quería yo. Todos asumían que abortar era lo 'lógico'. Me sentí presionada, sola. Un amigo de la facultad me pasó el contacto de una organización pro-vida. Hablé con una mujer que no me presionó. Me dijo: 'Tu carrera es importante, y tu hijo también. Podemos ayudarte a encontrar un equilibrio'. Me ayudaron a buscar becas para madres estudiantes, opciones de guardería. Hoy, 4 años después, terminé medicina, estoy haciendo la residencia y mi hijo Mateo es mi mayor orgullo. Mis padres ahora lo adoran y reconocen que se equivocaron al presionarme. Mi futuro no se arruinó, se enriqueció."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2023-11-25"
+    },
+    {
+      "id": "historia-017",
+      "countryCode": "ES",
+      "title": "Fui víctima de abuso y el embarazo me recordaba el dolor. Elegir la vida fue un acto de sanación.",
+      "author": "Andrea B.",
+      "imageKey": "babyHand",
+      "summary": "El embarazo fue resultado de una violación. Sentía odio y vergüenza. Hoy mi hija es mi razón de ser.",
+      "body": [
+        "Este es el testimonio más difícil de contar. Fui violada por alguien en quien confiaba. Cuando descubrí que estaba embarazada, sentí un asco y un dolor indescriptibles. Pensé que abortar era la única manera de borrar lo sucedido. Fui a una clínica, pero al entrar, me invadió una sensación de vacío. Salí. No podía. Busqué ayuda psicológica. Mi psicóloga me dijo algo que me cambió: 'Lo que te hicieron fue un acto de violencia. Abortar sería otro acto de violencia contra un ser inocente. Tu hija no tiene la culpa de lo que pasó. Ella es una vida distinta, independiente de ese hombre'. Fue un proceso de sanación muy duro. Decidí tenerla. Cuando nació, la miré y supe que era mía, solo mía. No se parecía a él, era ella. Hoy, mi hija Lucía tiene 3 años y es la persona que más amo en el mundo. Me salvó la vida. Elegirla a ella fue elegirme a mí. Mi historia demuestra que incluso en las circunstancias más oscuras, la vida puede traer luz."
+      ],
+      "readingMinutes": 6,
+      "publishedAt": "2024-01-18"
+    },
+    {
+      "id": "historia-018",
+      "countryCode": "MX",
+      "title": "Mi novio me dijo: 'Si me amas, abortarás'. Hoy entiendo que el amor verdadero no exige muerte.",
+      "author": "Patricia F.",
+      "imageKey": "glow",
+      "summary": "Puso mi amor a prueba con una condición terrible. Elegir la vida me mostró quién era él en realidad.",
+      "body": [
+        "Estaba locamente enamorada de Carlos. Cuando le dije que estaba embarazada, se puso pálido. Me dijo que no estaba en sus planes. Luego, con lágrimas, me dijo: 'Si realmente me amas, abortarás. Por nuestro futuro'. Me sentí dividida entre mi amor por él y la vida que crecía en mí. Fui a hablar con una consejera de Voces que Dan Vida. Ella me preguntó: '¿Te parece justo que para probar tu amor tengas que matar a tu hijo?'. Esa pregunta resonó en mi cabeza. Entendí que el amor de Carlos era condicional. El mío no lo sería. Le dije que no abortaría. Él se enojó, me insultó y me dejó. Dolió, pero con el tiempo entendí que había elegido bien. Mi hijo, Andrés, nació. Hoy, con 5 años, me dice 'te quiero mamá' y sé que ese amor es verdadero. Carlos nunca volvió, y la verdad, no lo necesito. Tengo a Andrés, y tengo paz."
+      ],
+      "readingMinutes": 4,
+      "publishedAt": "2023-09-12"
+    },
+    {
+      "id": "historia-019",
+      "countryCode": "US",
+      "title": "Era atea y creía que el aborto era un derecho. La ciencia me hizo cambiar de opinión.",
+      "author": "Laura K.",
+      "imageKey": "newborn",
+      "summary": "No creía en Dios, pero sí en la ciencia. Y la ciencia me mostró que el aborto termina con una vida humana.",
+      "body": [
+        "Siempre fui una persona muy racional, atea convencida. Para mí, el aborto era una cuestión de derechos de la mujer. Cuando me quedé embarazada inesperadamente, no dudé: abortaría. Era lo lógico. Pero una amiga, también atea, me dijo: 'Antes de decidir, infórmate sobre el desarrollo prenatal. Si realmente crees en la ciencia, tienes que saber qué es lo que estás abortando'. Empecé a investigar. Vi videos de embriones, leí sobre genética. Descubrí que desde la concepción hay un ser humano único con su propio ADN. Vi cómo a las 8 semanas ya tiene órganos formados. No pude seguir negando la evidencia. No era una 'bola de células', era mi hijo. Cancelé la cita del aborto. Mi hijo, Leo, nació. Hoy, con 2 años, es la persona que más quiero. Sigo siendo atea, pero ahora sé que defender la vida no es una cuestión de fe, es una cuestión de ciencia y de humanidad."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2023-10-05"
+    },
+    {
+      "id": "historia-020",
+      "countryCode": "ES",
+      "title": "Mi primer hijo tenía una condición genética, temía que el segundo también la tuviera",
+      "author": "Carmen V.",
+      "imageKey": "hopeHand",
+      "summary": "El miedo a tener otro hijo con discapacidad me hizo pensar en abortar. Hoy, mis dos hijos son mis maestros de amor.",
+      "body": [
+        "Mi primer hijo, David, nació con síndrome de Down. Fue un shock al principio, pero con el tiempo aprendimos a amarlo con todo nuestro corazón. Cuando me quedé embarazada de nuevo, el miedo se apoderó de mí. Las pruebas genéticas mostraron alto riesgo de que también tuviera síndrome de Down. El médico me dijo: 'Tienes la opción de interrumpir'. Me sentí dividida entre el amor por mi primer hijo y el miedo por el segundo. Mi esposo y yo hablamos mucho. Al final, decidimos que no íbamos a poner condiciones a la vida. Decidimos tenerlo. Elena nació con síndrome de Down también. Hoy, mis dos hijos son la alegría de la casa. David y Elena se adoran. Me han enseñado que la discapacidad no es una maldición, es una forma diferente de vivir y de amar. Estoy agradecida de no haber cedido al miedo. Elegir la vida fue elegir el amor en su forma más pura."
+      ],
+      "readingMinutes": 5,
+      "publishedAt": "2024-02-22"
     }
   ]
 }

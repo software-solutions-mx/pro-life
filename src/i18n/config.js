@@ -13,7 +13,16 @@ import { NAMESPACES, SUPPORTED_LOCALES } from './types'
 
 function resolveFallbackLocale(code) {
   const normalizedLocale = normalizeLocale(code)
-  return isSupportedLocale(normalizedLocale) ? [normalizedLocale] : [DEFAULT_LOCALE]
+
+  if (!isSupportedLocale(normalizedLocale)) {
+    return [DEFAULT_LOCALE]
+  }
+
+  if (normalizedLocale === DEFAULT_LOCALE) {
+    return [DEFAULT_LOCALE]
+  }
+
+  return [normalizedLocale, DEFAULT_LOCALE]
 }
 
 i18n
