@@ -1,9 +1,9 @@
 # React × Rails — The Complete Production Engineering Master Guide
-### Architecture · TypeScript · Routing · API · Auth · Performance · Security · Error Handling · Observability · SEO · i18n · Analytics · Branding · Accessibility · Testing · E2E · CI/CD · Pre-commit · Environment · Checklist
+### Architecture · TypeScript · Routing · API · Auth · Performance · Security · Error Handling · Observability · SEO · i18n · Analytics · Branding · Accessibility · Testing · E2E · CI/CD · Environment · Checklist
 
 > **Rails API contract:** All requests authenticate using `VITE_API_BASE_URL`, `VITE_API_CLIENT_ID`, and `VITE_API_CLIENT_SECRET`. Cross-origin session cookies are managed by Rails.
 > **Non-negotiable:** Every implementation ships with tests. Every PR passes lint, typecheck, and tests before merge. Every component is accessible by default — inaccessible code is incomplete code.
-> **Stack:** React 18 · TypeScript 5 · Vite 5 · TanStack Query v5 · react-i18next v14 · Zod v3 · Axios · react-router-dom v6.4 · Sentry · Playwright · Vitest · ESLint · Husky · Rails 8
+> **Stack:** React 18 · TypeScript 5 · Vite 5 · TanStack Query v5 · react-i18next v14 · Zod v3 · Axios · react-router-dom v6.4 · Sentry · Playwright · Vitest · ESLint · Rails 8
 > **Companion document:** Full accessibility implementation details, mandatory rules, interactive patterns, hooks, testing, and enforcement checklist live in [`documents/react-accessibility-super-guide.md`](./documents/react-accessibility-super-guide.md). Section 27 of this guide is the integration bridge.
 
 ---
@@ -30,7 +30,7 @@
 18. [Unit & Integration Testing](#18-unit--integration-testing)
 19. [End-to-End Tests — Playwright](#19-end-to-end-tests--playwright)
 20. [Linting and Code Quality](#20-linting-and-code-quality)
-21. [Pre-commit Quality Gates](#21-pre-commit-quality-gates)
+21. [Local vs CI Quality Gates](#21-local-vs-ci-quality-gates)
 22. [CI Pipeline](#22-ci-pipeline)
 23. [Environment Hygiene](#23-environment-hygiene)
 24. [Code Examples](#24-code-examples)
@@ -176,7 +176,6 @@ export default defineConfig({
     "audit":            "npm audit --audit-level=high",
 
     "validate":         "npm run typecheck && npm run lint && npm run format:check && npm run test:coverage",
-    "prepare":          "husky",
     "analyze":          "npx vite-bundle-analyzer"
   }
 }
@@ -2477,50 +2476,24 @@ module.exports = {
 
 ---
 
-## 21. Pre-commit Quality Gates
+## 21. Local vs CI Quality Gates
+
+This project runs quality gates in CI instead of local git hooks. Developers can run the same checks manually before pushing:
 
 ```bash
-npm install -D husky lint-staged @commitlint/cli @commitlint/config-conventional
-npx husky init
+npm run ci:check
 ```
 
-```json
-// .lintstagedrc.json
-{
-  "*.{ts,tsx}":            ["eslint --max-warnings 0 --fix", "prettier --write"],
-  "*.{css,json,md,yml}":   ["prettier --write"]
-}
-```
-
-```javascript
-// commitlint.config.cjs
-module.exports = {
-  extends: ['@commitlint/config-conventional'],
-  rules: {
-    'type-enum': [2, 'always', ['feat', 'fix', 'chore', 'docs', 'style', 'refactor', 'test', 'perf', 'ci', 'revert']],
-    'subject-empty':     [2, 'never'],
-    'header-max-length': [2, 'always', 100],
-  },
-}
-```
+Recommended CI gate order:
 
 ```bash
-# .husky/pre-commit
-#!/bin/sh
-npx lint-staged
-gitleaks protect --staged --redact   # Secret scanning on staged files
-```
-
-```bash
-# .husky/commit-msg
-#!/bin/sh
-npx commitlint --edit "$1"
-```
-
-```bash
-# .husky/pre-push
-#!/bin/sh
-npm run typecheck && npm run lint && npm run test
+npm run format:check
+npm run lint
+npm run typecheck
+npm run test
+npm run test:a11y
+npm run build
+npm run perf:budget
 ```
 
 ---
@@ -3000,11 +2973,10 @@ All items must be green before production promotion.
 - [ ] All secrets in GitHub Secrets; non-secret config in GitHub vars
 - [ ] `npm audit --audit-level=high` clean in CI
 
-### Pre-commit Gates
-- [ ] Husky via `prepare` script — hooks auto-install after `npm install`
-- [ ] `pre-commit`: lint-staged (ESLint + Prettier on staged files) + gitleaks secret scan
-- [ ] `commit-msg`: commitlint enforces Conventional Commits
-- [ ] `pre-push`: full typecheck + lint + test pipeline
+### Local Quality Gates
+- [ ] Local git hooks are disabled
+- [ ] Team runs `npm run ci:check` before push when needed
+- [ ] CI enforces lint, typecheck, tests, a11y checks, build, and performance budget
 
 ### Environment Hygiene
 - [ ] `.env.example` committed — every variable documented with description
@@ -3048,7 +3020,7 @@ All items must be green before production promotion.
 
 ---
 
-*React 18 · TypeScript 5 strict · Vite 5 · TanStack Query v5 · react-i18next v14 · Zod v3 · Axios · React Router v6.4 · @sentry/react v8 · web-vitals v4 · react-helmet-async v2 · Playwright v1.44 · Vitest · ESLint · Husky v9 · commitlint · gitleaks · TruffleHog · Rails 8 CORS + Rack::Cors*
+*React 18 · TypeScript 5 strict · Vite 5 · TanStack Query v5 · react-i18next v14 · Zod v3 · Axios · React Router v6.4 · @sentry/react v8 · web-vitals v4 · react-helmet-async v2 · Playwright v1.44 · Vitest · ESLint · gitleaks · TruffleHog · Rails 8 CORS + Rack::Cors*
 
 *Accessibility: WCAG 2.2 AA · WAI-ARIA 1.2 · APG · jest-axe · @axe-core/playwright · eslint-plugin-jsx-a11y — see [`documents/react-accessibility-super-guide.md`](./documents/react-accessibility-super-guide.md)*
 
