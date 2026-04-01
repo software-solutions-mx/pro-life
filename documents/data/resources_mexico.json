@@ -1,0 +1,1594 @@
+{
+  "metadata": {
+    "titulo": "Directorio de Recursos Pro-Vida en México",
+    "descripcion": "Compilación de organizaciones, centros de apoyo, líneas de ayuda y recursos pro-vida en toda la República Mexicana",
+    "fecha_actualizacion": "2026-03-30",
+    "total_recursos": 105,
+    "idioma": "es-MX",
+    "categorias": [
+      "Organizaciones Nacionales",
+      "Centros de Apoyo al Embarazo",
+      "Recursos Religiosos y Pastorales",
+      "Bioética y Medicina Pro-Vida",
+      "Sanación Post-Aborto",
+      "Líneas de Ayuda y Recursos Digitales"
+    ]
+  },
+  "recursos": [
+    {
+      "id": 1,
+      "nombre": "Comité Nacional Provida",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://provida.org.mx",
+        "telefonos": ["55 5260 5724", "55 5260 7271", "55 5260 7273"],
+        "correo": "eciudaddemexico@provida.net",
+        "direccion": "Avenida Vito Alessio Robles 11, Col. Florida, Álvaro Obregón, Ciudad de México, C.P. 01050"
+      },
+      "descripcion": "Asociación civil fundada en 1978 que protege la vida humana desde el momento de la concepción hasta la muerte natural, sin distinción de raza, sexo, edad, grado de perfección o nivel socioeconómico. Realiza labor legislativa, educativa y de acompañamiento a mujeres en situación de vulnerabilidad.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 95
+    },
+    {
+      "id": 2,
+      "nombre": "VIFAC – Vida y Familia A.C.",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207", "(55) 5393 2540"],
+        "correo": "procuracion.mexico@vifac.org",
+        "direccion": "Circuito Ingenieros 32, Satélite, Naucalpan, Estado de México, C.P. 53100"
+      },
+      "descripcion": "Asociación civil fundada en 1985 que opera 24 albergues y 9 oficinas de enlace en 25 estados de la República. Atiende a mujeres embarazadas en situación vulnerable brindándoles alojamiento, alimentación, atención médica y psicológica, así como capacitación laboral. Línea nacional gratuita disponible.",
+      "logo_url": null,
+      "cobertura": "Nacional (25 estados)",
+      "verificacion": 93
+    },
+    {
+      "id": 3,
+      "nombre": "Red Familia",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://redfamilia.org",
+        "telefonos": ["55 5515 7598"],
+        "correo": "contacto@redfamilia.org",
+        "direccion": "Hipólito Taine 205, Polanco V Sección, Miguel Hidalgo, Ciudad de México, C.P. 11550"
+      },
+      "descripcion": "Institución fundada en 1999 por Lorenzo Servitje que vincula más de 1,120 instituciones nacionales. Promueve la vida humana, la niñez, la mujer, la educación integral, el matrimonio y la familia. Ayuda anualmente a más de un millón de personas en toda la república.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 92
+    },
+    {
+      "id": 4,
+      "nombre": "Frente Nacional por la Familia",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://frentenacional.mx",
+        "telefonos": ["+52 664 137 7387"],
+        "correo": "contacto@frentenacional.mx",
+        "direccion": "Las Américas 4633, El Paraíso, Tijuana, Baja California, C.P. 22106"
+      },
+      "descripcion": "Movimiento social conformado por miles de instituciones y millones de ciudadanos que defiende la vida, la familia y las libertades fundamentales. Fundado en 2016, coordina organizaciones en todos los estados del país y promueve la cultura de la vida a través de marchas, foros y acciones legislativas.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 90
+    },
+    {
+      "id": 5,
+      "nombre": "Mater Filius – Ciudad de México",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://www.materfilius.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Joaquín García Icazbalceta No. 31, Col. San Rafael, Cuauhtémoc, Ciudad de México, C.P. 06470"
+      },
+      "descripcion": "Apostolado católico sin fines de lucro fundado en 2003. Brinda apoyo gratuito e integral a mujeres con embarazos no planeados, incluyendo alojamiento, alimentación, talleres de desarrollo humano, asistencia psicológica, área de cuidado de niños y acompañamiento para continuar estudios. Solo requieren presentarse y decir 'Estoy embarazada y necesito ayuda'.",
+      "logo_url": null,
+      "cobertura": "Ciudad de México",
+      "verificacion": 91
+    },
+    {
+      "id": 6,
+      "nombre": "Mater Filius – Monterrey",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://www.materfiliusmonterrey.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Monterrey, Nuevo León"
+      },
+      "descripcion": "Sede de Mater Filius en Monterrey que brinda apoyo gratuito e integral a mujeres con embarazos inesperados o en situación de vulnerabilidad. Ofrece alojamiento, atención médica, psicológica y talleres de desarrollo personal. Forma parte de la red nacional de centros Mater Filius.",
+      "logo_url": null,
+      "cobertura": "Nuevo León",
+      "verificacion": 85
+    },
+    {
+      "id": 7,
+      "nombre": "AME – Ayuda a la Mujer Embarazada A.C.",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://ayudaalamujerembarazada.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "C. 66 No. 386C, Col. Centro, Mérida, Yucatán"
+      },
+      "descripcion": "Asociación civil que ofrece apoyo integral y gratuito a mujeres embarazadas en circunstancias difíciles, a través de acompañamiento personalizado en un entorno familiar y humano. Proporciona albergue, orientación psicológica, capacitación laboral, asesoría legal y desarrollo humano.",
+      "logo_url": null,
+      "cobertura": "Yucatán y otras sedes",
+      "verificacion": 85
+    },
+    {
+      "id": 8,
+      "nombre": "Casa Mi Ángel ABP",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://casamiangel.org",
+        "telefonos": ["(81) 8345 9987"],
+        "correo": null,
+        "direccion": "Mariano Escobedo 113 Sur, Col. Centro, Monterrey, Nuevo León, C.P. 64000"
+      },
+      "descripcion": "Asociación de beneficio privado fundada en 1998 que ha beneficiado a más de 22,000 personas. Brinda fortalecimiento a mujeres embarazadas o con hijos de 0 a 2 años con programas de acompañamiento, conferencias, talleres sobre etapas del embarazo, habilidades parentales y prevención del maltrato infantil.",
+      "logo_url": null,
+      "cobertura": "Nuevo León",
+      "verificacion": 90
+    },
+    {
+      "id": 9,
+      "nombre": "La Vida por Delante",
+      "categoria": "Red de Organizaciones",
+      "recurso": {
+        "sitio_web": "https://lavidapordelante.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Plataforma nacional que agrupa más de 500 organizaciones pro-vida con el objetivo de apoyar y asesorar a mujeres con embarazos inesperados. A través de su sitio web, las mujeres pueden ser orientadas y canalizadas a la institución más cercana o adecuada para su situación particular.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 88
+    },
+    {
+      "id": 10,
+      "nombre": "Unión Nacional de Padres de Familia (UNPF)",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://unpf.mx",
+        "telefonos": ["55 5687 0935"],
+        "correo": "vinculacion@unpf.org.mx",
+        "direccion": "Eugenia 1112, Narvarte Poniente, Benito Juárez, Ciudad de México, C.P. 03020"
+      },
+      "descripcion": "Organización fundada en 1917 con presencia en toda la república. Defiende el derecho de los padres a elegir la mejor educación para sus hijos y promueve valores familiares. Mantiene postura pro-vida y realiza labor educativa en escuelas públicas y privadas de México.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 90
+    },
+    {
+      "id": 11,
+      "nombre": "40 Días por la Vida México",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://www.40daysforlife.com/es",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Campaña mundial de 40 días de oración, ayuno y vigilia pacífica en defensa de la vida. Presente en más de 63 países y 1,000 ciudades. En México opera desde 2015 con capítulos en Ciudad de México, Guadalajara, Monterrey y otras ciudades. Ofrece apoyo a mujeres embarazadas con alojamiento y alimentos.",
+      "logo_url": null,
+      "cobertura": "Nacional (múltiples ciudades)",
+      "verificacion": 88
+    },
+    {
+      "id": 12,
+      "nombre": "Movimiento Viva México",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://movimientovivamexico.org",
+        "telefonos": [],
+        "correo": "contacto@movimientovivamexico.org",
+        "direccion": "Ciudad de México"
+      },
+      "descripcion": "Movimiento social fundado en 2019 que defiende la vida, la familia y los grupos vulnerables. Liderado por Eduardo Verástegui, busca su registro como partido político nacional. Organiza eventos, campañas de concientización y acciones comunitarias en defensa de la vida desde la concepción.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 88
+    },
+    {
+      "id": 13,
+      "nombre": "Pasos por la Vida",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://pasosporlavida.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Movimiento de jóvenes que promueve el valor, respeto y defensa de la vida desde su inicio hasta su término natural. Acompaña a mujeres que enfrentan embarazos inesperados o difíciles con apoyo emocional, orientación y soluciones prácticas. Organiza marchas y eventos de concientización a nivel nacional.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 83
+    },
+    {
+      "id": 14,
+      "nombre": "Consejo Mexicano de la Familia (ConFamilia)",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://confamilia.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Primera asociación de familias y personas pro-familia en México. Fundada por Juan Dabdoub Giacoman, fue parte de los grupos fundadores del Frente Nacional por la Familia. Actúa con base en ética, ciencia y razón para promover y defender los valores familiares y la cultura de la vida.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 82
+    },
+    {
+      "id": 15,
+      "nombre": "Coalición SUMAS",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://lacoalicion.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Coalición fundada en 2018 que representa más de 700 asociaciones nacionales. Red no partidista dedicada a la defensa de la vida, la familia y las libertades fundamentales. Coordina acciones de resistencia civil organizada y presencia legislativa en pro de la cultura de la vida.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 80
+    },
+    {
+      "id": 16,
+      "nombre": "Movimiento Familiar Cristiano México (MFC)",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://mexicomfc.com",
+        "telefonos": ["(443) 932 5429"],
+        "correo": "oficina@mexicomfc.com",
+        "direccion": "Cantera 120-745, Las Torrecillas, Morelia, Michoacán, C.P. 58090"
+      },
+      "descripcion": "Movimiento de personas laicas comprometidas a fortalecer los valores humanos y cristianos en las familias en favor de la vida. Fundado en México en 1958, se dirige a matrimonios, jóvenes y madres solteras. Ofrece ciclos de formación básica en cuatro áreas: personal, conyugal, familiar y social.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 87
+    },
+    {
+      "id": 17,
+      "nombre": "Unión Nacional Cristiana por la Familia",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Movimiento nacional cristiano en favor y defensa de la vida, la infancia, el matrimonio y la familia. Conformado por más de 2,000 iglesias que representan cerca de 7,000 congregaciones cristianas en México. Agrupa asociaciones evangélicas comprometidas con la promoción de una cultura de vida.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 78
+    },
+    {
+      "id": 18,
+      "nombre": "Juntos por México – Unión Nacional de Movimientos Católicos",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://juntospormexico.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Espacio de encuentro y coordinación de más de 80 movimientos, instituciones y asociaciones laicales católicas a nivel nacional. Conformada en 2012, trabaja en la defensa y promoción de los derechos humanos, la vida y la dignidad de la persona. Representa a millones de católicos comprometidos con la cultura de la vida.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 82
+    },
+    {
+      "id": 19,
+      "nombre": "Unión de Voluntades",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": "https://uniondevoluntades.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Coordinación de más de 140 organizaciones pro-vida católicas en México. Trabaja a través de oración y acción coordinada para promover la causa de la vida, la protección de la familia y la dignidad humana. Moviliza comunidades de fe en toda la república en defensa de los valores fundamentales.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 82
+    },
+    {
+      "id": 20,
+      "nombre": "Puedes Decir No (Red de Apoyo)",
+      "categoria": "Red de Organizaciones",
+      "recurso": {
+        "sitio_web": "https://puedesdecirno.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Plataforma digital que ofrece un directorio de centros de apoyo a mujeres embarazadas en toda la república. Proporciona información sobre organizaciones cercanas que ofrecen alternativas al aborto, incluyendo albergue, apoyo psicológico y acompañamiento. Nombre hace referencia al derecho de la mujer a decir no al aborto.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 82
+    },
+    {
+      "id": 21,
+      "nombre": "Conferencia del Episcopado Mexicano (CEM)",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://cem.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Prolongación Misterio 24, Col. Tepeyac Insurgentes, Gustavo A. Madero, Ciudad de México"
+      },
+      "descripcion": "Organización colegiada de los obispos católicos de México. Como institución oficial de la Iglesia Católica en el país, promueve y defiende activamente la vida humana en todas sus etapas. Coordina pastoral de la vida a nivel nacional y emite pronunciamientos en defensa de la dignidad del ser humano.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 93
+    },
+    {
+      "id": 22,
+      "nombre": "Pastoral de la Vida – Arquidiócesis de Guadalajara",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://pastoralvidagdl.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Guadalajara, Jalisco"
+      },
+      "descripcion": "Dimensión pastoral de la Arquidiócesis de Guadalajara enfocada en la formación católica en defensa de la vida desde la concepción hasta la muerte natural. Ofrece diplomas, cursos y talleres para agentes pastorales y comunidades. Coordina actividades pro-vida en toda la zona metropolitana de Guadalajara.",
+      "logo_url": null,
+      "cobertura": "Jalisco",
+      "verificacion": 90
+    },
+    {
+      "id": 23,
+      "nombre": "Pastoral Familiar – Arquidiócesis de Monterrey",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "http://www.pastoralfamiliarmty.org",
+        "telefonos": ["(81) 1158 2703", "(81) 1158 2713"],
+        "correo": "pastoralfamiliar@arquidiocesismty.org",
+        "direccion": "Monterrey, Nuevo León"
+      },
+      "descripcion": "Acción evangelizadora de la Iglesia Católica que acompaña a las familias en todas sus etapas. Ofrece formación familiar integral y promueve la defensa de la vida y el amor como valores esenciales. Coordina grupos de apoyo, talleres y programas para matrimonios, familias y mujeres en situación vulnerable.",
+      "logo_url": null,
+      "cobertura": "Nuevo León",
+      "verificacion": 88
+    },
+    {
+      "id": 24,
+      "nombre": "Dimensión Familia – Arquidiócesis de Puebla",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://www.dimensionfamiliapuebla.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Puebla, Puebla"
+      },
+      "descripcion": "Acción pastoral de la Iglesia que acompaña los procesos de matrimonio y familia en todas las etapas. Promueve la formación familiar y la defensa de la vida ante los desafíos legales actuales. Ofrece cursos, talleres y acompañamiento a familias en toda la arquidiócesis poblana.",
+      "logo_url": null,
+      "cobertura": "Puebla",
+      "verificacion": 86
+    },
+    {
+      "id": 25,
+      "nombre": "Arquidiócesis Primada de México – Pastoral Familiar",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://arquidiocesismexico.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México"
+      },
+      "descripcion": "La Arquidiócesis de México coordina la pastoral de la vida y la familia en la Ciudad de México. Bajo el liderazgo del Cardenal Carlos Aguiar Retes, ofrece programas de pastoral juvenil, familiar y de vida. Canaliza a mujeres en situación de embarazo vulnerable hacia centros de apoyo.",
+      "logo_url": null,
+      "cobertura": "Ciudad de México",
+      "verificacion": 88
+    },
+    {
+      "id": 26,
+      "nombre": "Arquidiócesis de Tijuana – Pastoral de Vida y Paz",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://iglesiatijuana.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Tijuana, Baja California"
+      },
+      "descripcion": "Organiza la Marcha Peregrinación por la Vida y la Paz, que durante más de 20 años ha unido a la comunidad en defensa de la vida. Coordina iniciativas pro-vida en la región fronteriza y ofrece pastoral de apoyo a familias y mujeres embarazadas en situación de vulnerabilidad.",
+      "logo_url": null,
+      "cobertura": "Baja California",
+      "verificacion": 85
+    },
+    {
+      "id": 27,
+      "nombre": "Cáritas Arquidiócesis de México",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://www.caritasarquidiocesis.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México"
+      },
+      "descripcion": "Institución de la Iglesia Católica que proporciona servicios de salud, asistencia psicológica y orientación social sobre educación, trabajo y familia. Atiende a personas en situación de vulnerabilidad incluyendo mujeres embarazadas, brindando apoyo espiritual, material y social.",
+      "logo_url": null,
+      "cobertura": "Ciudad de México",
+      "verificacion": 84
+    },
+    {
+      "id": 28,
+      "nombre": "Caballeros de Colón en México",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://www.kofc.org/es",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Múltiples ubicaciones en todo México"
+      },
+      "descripcion": "La organización fraterna católica más grande del mundo, con numerosos consejos en todo México. Desarrolla actividades caritativas en favor de la Iglesia, la comunidad, la familia, la juventud y la cultura de vida. Apoya económicamente a centros pro-vida y organiza campañas en defensa de la vida.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 90
+    },
+    {
+      "id": 29,
+      "nombre": "Legionarios de Cristo – México",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://www.legionariosdecristo.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Múltiples ubicaciones en México"
+      },
+      "descripcion": "Congregación religiosa con amplia presencia en México que promueve la cultura de la vida a través de sus obras educativas y apostolados. Opera colegios, centros de formación y medios de comunicación que difunden valores pro-vida. Su movimiento laical Regnum Christi participa activamente en defensa de la vida y la familia.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 80
+    },
+    {
+      "id": 30,
+      "nombre": "Facultad de Bioética – Universidad Anáhuac México",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://www.anahuac.mx/mexico/EscuelasyFacultades/bioetica",
+        "telefonos": ["(55) 5627 0210 ext. 7308"],
+        "correo": null,
+        "direccion": "Universidad Anáhuac, Av. Universidad Anáhuac 46, Lomas Anáhuac, Huixquilucan, Estado de México"
+      },
+      "descripcion": "Primera facultad de bioética en América Latina y única en ofrecer doctorado en esta disciplina en el continente. Promueve la bioética desde una perspectiva antropológica cristiana que defiende la dignidad de la vida humana en todas sus etapas. Forma profesionales de la salud, derecho y ciencias sociales.",
+      "logo_url": null,
+      "cobertura": "Nacional (formación académica)",
+      "verificacion": 92
+    },
+    {
+      "id": 31,
+      "nombre": "Comisión Nacional de Bioética (CONBIOÉTICA)",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://conbioetica-mexico.salud.gob.mx",
+        "telefonos": ["(55) 5487 2760"],
+        "correo": null,
+        "direccion": "Calzada Arenal No. 134, Col. Tepepan, Xochimilco, Ciudad de México, C.P. 16020"
+      },
+      "descripcion": "Órgano asesor del Gobierno Federal en materia de bioética. Promueve el análisis y la deliberación de los aspectos éticos relacionados con la atención a la salud y el desarrollo científico y tecnológico. Emite dictámenes y recomendaciones sobre temas relacionados con la vida humana y la ética médica.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 92
+    },
+    {
+      "id": 32,
+      "nombre": "Academia Nacional Mexicana de Bioética (ANMB)",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://academia-nacional-mexicana-de-bioetica-ac.webnode.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Agrarismo 208, Col. Escandón, Ciudad de México"
+      },
+      "descripcion": "Institución fundada en 1995 por el Dr. Manuel Velasco Suárez. Una de las organizaciones con mayor tradición en bioética en México. Realiza labor invaluable en la diseminación, enseñanza y práctica de la bioética. Promueve la reflexión ética sobre la vida humana desde su inicio hasta su fin natural.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 85
+    },
+    {
+      "id": 33,
+      "nombre": "Colegio de Bioética A.C.",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://colegiodebioetica.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México"
+      },
+      "descripcion": "Organización fundada el 22 de enero de 2003 que promueve, sistematiza, difunde e impulsa la bioética como disciplina multidisciplinaria. Aborda reflexiones sobre la vida humana, la salud y la ética médica. Publica análisis y pronunciamientos sobre temas relacionados con el inicio y fin de la vida.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 82
+    },
+    {
+      "id": 34,
+      "nombre": "Colegio de Bioética de Nuevo León A.C.",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://bioetica.us",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Nuevo León"
+      },
+      "descripcion": "Organización dedicada a restaurar el concepto de 'persona' en las ciencias de la salud. Promueve la bioética desde una perspectiva que defiende la dignidad intrínseca de todo ser humano desde la concepción. Ofrece formación y asesoría a profesionales de la salud en el norte del país.",
+      "logo_url": null,
+      "cobertura": "Nuevo León",
+      "verificacion": 80
+    },
+    {
+      "id": 35,
+      "nombre": "Instituto de Humanismo en Ciencias de la Salud",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México"
+      },
+      "descripcion": "Instituto dedicado a la formación humanista de profesionales de la salud en México. Promueve la bioética y la ética médica con especial énfasis en la dignidad de la persona humana y la defensa de la vida. Ofrece cursos, diplomados y publicaciones sobre humanismo médico y bioética aplicada.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 72
+    },
+    {
+      "id": 36,
+      "nombre": "Unión ProVida",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://unionprovida.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Organización que une a médicos, profesionales de la salud y ciudadanos en defensa de la vida desde la concepción hasta la muerte natural. Apoya la objeción de conciencia de profesionales médicos y promueve la práctica de la medicina con respeto a la dignidad de todo ser humano.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 75
+    },
+    {
+      "id": 37,
+      "nombre": "El Viñedo de Raquel (Rachel's Vineyard) – México",
+      "categoria": "Sanación Post-Aborto",
+      "recurso": {
+        "sitio_web": "https://elvinedoderaquel.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Disponible en múltiples diócesis de México"
+      },
+      "descripcion": "Programa internacional de retiros de fin de semana para la sanación emocional y espiritual después de un aborto. Ofrece un proceso espiritual de reconciliación consigo mismo, con Dios y con el hijo perdido. Opera a través de diócesis y parroquias en diversas ciudades de México.",
+      "logo_url": null,
+      "cobertura": "Nacional (a través de diócesis)",
+      "verificacion": 80
+    },
+    {
+      "id": 38,
+      "nombre": "Proyecto Raquel",
+      "categoria": "Sanación Post-Aborto",
+      "recurso": {
+        "sitio_web": "https://www.proyecto-raquel.com",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Programa de la Iglesia Católica para la sanación espiritual y psicológica de mujeres (y hombres) que han vivido la experiencia del aborto. Ofrece grupos de apoyo, acompañamiento pastoral personalizado y retiros de sanación. Opera como red diocesana en todo México.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 80
+    },
+    {
+      "id": 39,
+      "nombre": "Centro MIRNA – Apoyo Post-Aborto",
+      "categoria": "Sanación Post-Aborto",
+      "recurso": {
+        "sitio_web": "https://centromirna.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Centro especializado en la atención y acompañamiento de mujeres que han vivido la experiencia del aborto. Ofrece atención psicológica, grupos de apoyo y coordinación de retiros del Viñedo de Raquel. Brinda un espacio seguro de sanación emocional y espiritual sin juicio.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 78
+    },
+    {
+      "id": 40,
+      "nombre": "Esperanza Post-Aborto",
+      "categoria": "Sanación Post-Aborto",
+      "recurso": {
+        "sitio_web": "https://esperanzaposaborto.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Plataforma de apoyo para mujeres que buscan sanación después de haber vivido un aborto. Ofrece recursos, testimonios, orientación psicológica y espiritual, y directorio de grupos de apoyo en México. Acompaña el proceso de duelo y reconciliación de forma gratuita y confidencial.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 75
+    },
+    {
+      "id": 41,
+      "nombre": "Proyecto Esperanza",
+      "categoria": "Sanación Post-Aborto",
+      "recurso": {
+        "sitio_web": "https://proesperanza.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Organización presente en 16 países con más de 500 acompañantes capacitados. Brinda apoyo emocional y espiritual a mujeres y hombres afectados por la experiencia del aborto. En México opera a través de voluntarios capacitados en acompañamiento post-aborto en diversas ciudades.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 78
+    },
+    {
+      "id": 42,
+      "nombre": "Camino a Sanar",
+      "categoria": "Sanación Post-Aborto",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Programa de acompañamiento espiritual y psicológico para personas que han sufrido las consecuencias del aborto. Basado en la misericordia divina, ofrece un proceso de sanación interior a través de grupos de reflexión, oración y acompañamiento personalizado en parroquias y centros católicos.",
+      "logo_url": null,
+      "cobertura": "Diversas ciudades de México",
+      "verificacion": 65
+    },
+    {
+      "id": 43,
+      "nombre": "VIFAC – Sede Guadalajara",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["(33) 3165 9912", "(33) 3165 4345"],
+        "correo": null,
+        "direccion": "Guadalajara, Jalisco"
+      },
+      "descripcion": "Sede de VIFAC en Guadalajara que brinda atención integral a mujeres embarazadas en situación vulnerable en la zona metropolitana de Guadalajara. Ofrece albergue temporal, atención médica, psicológica, talleres de desarrollo personal y capacitación para el trabajo.",
+      "logo_url": null,
+      "cobertura": "Jalisco",
+      "verificacion": 85
+    },
+    {
+      "id": 44,
+      "nombre": "VIFAC – Sede Monterrey",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Monterrey, Nuevo León"
+      },
+      "descripcion": "Sede de VIFAC en Monterrey. Proporciona albergue temporal, alimentación, atención médica, apoyo psicológico y capacitación laboral a mujeres embarazadas en situación de vulnerabilidad. Cuenta con personal especializado en orientación familiar y acompañamiento durante el embarazo.",
+      "logo_url": null,
+      "cobertura": "Nuevo León",
+      "verificacion": 83
+    },
+    {
+      "id": 45,
+      "nombre": "VIFAC – Sede Ciudad de México (Casa Azul)",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207", "(55) 5393 2540"],
+        "correo": null,
+        "direccion": "Circuito Ingenieros 32, Satélite, Naucalpan, Estado de México, C.P. 53100"
+      },
+      "descripcion": "Sede central de VIFAC, conocida como Casa Azul, ubicada en Satélite, Naucalpan. Atiende de lunes a viernes de 8:00 a 13:30 hrs y sábados y domingos de 8:00 a 17:00 hrs. Es el centro de coordinación nacional y ofrece todos los servicios de alojamiento y apoyo integral.",
+      "logo_url": null,
+      "cobertura": "Ciudad de México / Estado de México",
+      "verificacion": 90
+    },
+    {
+      "id": 46,
+      "nombre": "VIFAC – Sede Puebla",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Puebla, Puebla"
+      },
+      "descripcion": "Sede de VIFAC en Puebla que atiende a mujeres embarazadas en situación vulnerable de la región. Ofrece el esquema completo de servicios de VIFAC: albergue, alimentación, atención médica, apoyo psicológico y capacitación laboral. Parte de la red nacional de 24 sedes.",
+      "logo_url": null,
+      "cobertura": "Puebla",
+      "verificacion": 82
+    },
+    {
+      "id": 47,
+      "nombre": "VIFAC – Sede Chihuahua",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Chihuahua, Chihuahua"
+      },
+      "descripcion": "Sede de VIFAC en Chihuahua que brinda atención integral a mujeres embarazadas vulnerables en el norte del país. Ofrece albergue, alimentación, atención médica, apoyo psicológico y talleres de capacitación. Trabaja en coordinación con otras instituciones de la región.",
+      "logo_url": null,
+      "cobertura": "Chihuahua",
+      "verificacion": 80
+    },
+    {
+      "id": 48,
+      "nombre": "VIFAC – Sede Sonora",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Hermosillo, Sonora"
+      },
+      "descripcion": "Sede de VIFAC en Sonora que atiende a mujeres embarazadas en situación de vulnerabilidad en la región noroeste del país. Proporciona todos los servicios de la red VIFAC incluyendo albergue, atención médica y psicológica, y programas de desarrollo personal.",
+      "logo_url": null,
+      "cobertura": "Sonora",
+      "verificacion": 78
+    },
+    {
+      "id": 49,
+      "nombre": "VIFAC – Sede Morelia",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "http://emanuelmexico.com/morelia---vida-y-familia,-a.c.--vifac--enlace.html",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Morelia, Michoacán"
+      },
+      "descripcion": "Oficina de enlace de VIFAC en Morelia, Michoacán. Brinda orientación, acompañamiento y canalización de mujeres embarazadas en situación vulnerable hacia los servicios adecuados. Opera como punto de contacto y apoyo en la región centro-occidente del país.",
+      "logo_url": null,
+      "cobertura": "Michoacán",
+      "verificacion": 78
+    },
+    {
+      "id": 50,
+      "nombre": "Mater Filius – Puebla",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://www.materfilius.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Puebla, Puebla"
+      },
+      "descripcion": "Sede de Mater Filius en Puebla que brinda apoyo gratuito e integral a mujeres con embarazos no planeados. Ofrece alojamiento, alimentación, talleres de desarrollo humano, asistencia psicológica y acompañamiento para continuar estudios o capacitación laboral. Parte de la red nacional de centros Mater Filius.",
+      "logo_url": null,
+      "cobertura": "Puebla",
+      "verificacion": 83
+    },
+    {
+      "id": 51,
+      "nombre": "Mater Filius – San Luis Potosí",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://www.materfilius.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "San Luis Potosí, San Luis Potosí"
+      },
+      "descripcion": "Sede de Mater Filius en San Luis Potosí que apoya gratuitamente a mujeres con embarazos inesperados. Brinda alojamiento temporal, atención integral, talleres y acompañamiento psicológico durante el embarazo y el período postparto. Parte de la red nacional de centros Mater Filius.",
+      "logo_url": null,
+      "cobertura": "San Luis Potosí",
+      "verificacion": 80
+    },
+    {
+      "id": 52,
+      "nombre": "Casa María Guadalupe",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Casa hogar que ofrece albergue y apoyo integral a mujeres embarazadas en situación de vulnerabilidad. Brinda atención espiritual, psicológica y material durante el embarazo y el período de lactancia. Parte de la red de centros de acogida pro-vida en México.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 68
+    },
+    {
+      "id": 53,
+      "nombre": "Casa Emilia Wojtyla",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Casa de acogida que ofrece albergue y apoyo a mujeres embarazadas en situación difícil, inspirada en la espiritualidad de San Juan Pablo II. Brinda atención espiritual, psicológica y ayuda material durante el embarazo y período de lactancia. Parte de la red de centros pro-vida.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 65
+    },
+    {
+      "id": 54,
+      "nombre": "SOS Bambinos México",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Organización de apoyo a mujeres embarazadas y bebés en situación de vulnerabilidad. Brinda acompañamiento, orientación y recursos materiales a madres que enfrentan embarazos inesperados o en circunstancias difíciles. Trabaja en red con otras organizaciones pro-vida del país.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 65
+    },
+    {
+      "id": 55,
+      "nombre": "Casa Hogar para Madres e Hijos",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Hogar que proporciona albergue temporal a madres solteras o en situación de vulnerabilidad junto con sus hijos pequeños. Ofrece apoyo psicológico, capacitación para el trabajo, educación en crianza y acompañamiento espiritual. Busca la autonomía e inserción social de las madres y sus hijos.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 65
+    },
+    {
+      "id": 56,
+      "nombre": "Protégeme desde mi Concepción A.C.",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Asociación civil dedicada a la defensa del derecho a la vida desde la concepción. Realiza labor de concientización, cabildeo legislativo y apoyo a mujeres embarazadas. Promueve una cultura de respeto a la vida humana en todas sus etapas a través de actividades educativas y comunitarias.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 65
+    },
+    {
+      "id": 57,
+      "nombre": "Apoyo y Vida A.C.",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Asociación civil que brinda apoyo integral a mujeres embarazadas en situación de vulnerabilidad. Ofrece orientación, acompañamiento y recursos materiales durante el embarazo y el período postparto. Trabaja en coordinación con otras organizaciones pro-vida y centros de salud.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 65
+    },
+    {
+      "id": 58,
+      "nombre": "Fundación No Lo Mates, Dámelo a Mí",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Organización que promueve la adopción como alternativa al aborto. Conecta a mujeres con embarazos no deseados con familias que desean adoptar. Ofrece acompañamiento durante el embarazo y el proceso de adopción, brindando apoyo emocional y legal a todas las partes involucradas.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 65
+    },
+    {
+      "id": 59,
+      "nombre": "Casa Daya",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Casa de acogida y apoyo a mujeres embarazadas en situación de vulnerabilidad. Ofrece albergue temporal, alimentación, atención psicológica y acompañamiento espiritual durante el embarazo y el período postparto. Promueve la maternidad como opción digna ante un embarazo inesperado.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 63
+    },
+    {
+      "id": 60,
+      "nombre": "Instituto Médico Social AC El Refugio",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Instituto médico social que ofrece atención integral a mujeres embarazadas en situación de vulnerabilidad. Brinda servicios médicos, psicológicos y sociales orientados a apoyar la maternidad. Trabaja en estrecha colaboración con organizaciones pro-vida y centros parroquiales.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 63
+    },
+    {
+      "id": 61,
+      "nombre": "Centro de Crisis de Embarazo",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Centro especializado en atención a mujeres que enfrentan embarazos en crisis o situaciones de extrema vulnerabilidad. Ofrece orientación inmediata, apoyo psicológico y canalización a servicios especializados. Atiende de forma gratuita y confidencial en todo momento.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 63
+    },
+    {
+      "id": 62,
+      "nombre": "Pro Labore Dei",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Organización que une la defensa de la vida con el apoyo al trabajo digno. Ofrece capacitación laboral y apoyo económico a madres en situación de vulnerabilidad como alternativa concreta al aborto. Trabaja en colaboración con empresas y organizaciones de la sociedad civil.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 62
+    },
+    {
+      "id": 63,
+      "nombre": "Casa Hogar Tepeyac",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Casa hogar de inspiración mariana que acoge a mujeres embarazadas y madres solteras en situación de vulnerabilidad. Brinda albergue, alimentación, atención espiritual y apoyo psicológico. Promueve la confianza en la Virgen de Guadalupe como modelo de maternidad.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 62
+    },
+    {
+      "id": 64,
+      "nombre": "Línea VIFAC – Atención Gratuita Nacional",
+      "categoria": "Línea de Ayuda y Recurso Digital",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Línea telefónica gratuita de VIFAC disponible a nivel nacional para mujeres embarazadas en situación de vulnerabilidad que necesitan apoyo. Brinda orientación inicial, información sobre servicios disponibles y canalización al centro VIFAC más cercano. Atención confidencial y sin costo.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 90
+    },
+    {
+      "id": 65,
+      "nombre": "Apoyo a la Mujer Embarazada – Directorio Nacional",
+      "categoria": "Línea de Ayuda y Recurso Digital",
+      "recurso": {
+        "sitio_web": "https://www.apoyoalamujerembarazada.com",
+        "telefonos": [],
+        "correo": null,
+        "direccion": null
+      },
+      "descripcion": "Plataforma digital con directorio actualizado de centros de apoyo a mujeres embarazadas en toda la República Mexicana. Permite buscar por estado y tipo de servicio. Incluye información de contacto de organizaciones pro-vida, albergues y centros de orientación en cada entidad federativa.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 85
+    },
+    {
+      "id": 66,
+      "nombre": "Provida.org.mx – Portal Nacional",
+      "categoria": "Línea de Ayuda y Recurso Digital",
+      "recurso": {
+        "sitio_web": "https://provida.org.mx",
+        "telefonos": ["55 5260 5724"],
+        "correo": "eciudaddemexico@provida.net",
+        "direccion": null
+      },
+      "descripcion": "Portal web del Comité Nacional ProVida con información, noticias y recursos pro-vida. Ofrece artículos educativos sobre el desarrollo prenatal, alternativas al aborto, testimonios y directorio de recursos de apoyo. Publica análisis legislativo y jurídico sobre la defensa de la vida en México.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 92
+    },
+    {
+      "id": 67,
+      "nombre": "RedfamiliaMéxico – Plataforma Digital",
+      "categoria": "Línea de Ayuda y Recurso Digital",
+      "recurso": {
+        "sitio_web": "https://redfamilia.org",
+        "telefonos": ["55 5515 7598"],
+        "correo": "contacto@redfamilia.org",
+        "direccion": null
+      },
+      "descripcion": "Plataforma digital de Red Familia con recursos educativos, noticias y directorio de organizaciones pro-vida en todo México. Ofrece orientación sobre valores familiares, defensa de la vida y canales de apoyo a mujeres embarazadas. Conecta a más de 1,120 instituciones afiliadas.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 88
+    },
+    {
+      "id": 68,
+      "nombre": "FrenteNacional.mx – Recurso Digital",
+      "categoria": "Línea de Ayuda y Recurso Digital",
+      "recurso": {
+        "sitio_web": "https://frentenacional.mx",
+        "telefonos": [],
+        "correo": "contacto@frentenacional.mx",
+        "direccion": null
+      },
+      "descripcion": "Portal digital del Frente Nacional por la Familia con información sobre actividades pro-vida, directorio de organizaciones miembro y recursos para la defensa de la vida y la familia. Permite conocer acciones locales, estatales y nacionales del movimiento en toda la república.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 86
+    },
+    {
+      "id": 69,
+      "nombre": "AME Yucatán – Ayuda a la Mujer Embarazada",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://ayudaalamujerembarazada.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "C. 66 No. 386C, Col. Centro, Mérida, Yucatán"
+      },
+      "descripcion": "Sede de AME en Mérida, Yucatán, que ofrece apoyo integral y gratuito a mujeres embarazadas en circunstancias difíciles. Proporciona albergue, orientación psicológica, capacitación laboral, asesoría legal y programas de desarrollo humano. Acompañamiento personalizado en entorno familiar.",
+      "logo_url": null,
+      "cobertura": "Yucatán",
+      "verificacion": 85
+    },
+    {
+      "id": 70,
+      "nombre": "Coalición por la Vida y la Familia de Mexicali",
+      "categoria": "Organización Regional",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Mexicali, Baja California"
+      },
+      "descripcion": "Coalición regional que coordina organizaciones en defensa de la vida y la familia en Mexicali. Organiza marchas anuales y actividades de concientización. Es una de las organizaciones más activas del Frente Nacional por la Familia en Baja California y coordina con otras entidades de la frontera norte.",
+      "logo_url": null,
+      "cobertura": "Baja California",
+      "verificacion": 75
+    },
+    {
+      "id": 71,
+      "nombre": "Pastoral Social – Diócesis de Ciudad Juárez",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad Juárez, Chihuahua"
+      },
+      "descripcion": "Pastoral social de la Diócesis de Ciudad Juárez que atiende a mujeres en situación de vulnerabilidad incluyendo mujeres embarazadas. Coordina centros de apoyo parroquiales y programas de acogida. Opera en una región de alta migración con necesidades especiales de atención a mujeres vulnerables.",
+      "logo_url": null,
+      "cobertura": "Chihuahua (zona fronteriza)",
+      "verificacion": 72
+    },
+    {
+      "id": 72,
+      "nombre": "Diócesis de San Cristóbal de las Casas – Pastoral Indígena Pro-Vida",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "San Cristóbal de las Casas, Chiapas"
+      },
+      "descripcion": "La diócesis de San Cristóbal de las Casas realiza pastoral pro-vida en comunidades indígenas de Chiapas, respetando usos y costumbres. Apoya a mujeres embarazadas en comunidades marginadas con recursos de salud y orientación espiritual en lenguas indígenas locales.",
+      "logo_url": null,
+      "cobertura": "Chiapas",
+      "verificacion": 68
+    },
+    {
+      "id": 73,
+      "nombre": "Cáritas Guadalajara",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Guadalajara, Jalisco"
+      },
+      "descripcion": "Organismo de la Iglesia Católica en Guadalajara que brinda asistencia social y apoyo a personas vulnerables, incluyendo mujeres embarazadas. Ofrece servicios de salud, orientación psicológica y apoyo material. Canaliza a mujeres hacia centros especializados de apoyo al embarazo.",
+      "logo_url": null,
+      "cobertura": "Jalisco",
+      "verificacion": 75
+    },
+    {
+      "id": 74,
+      "nombre": "Cáritas Monterrey",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://caritasmty.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Monterrey, Nuevo León"
+      },
+      "descripcion": "Organismo de la Iglesia Católica en Monterrey que asiste a personas en situación de vulnerabilidad. Entre sus beneficiarios atiende a mujeres embarazadas en situación difícil, brindando orientación, apoyo material y canalización a centros especializados de acogida.",
+      "logo_url": null,
+      "cobertura": "Nuevo León",
+      "verificacion": 75
+    },
+    {
+      "id": 75,
+      "nombre": "Cáritas Mexicana",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://caritasmexicana.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México"
+      },
+      "descripcion": "Organismo nacional de la Iglesia Católica dedicado a la asistencia social y la promoción humana. Coordina programas de apoyo a personas vulnerables en toda la república, incluyendo mujeres embarazadas en situación de riesgo. Trabaja en red con todas las diócesis del país.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 82
+    },
+    {
+      "id": 76,
+      "nombre": "Pastoral Universitaria – Universidades Anáhuac",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://www.anahuac.mx/mexico/VidaUniversitaria/pastoral-universitaria",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Múltiples campus Anáhuac en México"
+      },
+      "descripcion": "Programas de pastoral universitaria en los campus Anáhuac que promueven el desarrollo espiritual de estudiantes con valores pro-vida. Ofrece acompañamiento pastoral, grupos de reflexión y actividades de formación en cultura de la vida. Presente en varios estados de la república.",
+      "logo_url": null,
+      "cobertura": "Nacional (campus universitarios)",
+      "verificacion": 80
+    },
+    {
+      "id": 77,
+      "nombre": "Pastoral Universitaria – Universidad Pontificia de México",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://pontificia.edu.mx/pastoral-universitaria",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México"
+      },
+      "descripcion": "Programa de pastoral universitaria que acompaña, forma y guía a la comunidad académica en su desarrollo integral. Integra la fe cristiana con el quehacer académico, promoviendo una cultura de la vida y valores humanistas. Ofrece retiros, talleres y grupos de reflexión.",
+      "logo_url": null,
+      "cobertura": "Ciudad de México",
+      "verificacion": 80
+    },
+    {
+      "id": 78,
+      "nombre": "Diócesis de León – Pastoral de la Vida y la Familia",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://diocesisdleon.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "León, Guanajuato"
+      },
+      "descripcion": "La Diócesis de León coordina programas de pastoral de la vida y la familia en Guanajuato, uno de los estados con legislación más protectora de la vida en México. Ofrece formación, acompañamiento a familias y apoyo a mujeres embarazadas a través de sus parroquias.",
+      "logo_url": null,
+      "cobertura": "Guanajuato",
+      "verificacion": 75
+    },
+    {
+      "id": 79,
+      "nombre": "Diócesis de Querétaro – Pastoral Familiar",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://diocesisqro.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Querétaro, Querétaro"
+      },
+      "descripcion": "La Diócesis de Querétaro coordina programas de pastoral familiar y pro-vida a través de sus parroquias. Ofrece cursos prematrimoniales con contenido pro-vida, talleres de crianza y programas de apoyo a familias en situación de vulnerabilidad incluyendo madres solteras.",
+      "logo_url": null,
+      "cobertura": "Querétaro",
+      "verificacion": 73
+    },
+    {
+      "id": 80,
+      "nombre": "Pastoral Familiar – Arquidiócesis de Oaxaca",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://arquidiocesisoaxaca.org",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Oaxaca, Oaxaca"
+      },
+      "descripcion": "La Arquidiócesis de Oaxaca realiza pastoral familiar y pro-vida en la región, con especial atención a comunidades indígenas. Ofrece formación en valores familiares, apoyo a mujeres embarazadas en situación vulnerable y programas de orientación en múltiples lenguas indígenas.",
+      "logo_url": null,
+      "cobertura": "Oaxaca",
+      "verificacion": 72
+    },
+    {
+      "id": 81,
+      "nombre": "Opus Dei – Centros de Formación en México",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://opusdei.org/es-mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México y otras ciudades"
+      },
+      "descripcion": "La Prelatura del Opus Dei opera centros de formación en México que promueven los valores del matrimonio, la familia y la vida. A través de talleres y asesorías personales promueve una cultura pro-vida entre profesionistas y familias. Trabaja en coordinación con Red Familia para incidir en políticas públicas.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 75
+    },
+    {
+      "id": 82,
+      "nombre": "Instituto Superior de Estudios de la Familia (ISEF)",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://institutoilef.edu.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Ciudad de México y Guadalajara"
+      },
+      "descripcion": "Instituto educativo líder en terapia familiar, fundado en 1992. Ofrece formación profesional en terapia familiar desde una perspectiva humanista y cristiana. Prepara especialistas que trabajan con familias y mujeres en situación de crisis, incluyendo embarazos inesperados.",
+      "logo_url": null,
+      "cobertura": "Nacional (formación académica)",
+      "verificacion": 78
+    },
+    {
+      "id": 83,
+      "nombre": "Centro Anáhuac de Bioética",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://www.anahuac.mx/mexico/EscuelasyFacultades/bioetica",
+        "telefonos": ["(55) 5627 0210 ext. 7308"],
+        "correo": null,
+        "direccion": "Universidad Anáhuac, Huixquilucan, Estado de México"
+      },
+      "descripcion": "Centro de investigación y desarrollo estratégico en bioética de la Universidad Anáhuac. Realiza investigaciones sobre dignidad humana, ética médica y bioética aplicada. Publica análisis sobre temas relacionados con el inicio de la vida, la eutanasia y los derechos del no nacido.",
+      "logo_url": null,
+      "cobertura": "Nacional (investigación)",
+      "verificacion": 85
+    },
+    {
+      "id": 84,
+      "nombre": "Comisión de Bioética del Estado de México",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Toluca, Estado de México"
+      },
+      "descripcion": "Órgano estatal de consulta y asesoría en materia de bioética del Estado de México. Emite dictámenes y recomendaciones sobre temas éticos relacionados con la salud, incluyendo cuestiones relacionadas con el inicio y fin de la vida humana. Promueve los principios bioéticos en la práctica médica.",
+      "logo_url": null,
+      "cobertura": "Estado de México",
+      "verificacion": 72
+    },
+    {
+      "id": 85,
+      "nombre": "Médicos por la Vida México",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Agrupación de profesionales de la medicina comprometidos con la defensa de la vida desde la concepción. Apoyan la objeción de conciencia médica ante procedimientos contrarios a la vida y promueven la práctica médica ética. Ofrecen orientación a médicos y pacientes sobre alternativas pro-vida.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 68
+    },
+    {
+      "id": 86,
+      "nombre": "Asociación Médica por la Objeción de Conciencia",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Organización que defiende el derecho a la objeción de conciencia de los profesionales de la salud en México. Asesora a médicos y enfermeras que se niegan a participar en procedimientos contrarios a sus convicciones éticas sobre la vida. Trabaja en el marco legal para garantizar este derecho.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 65
+    },
+    {
+      "id": 87,
+      "nombre": "Red de Médicos Católicos de México",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Red de profesionales de la salud que ejercen su práctica médica guiados por los principios de la ética médica católica. Promueven la cultura de la vida en el ámbito hospitalario y clínico. Afiliada a la Federación Internacional de Asociaciones Médicas Católicas (FIAMC).",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 65
+    },
+    {
+      "id": 88,
+      "nombre": "VIFAC – Sede Veracruz",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Veracruz, Veracruz"
+      },
+      "descripcion": "Sede de VIFAC en Veracruz que atiende a mujeres embarazadas en situación de vulnerabilidad en la región del Golfo de México. Ofrece albergue, alimentación, atención médica y psicológica, y talleres de desarrollo personal y capacitación laboral.",
+      "logo_url": null,
+      "cobertura": "Veracruz",
+      "verificacion": 78
+    },
+    {
+      "id": 89,
+      "nombre": "VIFAC – Sede Tijuana",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Tijuana, Baja California"
+      },
+      "descripcion": "Sede de VIFAC en Tijuana que atiende a mujeres embarazadas en la zona fronteriza noroeste del país. Ofrece atención especial a mujeres migrantes y en situación de alta vulnerabilidad. Brinda todos los servicios de la red VIFAC: albergue, alimentación, atención médica y psicológica.",
+      "logo_url": null,
+      "cobertura": "Baja California",
+      "verificacion": 78
+    },
+    {
+      "id": 90,
+      "nombre": "VIFAC – Sede San Luis Potosí",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "San Luis Potosí, San Luis Potosí"
+      },
+      "descripcion": "Sede de VIFAC en San Luis Potosí que brinda atención integral a mujeres embarazadas vulnerables en la región del Bajío. Ofrece albergue temporal, alimentación, atención médica, apoyo psicológico y programas de capacitación para el trabajo y autonomía personal.",
+      "logo_url": null,
+      "cobertura": "San Luis Potosí",
+      "verificacion": 76
+    },
+    {
+      "id": 91,
+      "nombre": "VIFAC – Sede Aguascalientes",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Aguascalientes, Aguascalientes"
+      },
+      "descripcion": "Sede de VIFAC en Aguascalientes que brinda apoyo integral a mujeres embarazadas en situación de riesgo. Ofrece albergue temporal, atención médica y psicológica, talleres de desarrollo personal y orientación para la reinserción laboral. Parte de la red nacional de VIFAC.",
+      "logo_url": null,
+      "cobertura": "Aguascalientes",
+      "verificacion": 75
+    },
+    {
+      "id": 92,
+      "nombre": "VIFAC – Sede Querétaro",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Querétaro, Querétaro"
+      },
+      "descripcion": "Sede de VIFAC en Querétaro que atiende a mujeres embarazadas en situación vulnerable en la región. Proporciona albergue, alimentación, atención médica, apoyo psicológico y talleres de capacitación. Opera en coordinación con organizaciones pro-vida locales y parroquias de la diócesis.",
+      "logo_url": null,
+      "cobertura": "Querétaro",
+      "verificacion": 75
+    },
+    {
+      "id": 93,
+      "nombre": "Yoliguani – Apoyo a Mujeres Embarazadas",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Organización que brinda apoyo a mujeres embarazadas con especial atención a comunidades indígenas. Su nombre proviene del náhuatl y refleja su compromiso con las comunidades originarias. Ofrece acompañamiento, orientación y recursos con sensibilidad cultural e intercultural.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 62
+    },
+    {
+      "id": 94,
+      "nombre": "Comunidad Cenáculo de Guadalupe A.C.",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Comunidad religiosa que ofrece albergue y apoyo espiritual a mujeres embarazadas en situación de vulnerabilidad. Inspirada en la devoción a la Virgen de Guadalupe, acompaña a mujeres durante el embarazo con formación espiritual, apoyo psicológico y asistencia material.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 62
+    },
+    {
+      "id": 95,
+      "nombre": "Grupo Voluntario Mexicano Alemán A.C.",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Organización de voluntariado binacional que apoya a mujeres y familias en situación de vulnerabilidad en México. Entre sus programas incluye apoyo a mujeres embarazadas en situación de crisis. Trabaja con fondos de donantes alemanes y mexicanos para brindar asistencia material y orientación.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 60
+    },
+    {
+      "id": 96,
+      "nombre": "Fundación Origen México",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Fundación que apoya a mujeres embarazadas en situación de vulnerabilidad ofreciendo alternativas a la interrupción del embarazo. Brinda orientación, acompañamiento y recursos para que las madres puedan llevar a término su embarazo en condiciones dignas.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 63
+    },
+    {
+      "id": 97,
+      "nombre": "Casa Hogar Salesiana – Apoyo a Madres",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://www.salesianos.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Múltiples ubicaciones en México"
+      },
+      "descripcion": "La Congregación Salesiana opera casas hogar en México con programas de apoyo a madres solteras y mujeres embarazadas en situación de vulnerabilidad. Bajo la inspiración de Don Bosco y Madre Mazzarello, brinda formación integral, educación y acompañamiento espiritual.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 73
+    },
+    {
+      "id": 98,
+      "nombre": "Casa Cuna Conchita",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Casa cuna que acoge a bebés y niños pequeños mientras sus madres reciben apoyo para recuperar su estabilidad. Trabaja en coordinación con organizaciones pro-vida que apoyan a mujeres en embarazo de crisis para garantizar que tanto la madre como el bebé reciban atención adecuada.",
+      "logo_url": null,
+      "cobertura": "Regional",
+      "verificacion": 60
+    },
+    {
+      "id": 99,
+      "nombre": "México Tiene Vida – Vida NL",
+      "categoria": "Organización Regional",
+      "recurso": {
+        "sitio_web": "https://todomexicoesvida.com",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Nuevo León"
+      },
+      "descripcion": "Organización política fundada por Jaime Ochoa Hernández, registrada como partido político local en Nuevo León desde 2023 ('Vida NL'). Busca registro nacional con más de 300,000 afiliados. Sus principios incluyen la defensa de la vida desde la concepción, la familia, la justicia y la libertad.",
+      "logo_url": null,
+      "cobertura": "Nuevo León / Nacional",
+      "verificacion": 83
+    },
+    {
+      "id": 100,
+      "nombre": "Red Materno Infantil",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Red de organizaciones que trabajan coordinadamente para apoyar la salud materno-infantil desde una perspectiva pro-vida. Ofrece servicios de atención prenatal, apoyo psicológico y acompañamiento a mujeres embarazadas en situación de vulnerabilidad. Coordina con instituciones de salud y organizaciones civiles.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 63
+    },
+    {
+      "id": 101,
+      "nombre": "Diócesis de Tlalnepantla – Pastoral de la Vida",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": "https://diocesistlalnepantla.org.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Tlalnepantla, Estado de México"
+      },
+      "descripcion": "La Diócesis de Tlalnepantla coordina la pastoral de la vida en una de las zonas más pobladas del país. Ofrece talleres de educación pro-vida, formación familiar y canalización de mujeres en situación de embarazo vulnerable hacia centros de apoyo especializados en el Estado de México.",
+      "logo_url": null,
+      "cobertura": "Estado de México (norte)",
+      "verificacion": 73
+    },
+    {
+      "id": 102,
+      "nombre": "Pastoral de la Vida – Diócesis de Culiacán",
+      "categoria": "Recurso Religioso y Pastoral",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Culiacán, Sinaloa"
+      },
+      "descripcion": "La Diócesis de Culiacán coordina programas de pastoral de la vida en Sinaloa. Trabaja con parroquias y organizaciones civiles para apoyar a mujeres embarazadas en situación de riesgo. Ofrece orientación espiritual, acompañamiento y canalización hacia centros de apoyo especializados.",
+      "logo_url": null,
+      "cobertura": "Sinaloa",
+      "verificacion": 68
+    },
+    {
+      "id": 103,
+      "nombre": "VIFAC – Sede Torreón",
+      "categoria": "Centro de Apoyo al Embarazo",
+      "recurso": {
+        "sitio_web": "https://vifacmexico.com",
+        "telefonos": ["800 362 2207"],
+        "correo": null,
+        "direccion": "Torreón, Coahuila"
+      },
+      "descripcion": "Sede de VIFAC en Torreón, Coahuila, que atiende a mujeres embarazadas en situación de vulnerabilidad en la región lagunera. Ofrece albergue temporal, atención médica y psicológica, talleres de formación y acompañamiento durante el embarazo y el período postparto.",
+      "logo_url": null,
+      "cobertura": "Coahuila",
+      "verificacion": 75
+    },
+    {
+      "id": 104,
+      "nombre": "Instituto de Estudios Superiores para la Familia – Iberoamericana",
+      "categoria": "Bioética y Medicina Pro-Vida",
+      "recurso": {
+        "sitio_web": "https://ibero.mx",
+        "telefonos": [],
+        "correo": null,
+        "direccion": "Universidad Iberoamericana, Ciudad de México"
+      },
+      "descripcion": "Programa de estudios sobre la familia en la Universidad Iberoamericana que analiza cuestiones éticas relacionadas con la familia y la vida. Desde una perspectiva jesuita promueve el diálogo bioético y la defensa de la dignidad de toda persona humana en sus investigaciones y publicaciones.",
+      "logo_url": null,
+      "cobertura": "Nacional (formación académica)",
+      "verificacion": 72
+    },
+    {
+      "id": 105,
+      "nombre": "Fundación Vida Digna México",
+      "categoria": "Organización Nacional",
+      "recurso": {
+        "sitio_web": null,
+        "telefonos": [],
+        "correo": null,
+        "direccion": "México"
+      },
+      "descripcion": "Organización dedicada a promover una cultura de respeto a la vida humana en todas sus etapas, con especial atención a los más vulnerables: no nacidos, ancianos y personas con discapacidad. Realiza campañas de concientización, foros educativos y acciones comunitarias en defensa de la dignidad humana.",
+      "logo_url": null,
+      "cobertura": "Nacional",
+      "verificacion": 60
+    }
+  ]
+}
