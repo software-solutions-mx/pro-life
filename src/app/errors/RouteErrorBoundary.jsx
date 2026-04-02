@@ -1,9 +1,15 @@
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
-import { isRouteErrorResponse, useNavigate, useRouteError } from 'react-router-dom'
+import {
+  isRouteErrorResponse,
+  useNavigate,
+  useParams,
+  useRouteError,
+} from 'react-router-dom'
 import { ErrorState, NotFoundState, ServerErrorState } from '../../components/states'
 import { IS_DEV } from '../../config/env'
 import { captureException } from '../../monitoring/sentry'
+import { getLocalizedHomePath } from '../utils/getLocalizedHomePath'
 
 function getErrorDetails(error, t) {
   if (isRouteErrorResponse(error)) {
@@ -24,9 +30,15 @@ function getErrorDetails(error, t) {
 }
 
 function RouteErrorBoundary() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const error = useRouteError()
   const navigate = useNavigate()
+  const { locale: localeParam } = useParams()
+  const homePath = getLocalizedHomePath({
+    localeParam,
+    resolvedLanguage: i18n.resolvedLanguage,
+    language: i18n.language,
+  })
 
   useEffect(() => {
     if (isRouteErrorResponse(error)) {
@@ -55,12 +67,21 @@ function RouteErrorBoundary() {
 
   if (isRouteErrorResponse(error)) {
     if (error.status === 404) {
-      return <NotFoundState />
+      return (
+        <NotFoundState
+          title={t('errors.notFound.title')}
+          message={t('errors.notFound.message')}
+          actionLabel={t('errors.actions.backToHome')}
+          homePath={homePath}
+        />
+      )
     }
 
     if (error.status >= 500) {
       return (
         <ServerErrorState
+          title={t('errors.server.title')}
+          message={t('errors.server.message')}
           actionLabel={t('errors.actions.retry')}
           onAction={() => navigate(0)}
         />
@@ -72,9 +93,10 @@ function RouteErrorBoundary() {
 
   return (
     <ErrorState
+      title={t('errors.general.title')}
       message={message}
       actionLabel={t('errors.actions.backToHome')}
-      onAction={() => navigate('/')}
+      onAction={() => navigate(homePath)}
     />
   )
 }

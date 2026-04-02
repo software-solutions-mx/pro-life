@@ -50,9 +50,8 @@ Production-ready React + Vite baseline with:
 
 ## Git Quality Gates
 
-- `husky` runs local git hooks after install.
-- `pre-commit`: runs `lint-staged` only for staged files.
-- `commit-msg`: validates conventional commit format via `commitlint`.
+- Local git hooks are disabled in this repository.
+- Quality checks run in CI and can be run manually with `npm run ci:check`.
 
 ## Architecture Guardrails
 

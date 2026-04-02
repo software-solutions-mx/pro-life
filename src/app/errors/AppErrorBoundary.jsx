@@ -24,7 +24,17 @@ class AppErrorBoundary extends Component {
 
   render() {
     if (this.state.hasError) {
-      return <ErrorState message={i18n.t('errors.app.unexpectedInApplication')} />
+      const hasCommonNamespace =
+        typeof i18n?.hasLoadedNamespace === 'function'
+          ? i18n.hasLoadedNamespace('common')
+          : true
+
+      return (
+        <ErrorState
+          title={hasCommonNamespace ? i18n.t('errors.general.title') : ''}
+          message={hasCommonNamespace ? i18n.t('errors.app.unexpectedInApplication') : ''}
+        />
+      )
     }
 
     return this.props.children

@@ -17,6 +17,8 @@ function ServerErrorPage() {
         noindex
       />
       <ServerErrorState
+        title={t('errors.server.title')}
+        message={t('errors.server.message')}
         actionLabel={t('errors.actions.retry')}
         onAction={() => {
           navigate(0)
